@@ -42,11 +42,10 @@
   </div>
   <div id="myLinks">
     <div class="menu-items">
-      <div class="menu-sub"><a href="#">Home</a></div>
-      <div class="menu-sub"><a href="#about">About</a></div>
-      <div class="menu-sub"> <a href="#projects">Projects and Publications</a></div>
-      <div class="menu-sub"><a href="#whatwedo">What We Do</a></div>
-      <div class="menu-sub"><a href="#team">Team</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="#">Home</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="#about">About</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a href="#participating">Participating Countries</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="#team">Team</a></div>
     </div>
   </div>
 
@@ -87,7 +86,7 @@
       </div>
     </div>
   </section>
-  <div class="divider" id="whatwedo">
+  <div class="divider">
 
     <h1>The Multi city challenge</h1>
   </div>
@@ -120,7 +119,7 @@
       </div>
     </div>
   </section>
-  <div class="divider" id="whatwedo">
+  <div class="divider" id="participating">
 
     <h1>Participating Cities</h1>
   </div>
@@ -4719,7 +4718,7 @@
     </div>
   </div>
 
-  <div class="divider" id="about">
+  <div class="divider" id="team">
     <h1>Team</h1>
   </div>
   <div class="other-team team">
@@ -4800,6 +4799,13 @@
     } else {
       x.style.display = "block";
     }
+  }
+</script>
+<script>
+  /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function dismiss_menu() {
+    var x = document.getElementById("myLinks");
+   x.style.display = "none";
   }
 </script>
 <script>
