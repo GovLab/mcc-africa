@@ -1,9 +1,10 @@
 :root {
-  --main-color: #523080;
+  --main-color: #157A6E;
+  --main-color-fade: #157a6e21;
   --secondary-color: #3d3d3d;
   --tertiary-color: #E8E8E8;
   --accent-color: #f0a202;
-  --accent-color-hover: #157A6E;
+  --accent-color-hover: #523080;
   --second-accent-color: #cfb3cd;
   --grey30: rgba(0, 0, 0, 0.03);
   --grey8: rgba(0, 0, 0, 0.8);
@@ -200,9 +201,9 @@ padding: 0 10rem;
    border-bottom: 2px solid var(--accent-color);
  }
  .row .column.image-col-people{
-  background-image: url(../images/people.jpg);
-  background-color: var(--accent-color);
-  background-blend-mode: multiply;
+  background-image: url(../images/crowds.jpg);
+  /* background-color: var(--accent-color);
+  background-blend-mode: multiply; */
   height: 500px;
   background-size: cover;
  }
@@ -213,15 +214,18 @@ padding: 0 10rem;
   text-align: right;
 }
  .top-hero{
-   position: relative;
+   
+ }
+ .row.align-center {
+   display:flex;
+   flex-direction: column;
  }
  .undp{
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    align-items: baseline;
-   position: absolute;
-   right:0;
-   bottom:0;
+   padding-bottom:40px;
+   align-items: center;
  }
  .undp img{
    height: 60px;
@@ -231,7 +235,7 @@ padding: 0 10rem;
  .undp p{
    font-size: 0.7rem;
   font-weight: 300;
-margin: 0 0 30px 0;
+margin: 0 0 10px 0;
  }
  .left{
    /* background-image: url(../images/hero.jpg);
@@ -246,6 +250,9 @@ margin: 0 0 30px 0;
  .map-af{
    padding: 0 2rem;
  }
+ .column.africa-map img{
+  height: 400px;
+  }
  .st1:hover,.st4:hover{
 fill:var(--accent-color);
 cursor: pointer;
@@ -263,7 +270,7 @@ th, td {
   padding: 20px;
 }
 
-tr:nth-child(even) {background-color: #F7F6FA;}
+tr:nth-child(even) {background-color: var(--main-color-fade);}
  .right{
 height: 300px;
 background-color:var(--grey30);
@@ -350,12 +357,12 @@ text-align: center;
   }
  }
 .imagine-banner {
-  padding: 24px; 
+  padding: 24px 24px 0 24px; 
   max-width:75%;
 }
   
   .imagine-banner h2 {
-    padding-bottom: 40px;
+    
     font-size: 1.2rem;
     text-transform: none;
     margin: 0;
