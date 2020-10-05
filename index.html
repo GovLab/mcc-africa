@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="homepage" onwheel="scroll_dismiss()">
+<body>
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 
@@ -52,7 +52,7 @@
     </div>
   </div>
 
-
+<div id="home-page">
   <div class="row top-section">
     <div class="column large-12 site-logo__wrapper">
       <a href="/index.html"><img class="site-logo" src="images/mcc-logo.png"
@@ -122,46 +122,53 @@
       </div>
     </div>
   </section>
-  <div class="divider" id="participating">
-
-    <h1>Participating Cities</h1>
+  <div class="divider" id="topics">
+    <h1>Challenge Topics</h1>
   </div>
-  <!-- Africa Map SVG -->
-  <div class="map-af">
-    <div class="row af-map">
-      <div class="column">
-        <table>
-          <tr>
-            <th>COUNTRY</th>
-            <th>CITY</th>
-          </tr>
-          <tr>
-            <td>Ghana</td>
-            <td>Accra</td>
-          </tr>
-          <tr>
-            <td>Ethiopia</td>
-            <td>Griffin</td>
-          </tr>
-          <tr>
-            <td>Nigeria</td>
-            <td>Lagos</td>
-          </tr>
-          <tr>
-            <td>Uganda</td>
-            <td>Brown</td>
-          </tr>
-          <tr>
-            <td>Zimbabwe</td>
-            <td>Mutare</td>
-          </tr>
-        </table>
-      </div>
-      <div class="column africa-map">
-    <img src="images/africa-map.png">
+  <section style="z-index:-10" id="topics">
+    <div class="topic-row">
+      <div v-for="challenge in challengeData" class="challenge-column"
+        :style="{ backgroundImage: 'url(' + challenge.image.data.full_url+ ')' }">
+        <div class="topic-wrap">
+          <p>{{challenge.title}}</p>   
+          <p><a :href="challenge.slug" class="button more-info">More Information</a></p>
+        </div>
       </div>
     </div>
+    
+  </section>
+  <div class="divider" id="topics">
+    <h1>Participating Cities</h1>
   </div>
+  <div id="participating">
+  </div>
+
+  <section  style="z-index:-10" id="topics">
+    <div class="topic-row">
+      <div class="topic-column description">
+        <div class="topic-wrap">
+          <h1>Participating Cities</h1>
+          <span>Five participating cities from all over Africa</span>
+        </div>
+      </div>
+      <div v-for="city in indexData" class="topic-column"
+        :style="{ backgroundImage: 'url(' + city.image.data.full_url+ ')' }">
+        <div class="topic-wrap">
+          <h1>{{city.name}}<span id="country">,&nbsp{{city.country}}</span></h1>
+          <div class="challenge-tags">
+            <a href="index.html" id="tag-1" v-for="challenge in city.city_challenge" v-if="challenge.city_challenge_id.id=='1'">{{challenge.city_challenge_id.title}}</a>
+            <a href="index.html" id="tag-2" v-for="challenge in city.city_challenge" v-if="challenge.city_challenge_id.id=='2'">{{challenge.city_challenge_id.title}}</a>
+            <a href="index.html" id="tag-3" v-for="challenge in city.city_challenge" v-if="challenge.city_challenge_id.id=='3'">{{challenge.city_challenge_id.title}}</a>
+          </div>
+         
+          <p><a :href="city.slug" class="button more-info">More Information</a></p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
 
   <div class="divider" id="team">
     <h1>Team</h1>
@@ -192,7 +199,7 @@
       <a href="http://www.thegovlab.org/team.html#anirudh-dinesh" target="_blank"><span id="bio">BIO</span></a>
     </div>
   </div>
-
+</div>
   <footer>
     <div class="footer-row">
       <div class="footer-col">
@@ -253,7 +260,7 @@
    x.style.display = "none";
   }
 </script>
-<script>
+<!-- <script>
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
   function scroll_dismiss() {
     if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
@@ -263,10 +270,10 @@
       }
     }
   }
-</script>
+</script> -->
 
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
-<script src="js/zika.js"></script>
+<script src="js/mcc.js"></script>
 
 </html>

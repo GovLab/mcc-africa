@@ -2,6 +2,9 @@
   --main-color: #157A6E;
   --main-color-fade: #157a6e21;
   --secondary-color: #3d3d3d;
+  --tag-color-1: #D5573B;
+  --tag-color-2: #392061;
+  --tag-color-3: #CC8800;
   --tertiary-color: #E8E8E8;
   --accent-color: #f0a202;
   --accent-color-hover: #523080;
@@ -191,9 +194,10 @@ padding: 0 10rem;
   color: #ffffff98;
   font-size: 1.5rem;
   font-weight: 100;
+  margin-top:0;
  }
  .row .column.image-col-training{
-  background-image: url(../images/collab.jpg);
+  background-image: url(../images/collab-2.jpg);
   height: 500px;
   background-size: cover;
  }
@@ -201,7 +205,7 @@ padding: 0 10rem;
    border-bottom: 2px solid var(--accent-color);
  }
  .row .column.image-col-people{
-  background-image: url(../images/crowds.jpg);
+  background-image: url(../images/crowds.png);
   /* background-color: var(--accent-color);
   background-blend-mode: multiply; */
   height: 500px;
@@ -213,9 +217,7 @@ padding: 0 10rem;
  .column.training{
   text-align: right;
 }
- .top-hero{
-   
- }
+
  .row.align-center {
    display:flex;
    flex-direction: column;
@@ -582,7 +584,52 @@ background-blend-mode: multiply;
 background-color: var(--main-color);
 background-size: cover;
 background-position: center top;
+
 }
+.challenge-column{
+  -webkit-flex: 0 0 31.8%;
+-ms-flex: 0 0 31.8%;
+flex: 0 0 31.8%;
+max-width: 31.8%;
+border: 10px solid white;
+height: 300px;
+color: white;
+position: relative;
+background-size: contain;
+background-position: center top;
+text-align: center;
+background-blend-mode: multiply;
+background-color: #3d3d3dc0;
+}
+.challenge-column p{
+  padding: 10px 0;
+  font-size: 2.1rem;
+  margin:0;
+  font-weight: 200 !important;
+}
+.topic-column.description{
+  background-color: #ffffff;
+  background-blend-mode: multiply;
+background-size: cover;
+color: var(--secondary-color);
+  background-image: url(../images/africa-map-copy.png);
+  background-position:  center bottom;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.topic-column.description:hover{
+  background-color: #ffffff;
+  background-blend-mode: multiply;
+background-size: cover;
+color: var(--secondary-color);
+}
+.topic-column.description h1{
+background-color: var(--main-color);
+color: #ffffff;
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px){
   .topic-row{
     display: flex;
@@ -603,23 +650,30 @@ background-position: center top;
   flex: 0 0 100%;
   max-width: 100%;
   }
+  .challenge-column{
+    -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+
+  }
 }
 .topic-column:hover{
-  background-color: var(--theme-color);
+  background-color: var(--accent-color);
   transition: all .6s ease;
 }
 .topic-column p{
   font-weight: 200;
   font-size: 20px;
   line-height: 1.8;
-  margin: 0rem 0 2rem 0;
+  margin: 2rem 0 2rem 0;
 }
 .topic-column h1{
   font-weight: 400;
   line-height: 1.5;
 }
 .topic-wrap{
-  padding: 80px 90px;
+  padding: 80px 70px;
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .topic-row{
@@ -649,7 +703,7 @@ background-position: center top;
 a.more-info{
   color: #ffffff;
   text-decoration: none;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.603);
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 300;
@@ -657,39 +711,57 @@ a.more-info{
 padding: 15px 20px;
 letter-spacing: 1px;
 font-weight: 400;
-
 }
-.topic_date{
+.challenge-column a.more-info{
+
+  font-size: 16px;
+
+font-weight: 400;
+}
+.challenge-tags{
   display:flex;
+  padding:1rem 0 0 0px;
   flex-direction: row;
-  justify-content: flex-end;
-  position: absolute;
-  text-align: right;
-right: 30px;
-bottom: 15px;
+}
+.challenge-tags a{
+  padding: 5px 5px;
+  margin:0rem 2px;
+  font-size: 0.9rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+.challenge-tags a#tag-1{
+  background-color: var(--tag-color-1);
+}
+.challenge-tags a#tag-2{
+  background-color: var(--tag-color-2);
+}
+.challenge-tags a#tag-3{
+  background-color: var(--tag-color-3);
+}
+.challenge-tags a#tag-1:hover{
+cursor: pointer;
+background-color: var(--secondary-color);
+}
+.challenge-tags a#tag-2:hover{
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  }
+  .challenge-tags a#tag-3:hover{
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    }
 
-}
-
-.topic_date h6{
-  margin: 15px 0 10px 0;
-line-height: 1;
-display: inline-block;
-font-size: 1rem;
-color: var(--accent-color);
-font-weight: 100;
-}
-p.topic_month{
-  font-weight: bold;
-text-transform: uppercase;
-font-size: 1.4rem;
-margin-bottom:0;
-color: var(--accent-color);
-}
 .topic-wrap h1{
   text-transform: uppercase;
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+.topic-wrap span#country{
+  font-weight: 400;
 }
 .topic-wrap p{
-  font-weight: 300;
+  font-weight: 500;
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .topic_date{
@@ -698,6 +770,11 @@ right: auto;
 left:auto;
 bottom: 15px;
 text-align: left;
+  }
+  .challenge-tags{
+    display:flex;
+    flex-direction: column;
+    width:50%;
   }
 }
 .divider-coal{
