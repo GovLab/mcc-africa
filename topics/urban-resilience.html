@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Improving Waste Management | MCC Africa</title>
+  <title>Multi City Challenge | Africa</title>
 
   <link href="/images/favicon.ico" rel="shortcut icon">
   <link rel="stylesheet" href="../css/styles.css">
@@ -44,8 +44,7 @@
     <div class="menu-items">
       <div class="menu-sub" onclick="dismiss_menu()"><a href="../index.html">Home</a></div>
       <div class="menu-sub" onclick="dismiss_menu()"><a href="../index.html#about">About</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"> <a href="../index.html#participating">Participating Countries</a>
-      </div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a href="../index.html#participating">Participating Countries</a></div>
       <div class="menu-sub" onclick="dismiss_menu()"><a href="../index.html#team">Team</a></div>
       <div class="menu-sub" onclick="dismiss_menu()"><a></a></div>
       <div class="menu-sub" onclick="dismiss_menu()"><a></a></div>
@@ -54,48 +53,48 @@
   </div>
 
   <div id="home-page">
-    <div class="row top-section topic" :style="{ backgroundImage: 'url(' + challengeData[0].image.data.full_url+ ')' }">
-
-      <h1>{{challengeData[0].title}}</h1>
+    <div class="row top-section topic"  :style="{ backgroundImage: 'url(' + challengeData[1].image.data.full_url+ ')' }">
+      
+      <h1>{{challengeData[1].title}}</h1>
 
     </div>
-    <section>
-      <div class="main-buttons accent-color index-page-button">
-        <a href="challenge.multicitychallenge.org" target="_blank" class="button">Participate Now!</a>
+      <section>
+        <div class="main-buttons accent-color index-page-button">
+           <a href="challenge.multicitychallenge.org" target="_blank" class="button">Participate Now!</a>
+        </div>
+      </section>
+      <section class="light-section topic_desc">
+        <h1>ABOUT THE TOPIC</h1>
+          <p>{{challengeData[1].description}}</p>
+  
+      </section>
+      <div class="divider" id="team">
+        <h1>Participating Cities</h1>
       </div>
-    </section>
-    <section class="light-section topic_desc">
-      <h1>ABOUT THE TOPIC</h1>
-      <p>{{challengeData[0].description}}</p>
 
-    </section>
-    <div class="divider" id="team">
-      <h1>Participating Cities</h1>
-    </div>
-
-    <section style="z-index:-10" id="topics">
-      <div class="topic-row">
-        <template v-for="city in indexData">
-          <div v-for="challenge in city.city_challenge"
-            v-if="challenge.city_challenge_id.title == challengeData[0].title" class="topic-column"
-            :style="{ backgroundImage: 'url(' + city.image.data.full_url+ ')' }">
-            <div class="topic-wrap">
-              <h1>{{city.name}}<span id="country">,&nbsp{{city.country}}</span></h1>
-              <div class="challenge-tags">
-                <a href="index.html" v-for="challenge in city.city_challenge"><span
-                    id="tag">{{challenge.city_challenge_id.title}}</span></a>
+      <section style="z-index:-10" id="topics">
+        <div class="topic-row">
+          <template v-for="city in indexData">
+            <div v-for="challenge in city.city_challenge"
+              v-if="challenge.city_challenge_id.title == challengeData[1].title" class="topic-column"
+              :style="{ backgroundImage: 'url(' + city.image.data.full_url+ ')' }">
+              <div class="topic-wrap">
+                <h1>{{city.name}}<span id="country">,&nbsp{{city.country}}</span></h1>
+                <div class="challenge-tags">
+                  <a href="index.html" v-for="challenge in city.city_challenge"><span
+                      id="tag">{{challenge.city_challenge_id.title}}</span></a>
+                </div>
+  
+                <p><a :href="'../cities/'+city.slug" class="button more-info">More Information</a></p>
               </div>
-
-              <p><a :href="'../cities/'+city.slug" class="button more-info">More Information</a></p>
             </div>
-          </div>
+  
+        </div>
+        </template>
+      </section>
+    </div>
 
-      </div>
-      </template>
-    </section>
-  </div>
-
-  </div>
+</div>
   <footer>
     <div class="footer-row">
       <div class="footer-col">
@@ -153,7 +152,7 @@
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
   function dismiss_menu() {
     var x = document.getElementById("myLinks");
-    x.style.display = "none";
+   x.style.display = "none";
   }
 </script>
 <!-- <script>

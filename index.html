@@ -131,7 +131,7 @@
         :style="{ backgroundImage: 'url(' + challenge.image.data.full_url+ ')' }">
         <div class="topic-wrap">
           <p>{{challenge.title}}</p>   
-          <p><a :href="challenge.slug" class="button more-info">More Information</a></p>
+          <p><a :href="'topics/' + challenge.slug" class="button more-info">More Information</a></p>
         </div>
       </div>
     </div>
@@ -156,7 +156,7 @@
         <div class="topic-wrap">
           <h1>{{city.name}}<span id="country">,&nbsp{{city.country}}</span></h1>
           <div class="challenge-tags">
-            <a href="index.html" v-for="challenge in city.city_challenge"><span id="tag">{{challenge.city_challenge_id.title}}</span></a>
+            <a  v-for="challenge in city.city_challenge" :href="'topics/' + challenge.city_challenge_id.slug"><span id="tag">{{challenge.city_challenge_id.title}}</span></a>
           </div>
          
           <p><a :href="'cities/'+city.slug" class="button more-info">More Information</a></p>
