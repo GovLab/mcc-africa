@@ -115,6 +115,20 @@
       </div>
     </div>
   </section>
+  <div class="divider">
+
+    <h1>Project Timeline</h1>
+  </div>
+  <div class="row-cust mt-5">
+    <a href="index.html" target="_blank" v-for="timeline in timelineData" v-if="timeline.order != 5" class="column-3-timeline-5">
+      <div class="dot-class"> <span class="dot"></span></div>
+      <p style="margin-right: 1rem;"><b>{{timeline.title}}</b></br><span class="text-green">{{timeline.date}}</span></p>
+    </a>
+    <a href="index.html" target="_blank"  v-for="timeline in timelineData" v-if="timeline.order == 5" class="column-3-timeline-5 last">
+      <div class="dot-class"> <span class="dot"></span></div>
+      <p style="margin-right: 1rem;"><b>{{timeline.title}}</b></br><span class="text-green">{{timeline.date}}</span></p>
+    </a>
+  </div>
   <div class="divider" id="topics">
     <h1>Challenge Topics</h1>
   </div>

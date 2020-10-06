@@ -853,24 +853,55 @@ margin:0px;
   .dot-class {
     margin-top:-12px;
     left: 0;
+    text-align: center;
   }
   .column-3-timeline {
     border-top: 2px solid var(--tertiary-color);
     float: left;
+    text-align: center;
     width: 33%;
   }
+  a.column-3-timeline-5 {
+    float: left;
+    text-align: center;
+    width: 20%;
+    border-top: 2px solid var(--tertiary-color);
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+  a.column-3-timeline-5:hover {
+cursor: pointer;
+color: var(--accent-color-hover);
+  }
+  a.column-3-timeline-5:hover .dot {
+    background-color: var(--accent-color);
+    transition: all .6s ease;
+ 
+  }
+
   .column-3-timeline p{
     color: var(--secondary-color);
   }
-  .fin{
-    border-top: 0px solid #000000;
-  }
+
   .row-cust{
     margin-left: 15%;
     width: 85%;
   }
+  .row-cust.mt-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin-left:0;
+    width: 100%;
+  }
   /* Clear floats after the columns */
   .row-cust:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row-cust.mt-5:after {
     content: "";
     display: table;
     clear: both;
@@ -887,18 +918,6 @@ margin:0px;
   margin-top: 3rem !important;
 }
 
-/* .team-column{
-  -webkit-flex: 0 0 50%;
--ms-flex: 0 0 50%;
-flex: 0 0 50%;
-max-width: 50%;
-color: white;
-position: relative;
-background-blend-mode: multiply;
-background-color: var(--white);
-background-size: cover;
-background-position: center top;
-} */
 .team-member p.name{
   font-size:16px;
   color: black;
@@ -916,20 +935,43 @@ background-position: center top;
     margin-left: 20%;
      width: 80%;
    }
- 
+ .row-cust.mt-5{
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   height: auto;
+   margin-left: 15%;
+ }
   .column-3-timeline {
     width: 100%;
-    border-left: 1px solid #B2B2B2;
-    border-top: 0px solid #B2B2B2;
+    border-left: 1px solid var(--tertiary-color);
+    border-top: 0px solid var(--tertiary-color);
+  
+  }
+  a.column-3-timeline-5 {
+    width: 100%;
+    border-left: 1px solid var(--tertiary-color);
+    border-top: 0px solid var(--tertiary-color);
+    text-align: left;
   }
   .dot-class{
     margin-left:-12px;
+    text-align: left;
   }
   .column-3-timeline p{
     margin-top:-30px;
     left: 0;
     margin-left: 35px;
     margin-bottom: 2rem;
+  }
+  a.column-3-timeline-5 p{
+    margin-top:-30px;
+    left: 0;
+    margin-left: 35px;
+    margin-bottom: 2rem;
+  }
+  a.column-3-timeline-5.last {
+    border-left: none;
   }
   .fin{
     border-left: 0px solid #000000;
