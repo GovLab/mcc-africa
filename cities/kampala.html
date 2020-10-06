@@ -2,11 +2,20 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40012093-29"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-40012093-29');
+</script>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Multi City Challenge | Africa</title>
+  <title>Multi City Challenge | Kampala</title>
 
   <link href="/images/favicon.ico" rel="shortcut icon">
   <link rel="stylesheet" href="../css/styles.css">
@@ -44,9 +53,9 @@
     <div class="menu-items">
       <div class="menu-sub" onclick="dismiss_menu()"><a href="../index.html">Home</a></div>
       <div class="menu-sub" onclick="dismiss_menu()"><a href="../index.html#about">About</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"> <a href="../index.html#participating">Participating Countries</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a href="../index.html#participating">Participating Cities</a></div>
       <div class="menu-sub" onclick="dismiss_menu()"><a href="../index.html#team">Team</a></div>
-      <div class="menu-sub" onclick="dismiss_menu()"><a></a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"><a href="../topics/index.html">Challenge Topics</a></div>
       <div class="menu-sub" onclick="dismiss_menu()"><a></a></div>
       <div class="menu-sub" onclick="dismiss_menu()"><a></a></div>
     </div>
@@ -59,12 +68,12 @@
       <p>{{indexData[1].country}}</p>
     </div>
       <section>
-        <div class="main-buttons accent-color index-page-button">
+        <div class="main-buttons accent-color index-page-button cities">
            <a :href="indexData[1].challenge_link" target="_blank" class="button">Participate Now!</a>
         </div>
       </section>
       <section style="z-index:-10" id="topics">
-        <div class="topic-row">
+        <div class="topic-row challenge-row">
           <div v-for="challenge in indexData[1].city_challenge" :style="{ backgroundImage: 'url(' + challenge.city_challenge_id.image.data.full_url+ ')' }" class="challenge-column">
             <div class="topic-wrap">
               <p>{{challenge.city_challenge_id.title}}</p>   

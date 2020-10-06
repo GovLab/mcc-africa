@@ -440,6 +440,9 @@ flex-direction: column;
 .index-page-button{
   margin-top: -30px;
 }
+.index-page-button.cities{
+  margin-top: 0;
+}
 .main-buttons.accent-color.topic-page-button{
   padding: 0rem 19rem 3rem 19rem;
   justify-content: flex-start;
@@ -576,7 +579,11 @@ display: flex;
 -ms-flex-flow: row wrap;
 flex-flow: row wrap;
 }
-
+.challenge-row{
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
 .topic-column{
   -webkit-flex: 0 0 50%;
 -ms-flex: 0 0 50%;
@@ -648,6 +655,11 @@ color: #ffffff;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px){
+  .challenge-row{
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
   .topic-row{
     display: flex;
     flex-direction: column ;
@@ -801,7 +813,7 @@ text-align: left;
   .challenge-tags{
     display:flex;
     flex-direction: column;
-    width:50%;
+    width:100%;
   }
 }
 .divider-coal{
