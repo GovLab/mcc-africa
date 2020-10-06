@@ -32,6 +32,7 @@ new Vue({
       indexData: [],
       challengeData: [],
       teamData: [],
+      aboutData: [],
       apiURL: 'https://directus.thegovlab.com/mcc-africa',
 
     }
@@ -41,6 +42,7 @@ new Vue({
     this.fetchIndex();
     this.fetchChallenge();
     this.fetchTeam();
+    this.fetchAbout();
   },
   methods: {
 
@@ -110,6 +112,25 @@ new Vue({
   console.log(data);
   self.teamData = data.data;
   
+})
+.catch(error => console.error(error));
+    },
+    fetchAbout() {
+      self = this;
+      const client = new DirectusSDK({
+        url: "https://directus.thegovlab.com/",
+        project: "mcc-africa",
+        storage: window.localStorage
+      });
+
+      client.getItems(
+  'about',
+  {
+    fields: ['*.*']
+  }
+).then(data => {
+  console.log(data)
+  self.aboutData = data.data;
 })
 .catch(error => console.error(error));
     }
