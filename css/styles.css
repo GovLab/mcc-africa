@@ -219,6 +219,9 @@ padding: 0 10rem;
  }
  .column.training{
   text-align: right;
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
 }
 
  .row.align-center {
@@ -419,6 +422,7 @@ align-items: center;
   background-color: var(--accent-color);
   transition: all .6s ease;
 }
+
 @media screen and (min-width: 320px) and (max-width: 768px){
   .main-buttons{
 text-align: center;
