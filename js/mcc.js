@@ -31,6 +31,7 @@ new Vue({
     return {
       indexData: [],
       challengeData: [],
+      teamData: [],
       apiURL: 'https://directus.thegovlab.com/mcc-africa',
 
     }
@@ -39,6 +40,7 @@ new Vue({
   created: function created() {
     this.fetchIndex();
     this.fetchChallenge();
+    this.fetchTeam();
   },
   methods: {
 
@@ -53,9 +55,14 @@ new Vue({
       client.getItems(
   'cities',
   {
-    fields: ['*.*','city_challenge.city_challenge_id.*']
+    fields: ['*.*','city_challenge.*','city_challenge.city_challenge_id.*','city_challenge.city_challenge_id.image.data.*','city_team.people_id.*','city_team.people_id.image.data.*']
   }
 ).then(data => {
+  data.data[0].city_team.sort(function(a, b) {
+    var textA = a.people_id.name.toUpperCase();
+    var textB = b.people_id.name.toUpperCase();
+    return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+});
   console.log(data)
   self.indexData = data.data;
 })
@@ -77,6 +84,32 @@ new Vue({
 ).then(data => {
   console.log(data)
   self.challengeData = data.data;
+})
+.catch(error => console.error(error));
+    },
+    fetchTeam() {
+      self = this;
+      const client = new DirectusSDK({
+        url: "https://directus.thegovlab.com/",
+        project: "mcc-africa",
+        storage: window.localStorage
+      });
+
+      client.getItems(
+  'people',
+  {
+    fields: ['*.*']
+  }
+).then(data => {
+
+  data.data.sort(function(a, b) {
+    var textA = a.name.toUpperCase();
+    var textB = b.name.toUpperCase();
+    return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+});
+  console.log(data);
+  self.teamData = data.data;
+  
 })
 .catch(error => console.error(error));
     }

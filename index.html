@@ -156,16 +156,12 @@
         <div class="topic-wrap">
           <h1>{{city.name}}<span id="country">,&nbsp{{city.country}}</span></h1>
           <div class="challenge-tags">
-            <a href="index.html" id="tag-1" v-for="challenge in city.city_challenge" v-if="challenge.city_challenge_id.id=='1'">{{challenge.city_challenge_id.title}}</a>
-            <a href="index.html" id="tag-2" v-for="challenge in city.city_challenge" v-if="challenge.city_challenge_id.id=='2'">{{challenge.city_challenge_id.title}}</a>
-            <a href="index.html" id="tag-3" v-for="challenge in city.city_challenge" v-if="challenge.city_challenge_id.id=='3'">{{challenge.city_challenge_id.title}}</a>
+            <a href="index.html" v-for="challenge in city.city_challenge"><span id="tag">{{challenge.city_challenge_id.title}}</span></a>
           </div>
          
-          <p><a :href="city.slug" class="button more-info">More Information</a></p>
+          <p><a :href="'cities/'+city.slug" class="button more-info">More Information</a></p>
         </div>
       </div>
-
-
     </div>
   </section>
 
@@ -173,32 +169,28 @@
   <div class="divider" id="team">
     <h1>Team</h1>
   </div>
-  <div class="other-team team">
-    <div class="team-image">
-      <div class="square">
-        <img src="images/team/beth-simone-noveck.jpg">
+  <div class="topic-row">
+    <div v-for="people in teamData" v-if="people.team_leader == true && people.affiliation=='govlab'" class="team-column">
+      <div class="team-image">
+        <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
+        </div>
+        <h4>{{people.name}}</h4>
+        <h5>{{people.title}}</h5>
+        <a :href="people.bio_link" target="_blank"><span id="bio">BIO</span></a>
       </div>
-      <h4>Beth Simone Noveck</h4>
-      <h5>Director, The GovLab</h5>
-      <a href="https://www.thegovlab.org/beth-simone-noveck.html" target="_blank"><span id="bio">BIO</span></a>
     </div>
-    <div class="team-image">
-      <div class="square">
-        <img src="images/team/victoria-alsina.jpg">
+    <div v-for="people in teamData" v-if="people.team_leader == false && people.affiliation=='govlab'"  class="team-column">
+      <div  class="team-image">
+        <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
+        </div>
+        <h4>{{people.name}}</h4>
+        <h5>{{people.title}}</h5>
+        <a :href="people.bio_link" target="_blank"><span id="bio">BIO</span></a>
       </div>
-      <h4>Victoria Alsina</h4>
-      <h5>Senior Fellow, The GovLab</h5>
-      <a href="http://www.thegovlab.org/team.html#victoria-alsina" target="_blank"><span id="bio">BIO</span></a>
     </div>
-    <div class="team-image">
-      <div class="square">
-        <img src="images/team/anirudh-dinesh.jpg">
-      </div>
-      <h4>Anirudh Dinesh</h4>
-      <h5>Research Fellow, The GovLab</h5>
-      <a href="http://www.thegovlab.org/team.html#anirudh-dinesh" target="_blank"><span id="bio">BIO</span></a>
     </div>
-  </div>
+
+
 </div>
   <footer>
     <div class="footer-row">

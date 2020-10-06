@@ -174,10 +174,12 @@ color: #ffffff;
   align-items: center;
 }
 .row.top-section.topic{
+  display:flex;
+  flex-direction: column;
   background-blend-mode: multiply;
 background-color: var(--main-color);
 background-size: cover;
-background-position: center top;
+background-position: center bottom;
 height: 50vh;
 padding: 0 10rem;
 }
@@ -188,6 +190,7 @@ padding: 0 10rem;
  color: #ffffff;
  font-size: 3rem;
  font-weight: 100;
+ margin-bottom: 10px;
  text-transform: uppercase;
 }
 .row.top-section.topic p{
@@ -586,6 +589,19 @@ background-size: cover;
 background-position: center top;
 
 }
+.team-column{
+  -webkit-flex: 0 0 33.33%;
+-ms-flex: 0 0 33.33%;
+flex: 0 0 33.33%;
+max-width: 33.33%;
+color: white;
+height: 400px;
+text-align: center;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
 .challenge-column{
   -webkit-flex: 0 0 31.8%;
 -ms-flex: 0 0 31.8%;
@@ -655,8 +671,16 @@ color: #ffffff;
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
-
+  border: none;
   }
+
+  .team-column{
+    -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  }
+
 }
 .topic-column:hover{
   background-color: var(--accent-color);
@@ -674,6 +698,7 @@ color: #ffffff;
 }
 .topic-wrap{
   padding: 80px 70px;
+
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .topic-row{
@@ -712,6 +737,10 @@ padding: 15px 20px;
 letter-spacing: 1px;
 font-weight: 400;
 }
+a.more-info:hover{
+
+  background-color: rgba(0, 0, 0, 0.904);
+}
 .challenge-column a.more-info{
 
   font-size: 16px;
@@ -721,36 +750,33 @@ font-weight: 400;
 .challenge-tags{
   display:flex;
   padding:1rem 0 0 0px;
-  flex-direction: row;
+  flex-direction: column;
+
+
 }
 .challenge-tags a{
-  padding: 5px 5px;
-  margin:0rem 2px;
+
+  text-transform: uppercase;
+  margin: 10px 0;
   font-size: 0.9rem;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
+  font-weight: 600;
+
 }
-.challenge-tags a#tag-1{
-  background-color: var(--tag-color-1);
+.challenge-tags span#tag{
+  background-color: var(--accent-color);
+  padding: 5px 5px;
+  border-radius:10px;
 }
-.challenge-tags a#tag-2{
-  background-color: var(--tag-color-2);
-}
-.challenge-tags a#tag-3{
-  background-color: var(--tag-color-3);
-}
-.challenge-tags a#tag-1:hover{
+
+.challenge-tags #tag:hover{
+  transition: all .6s ease;
 cursor: pointer;
-background-color: var(--secondary-color);
+color: #ffffff;
+background-color: var(--main-color);
 }
-.challenge-tags a#tag-2:hover{
-  cursor: pointer;
-  background-color: var(--secondary-color);
-  }
-  .challenge-tags a#tag-3:hover{
-    cursor: pointer;
-    background-color: var(--secondary-color);
-    }
+
 
 .topic-wrap h1{
   text-transform: uppercase;
@@ -1050,6 +1076,7 @@ footer .row{
       overflow: hidden;
       border-radius: 50%;
       border: 4px solid var(--orange-dark);
+
   }
   .team{
     display:flex;
@@ -1093,16 +1120,17 @@ footer .row{
     overflow: hidden;
     border-radius: 50%;
     border: 0px solid var(--accent-color);
+    background-size: cover; 
+    background-repeat: no-repeat;
   }
-  .team a{
-color: var(--theme-blue);
+  .team-image a{
+
 font-size: 16px;
 text-decoration: none;
   }
   #bio{
     padding: 0.5rem 1rem;
     border: 1px solid var(--accent-color);
-
   }
   .team a:hover{
     color: #523080;
