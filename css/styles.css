@@ -652,7 +652,7 @@ background-color: #3d3d3dc0;
   background-blend-mode: multiply;
 background-size: cover;
 color: var(--secondary-color);
-  background-image: url(../images/africa-map-copy.png);
+  background-image: url(../images/af-participants.jpeg);
   background-position:  center bottom;
   display:flex;
   justify-content: center;
@@ -675,6 +675,12 @@ color: #ffffff;
     height: auto;
     align-items: center;
     justify-content: center;
+  }
+
+  .topic-column.description.af-participants{
+    background-size: contain;
+    height: 280px;
+    background-repeat: no-repeat;
   }
   .topic-row{
     display: flex;
