@@ -193,13 +193,13 @@ new Vue({
     default_timeline_description(){
       self.timeline_description = self.timelineData.filter(date_item => date_item.active == true);
       
-      var id_index="timeline";
-      var index=self.timeline_description[0].order;
-      id_index=id_index.concat(index);
-      console.log(id_index);
-      var element_test = document.getElementById(id_index);
-      console.log(element_test);
-      element_test.classList.toggle("active");
+      // var id_index="timeline";
+      // var index=self.timeline_description[0].order;
+      // id_index=id_index.concat(index);
+      // console.log(id_index);
+      // var element_test = document.getElementById(id_index);
+      // console.log(element_test);
+      // element_test.classList.toggle("active");
       
     }
 }
