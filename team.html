@@ -68,7 +68,16 @@
     <h1>Implementation Team</h1>
   </div>
   <div class="topic-row team-row">
-    <div v-for="people in teamData" v-if="people.team_leader == true && people.leadership== true" class="team-column">
+    <div v-for="people in teamData" v-if="people.team_leader == true && people.leadership== true && people.affiliation=='govlab' " class="team-column">
+      <div class="team-image">
+        <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
+        </div>
+        <h4>{{people.name}}</h4>
+        <h5>{{people.title}}</h5>
+        <a :href="people.bio_link" target="_blank"><span id="bio">BIO</span></a>
+      </div>
+    </div>
+    <div v-for="people in teamData" v-if="people.team_leader == true && people.leadership== true && people.affiliation=='undp' " class="team-column">
       <div class="team-image">
         <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
         </div>
