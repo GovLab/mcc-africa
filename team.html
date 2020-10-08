@@ -43,7 +43,7 @@
         </a>
       </div>
     </div>
-    <a class="top_logo" href="index.html"><img style="margin: 10px 25px;height:70px; width:auto" src="images/undp-white.png" alt="UNDP Logo"><img src="images/govlab-logo-white.png" alt="The GovLab"></a>
+    <a class="top_logo" href="index.html"><img style="margin: 10px 25px;height:70px; width:auto" src="images/UNDP_eng_GCTISDS_white.png" alt="UNDP Logo"><img src="images/govlab-logo-white.png" alt="The GovLab"></a>
 
     <!-- Navigation links (hidden by default) -->
       <div class='lang-select'>
@@ -65,10 +65,26 @@
 
 <div id="home-page">
   <div class="divider" id="team">
+    <h1>Implementation Team</h1>
+  </div>
+  <div class="topic-row team-row">
+    <div v-for="people in teamData" v-if="people.team_leader == true && people.leadership== true" class="team-column">
+      <div class="team-image">
+        <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
+        </div>
+        <h4>{{people.name}}</h4>
+        <h5>{{people.title}}</h5>
+        <a :href="people.bio_link" target="_blank"><span id="bio">BIO</span></a>
+      </div>
+    </div>
+    </div>
+  <div class="half-row">
+  <div class="gl">
+  <div class="divider purple" id="team">
     <h1>GovLab Team</h1>
   </div>
-  <div class="topic-row team-row">
-    <div v-for="people in teamData" v-if="people.team_leader == true && people.affiliation=='govlab'" class="team-column">
+  <div class="topic-row">
+    <div v-for="people in teamData" v-if="people.affiliation=='govlab' && people.leadership== false" class="team-column team-col-mcc">
       <div class="team-image">
         <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
         </div>
@@ -77,21 +93,14 @@
         <a :href="people.bio_link" target="_blank"><span id="bio">BIO</span></a>
       </div>
     </div>
-    <div v-for="people in teamData" v-if="people.team_leader == false && people.affiliation=='govlab'"  class="team-column">
-      <div  class="team-image">
-        <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
-        </div>
-        <h4>{{people.name}}</h4>
-        <h5>{{people.title}}</h5>
-        <a :href="people.bio_link" target="_blank"><span id="bio">BIO</span></a>
-      </div>
     </div>
-    </div>
-  <div class="divider" id="team">
+  </div>
+  <div class="up">
+  <div class="divider blue" id="team">
     <h1>UNDP Team</h1>
   </div>
-  <div class="topic-row team-row">
-    <div v-for="people in teamData" v-if="people.team_leader == true && people.affiliation=='undp'" class="team-column">
+  <div class="topic-row">
+    <div v-for="people in teamData" v-if="people.affiliation=='undp' && people.leadership== false" class="team-column team-col-mcc">
       <div class="team-image">
         <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
         </div>
@@ -100,29 +109,16 @@
         <a :href="people.bio_link" target="_blank"><span id="bio">BIO</span></a>
       </div>
     </div>
-    <div v-for="people in teamData" v-if="people.team_leader == false && people.affiliation=='undp'"  class="team-column">
-      <div  class="team-image">
-        <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
-        </div>
-        <h4>{{people.name}}</h4>
-        <h5>{{people.title}}</h5>
-        <a :href="people.bio_link" target="_blank"><span id="bio">BIO</span></a>
-      </div>
     </div>
-    </div>
-
-
+</div>
+</div>
 
 </div>
   <footer>
     <div class="footer-row">
       <div class="footer-col">
         <h4>CONTACT US</h4>
-        <p>The GovLab <br> NYU Tandon School of Engineering<br>2 MetroTech Center, 9th Floor<br>Brooklyn, NY 11201</p>
-      </div>
-      <div class="footer-col">
-        <h4><br></h4>
-        <p><i class="e-social-media-item fa fa-phone"></i>&nbsp (646) 997-3150</p>
+        <p><i class="e-social-media-item fa fa-envelope"></i>&nbsp registry.sg@undp.org</p>
         <a><i class="e-social-media-item fa fa-envelope"></i>&nbsp info@thegovlab.org</a>
       </div>
       <div class="footer-col">

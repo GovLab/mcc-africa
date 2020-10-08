@@ -1,12 +1,13 @@
 :root {
-  --main-color: #157A6E;
+  --main-color: #00843E;
+  --main-color-dark: #013519;
   --main-color-fade: #157a6e21;
   --secondary-color: #3d3d3d;
   --tag-color-1: #D5573B;
   --tag-color-2: #392061;
   --tag-color-3: #CC8800;
   --tertiary-color: #E8E8E8;
-  --accent-color: #f0a202;
+  --accent-color: #FFCD00;
   --accent-color-fade: #f0a10279;
   --accent-color-dark:#412d07;
   --accent-color-hover: #523080;
@@ -188,7 +189,7 @@ color: #ffffff;
   display:flex;
   flex-direction: column;
   background-blend-mode: multiply;
-background-color: var(--main-color);
+background-color: var(--main-color-dark);
 background-size: cover;
 background-position: center bottom;
 height: 50vh;
@@ -513,6 +514,12 @@ align-items: flex-start;
   padding-bottom: 2rem;
   padding: 2rem 20rem;
 }
+.light-section.topic_desc.up{
+  background-color: white;
+  margin-top:0px;
+  padding-bottom: 2rem;
+  padding: 2rem 4rem;
+}
 .light-section.more-info{
   margin-top:0;
 }
@@ -613,6 +620,17 @@ flex-flow: row wrap;
 .topic-row.team-row{
   padding: 0 8rem;
 }
+.half-row{
+  display:flex;
+  flex-direction: row;
+}
+.gl,.up{
+  width:50%;
+}
+
+.gl{
+  border-right: 1px solid #3d3d3d;
+}
 .challenge-row{
   height: 50vh;
   align-items: center;
@@ -629,8 +647,8 @@ background-blend-mode: multiply;
 background-color: var(--main-color);
 background-size: cover;
 background-position: center top;
-
 }
+
 .team-column{
   -webkit-flex: 0 0 25%;
 -ms-flex: 0 0 25%;
@@ -642,7 +660,12 @@ text-align: center;
 display:flex;
 justify-content: center;
 align-items: center;
-
+}
+.team-column.team-col-mcc{
+  -webkit-flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
 }
 .challenge-column{
   -webkit-flex: 0 0 31.8%;
@@ -689,6 +712,19 @@ color: #ffffff;
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px){
+  .half-row{
+    display:flex;
+    flex-direction: column;
+  }
+  .gl,.up{
+    width:100%;
+  }
+  .team-column.team-col-mcc{
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
   .challenge-row{
     height: auto;
     align-items: center;
@@ -858,6 +894,20 @@ text-align: left;
 }
 .divider-coal{
   background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:12vh;
+}
+.divider.purple{
+  background-color: var(--accent-color-hover);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:12vh;
+}
+.divider.blue{
+  background-color:#0468B1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1189,6 +1239,11 @@ footer .row{
     align-items: center;
     
   }
+  .team-image.team-image-mcc{
+    padding: 0 2rem;
+    text-align: left;
+    align-items: left;
+  }
   
   .team-image img{
   width: auto;
@@ -1292,6 +1347,7 @@ color: #ffffff;
   }
   .copyright{
     height:auto;
+
   }
   .footer-col h4{
     padding-top: 1rem;
