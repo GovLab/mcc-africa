@@ -7,6 +7,8 @@
   --tag-color-3: #CC8800;
   --tertiary-color: #E8E8E8;
   --accent-color: #f0a202;
+  --accent-color-fade: #f0a10279;
+  --accent-color-dark:#412d07;
   --accent-color-hover: #523080;
   --second-accent-color: #cfb3cd;
   --grey30: rgba(0, 0, 0, 0.03);
@@ -344,6 +346,19 @@ text-align: center;
   font-weight: 300;
   color: #ffffff;
   font-size: 1.5rem;
+}
+.timeline-desc{
+  padding: 1rem 12rem;
+}
+.timeline-desc p{
+  background-color: var(--accent-color-fade);
+  color: var(--accent-color-dark);
+  padding: 2rem;
+  font-weight: 400;
+}
+span.bold{
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
  @media screen and (min-width: 320px) and (max-width: 768px){
@@ -910,9 +925,16 @@ color: var(--accent-color-hover);
   a.column-3-timeline-5:hover .dot {
     background-color: var(--accent-color);
     transition: all .6s ease;
- 
   }
-
+  a.column-3-timeline-5.active {
+    cursor: pointer;
+    color: var(--accent-color-hover);
+      }
+      a.column-3-timeline-5.active .dot {
+        background-color: var(--accent-color);
+        transition: all .6s ease;
+      }
+    
   .column-3-timeline p{
     color: var(--secondary-color);
   }

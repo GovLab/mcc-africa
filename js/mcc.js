@@ -35,6 +35,7 @@ new Vue({
       aboutData: [],
       timelineData: [],
       fadeData: [],
+      timeline_description: [],
       apiURL: 'https://directus.thegovlab.com/mcc-africa',
 
     }
@@ -47,6 +48,8 @@ new Vue({
     this.fetchAbout();
     this.fetchTime();
     this.fetchFadetext();
+    
+ 
   },
   methods: {
 
@@ -69,7 +72,7 @@ new Vue({
     var textB = b.people_id.name.toUpperCase();
     return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
 });
-  console.log(data)
+
   self.indexData = data.data;
 })
 .catch(error => console.error(error));
@@ -88,7 +91,7 @@ new Vue({
     fields: ['*.*']
   }
 ).then(data => {
-  console.log(data)
+
   self.challengeData = data.data;
 })
 .catch(error => console.error(error));
@@ -113,7 +116,7 @@ new Vue({
     var textB = b.name.toUpperCase();
     return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
 });
-  console.log(data);
+
   self.teamData = data.data;
   
 })
@@ -133,7 +136,7 @@ new Vue({
     fields: ['*.*']
   }
 ).then(data => {
-  console.log(data)
+  
   self.aboutData = data.data;
 })
 .catch(error => console.error(error));
@@ -152,8 +155,9 @@ new Vue({
     fields: ['*.*']
   }
 ).then(data => {
-  console.log(data)
+
   self.timelineData = data.data;
+  this.default_timeline_description();
 })
 .catch(error => console.error(error));
     },
@@ -171,10 +175,32 @@ new Vue({
     fields: ['*.*']
   }
 ).then(data => {
-  console.log(data)
+
   self.fadeData = data.data;
 })
 .catch(error => console.error(error));
+    },
+    show_description(index){
+      index=index+1;
+      var id_index="timeline";
+      id_index=id_index.concat(index);
+      console.log(id_index);
+      var element = document.getElementById(id_index);
+      element.classList.toggle("active");
+      self.timeline_description = self.timelineData.filter(date_item => date_item.order == index);
+
+    },
+    default_timeline_description(){
+      self.timeline_description = self.timelineData.filter(date_item => date_item.active == true);
+      
+      var id_index="timeline";
+      var index=self.timeline_description[0].order;
+      id_index=id_index.concat(index);
+      console.log(id_index);
+      var element_test = document.getElementById(id_index);
+      console.log(element_test);
+      element_test.classList.toggle("active");
+      
     }
 }
 });
