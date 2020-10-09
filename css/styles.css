@@ -109,14 +109,20 @@ justify-content: center;
 @media screen and (min-width: 320px) and (max-width: 768px){
   .top_logo {
     padding: 0 !important;
-    width:80%;
+    width:50%;
     }
     .top_logo img{
-      width:45%;
+      width:20%;
       }
     .lang-select{
-      width: 30%;
+      width: 20%;
       justify-content: flex-start;
+      margin-right:0;
+    }
+    .top_logo img#undp-logo-style{
+      margin: 5px 0px;
+      height:50px; 
+      width:auto; 
     }
     .lang-select img{
       display:none;
@@ -219,7 +225,8 @@ padding: 0 10rem;
  .row .column.image-col-training{
   background-image: url(../images/collab-2.jpg);
   height: 500px;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
  }
  #underline{
    border-bottom: 2px solid var(--accent-color);
