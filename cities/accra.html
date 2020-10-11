@@ -76,7 +76,7 @@
         <h1>ABOUT THE CHALLENGES</h1>
       </section>
       <section style="z-index:-10" id="topics">
-        <div class="topic-row">
+        <div class="topic-row challenge-row">
           <div v-for="challenge in indexData[0].city_challenge" :style="{ backgroundImage: 'url(' + challenge.city_challenge_id.image.data.full_url+ ')' }" class="challenge-column">
             <div class="topic-wrap">
               <p>{{challenge.city_challenge_id.title}}</p>   
@@ -89,28 +89,24 @@
       <div class="divider" id="team">
         <h1>Team</h1>
       </div>
-
-        <div class="topic-row team-row">
-          <div v-for="people in indexData[0].city_team" v-if="people.people_id.team_leader == true" class="team-column">
-            <div class="team-image">
-              <div class="square" :style="{ backgroundImage: 'url(' + people.people._id.image.data.full_url+ ')' }">
-              </div>
-              <h4>{{people.people_id.name}}</h4>
-              <h5>{{people.people_id.title}}</h5>
-              <!-- <a :href="people.people_id.bio_link" target="_blank"><span id="bio">BIO</span></a> -->
+      <div class="topic-row team-row">
+        <div v-for="people in indexData[0].city_team" class="team-column">
+          <div v-if="people.people_id.team_leader=='1'" class="team-image">
+            <div class="square" :style="{ backgroundImage: 'url(' + people.people_id.image.data.full_url+ ')' }">
             </div>
+            <h4>{{people.people_id.name}}</h4>
+            <h5>{{people.people_id.title}}</h5>
+            <!-- <a :href="people.people_id.bio_link" target="_blank"><span id="bio">BIO</span></a> -->
           </div>
-          <div v-for="people in indexData[0].city_team" v-if="people.people_id.team_leader == false" class="team-column">
-            <div class="team-image">
-              <div class="square" :style="{ backgroundImage: 'url(' + people.people._id.image.data.full_url+ ')' }">
-              </div>
-              <h4>{{people.people_id.name}}</h4>
-              <h5>{{people.people_id.title}}</h5>
-              <!-- <a :href="people.people_id.bio_link" target="_blank"><span id="bio">BIO</span></a> -->
+          <div v-if="people.people_id.team_leader=='0'"  class="team-image">
+            <div class="square" :style="{ backgroundImage: 'url(' + people.people_id.image.data.full_url+ ')' }">
             </div>
+            <h4>{{people.people_id.name}}</h4>
+            <h5>{{people.people_id.title}}</h5>
+            <!-- <a :href="people.people_id.bio_link" target="_blank"><span id="bio">BIO</span></a> -->
           </div>
-          </div>
-      
+        </div>
+        </div>
   
     </div>
 
