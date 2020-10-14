@@ -241,6 +241,14 @@ padding: 0 10rem;
  .column.people{
    text-align: left;
  }
+ .column.intro-text{
+   flex-direction: column;
+   text-align: left;
+ }
+ .dark-section .intro-text p{
+   padding-bottom:0;
+   padding-top: 0;
+ }
  .column.training{
   text-align: right;
   display: flex;
