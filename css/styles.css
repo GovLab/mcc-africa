@@ -106,6 +106,13 @@ justify-content: center;
   height:80px; 
   width:auto; 
 }
+@media screen and (min-width: 769px) and (max-width: 1100px){
+.top_logo img#undp-logo-style{
+  margin: 5px 25px;
+  height:70px; 
+  width:auto; 
+}
+}
 @media screen and (min-width: 320px) and (max-width: 768px){
   .top_logo {
     padding: 0 !important;
@@ -534,8 +541,14 @@ align-items: flex-start;
   padding-bottom: 2rem;
   padding: 2rem 20rem;
 }
+.light-section.topic_desc.mcc-desc{
+  background-color: var(--grey05);
+  margin-top:0px;
+  padding-bottom: 2rem;
+  padding: 2rem 20rem;
+}
 .light-section.topic_desc.up{
-  background-color: white;
+  background-color: var(--grey05);
   margin-top:0px;
   padding-bottom: 2rem;
   padding: 2rem 4rem;
@@ -643,6 +656,7 @@ flex-flow: row wrap;
 .half-row{
   display:flex;
   flex-direction: row;
+
 }
 .gl,.up{
   width:50%;
@@ -729,6 +743,26 @@ color: var(--secondary-color);
 .topic-column.description h1{
 background-color: var(--main-color);
 color: #ffffff;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1100px){
+  .challenge-row{
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+  }
+  .challenge-column{
+    -webkit-flex: 0 0 100%;
+  -ms-flex: 0 0 30%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  border: none;
+  }
+  .text-box{
+    padding: 3rem 10rem;
+  }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px){
@@ -1360,7 +1394,7 @@ color: #ffffff;
 .fa{
   color: var(--accent-color);
 }
-@media screen and (min-width: 320px) and (max-width: 768px){
+@media screen and (min-width: 320px) and (max-width: 850px){
   .team{
     flex-direction: column;
     margin: 1rem 1rem;
