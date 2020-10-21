@@ -63,63 +63,26 @@
   </div>
 
 <div id="home-page">
-  <div class="divider" id="team">
-    <h1>Implementation Team</h1>
-  </div>
-  <div class="topic-row team-row">
-    <div v-for="people in teamData" v-if="people.team_leader == true && people.leadership== true && people.affiliation=='govlab' " class="team-column">
-      <div class="team-image">
-        <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
-        </div>
-        <h4>{{people.name}}</h4>
-        <h5>{{people.title}}<br><br></h5>
-        <a :href="people.bio_link" target="_blank"><span id="bio">BIO</span></a>
-      </div>
-    </div>
-    <div v-for="people in teamData" v-if="people.team_leader == true && people.leadership== true && people.affiliation=='undp' " class="team-column">
-      <div class="team-image">
-        <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
-        </div>
-        <h4>{{people.name}}</h4>
-        <h5>{{people.title}}</h5>
-        <a :href="people.bio_link" target="_blank"><span id="bio">BIO</span></a>
-      </div>
-    </div>
-    </div>
-  <div class="half-row">
-  <div class="gl">
-  <div class="divider purple" id="team">
-    <h1>GovLab Team</h1>
-  </div>
-  <div class="topic-row">
-    <div v-for="people in teamData" v-if="people.affiliation=='govlab' && people.leadership== false" class="team-column team-col-mcc">
-      <div class="team-image">
-        <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
-        </div>
-        <h4>{{people.name}}</h4>
-        <h5>{{people.title}}</h5>
-        <a :href="people.bio_link" target="_blank"><span id="bio">BIO</span></a>
-      </div>
-    </div>
-    </div>
-  </div>
-  <div class="up">
+  
+
+
   <div class="divider blue" id="team">
     <h1>UNDP Team</h1>
   </div>
-  <div class="topic-row">
-    <div v-for="people in teamData" v-if="people.affiliation=='undp' && people.leadership== false" class="team-column team-col-mcc">
+  <div v-for="people in teamData" v-if="people.affiliation=='undp' && people.leadership== false" class="topic-row bio-page">
+   
       <div class="team-image">
         <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
         </div>
         <h4>{{people.name}}</h4>
         <h5>{{people.title}}</h5>
-        <a href="bios.html" target="_blank"><span id="bio">BIO</span></a>
+        <h5>{{people.bio}}</h5>
+
       </div>
+
     </div>
-    </div>
-</div>
-</div>
+
+
 
 </div>
   <footer>

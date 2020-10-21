@@ -665,6 +665,19 @@ display: flex;
 -ms-flex-flow: row wrap;
 flex-flow: row wrap;
 }
+.topic-row.bio-page{
+  padding: 1rem 10rem;
+  
+}
+.topic-row.bio-page .team-image{
+  text-align: left !important;
+  background-color: var(--grey05);
+  padding: 2rem 5rem;
+}
+.topic-row.bio-page .team-image h5{
+color: #000000;
+line-height: 1.5;
+}
 .topic-row.team-row{
   padding: 0 8rem;
 }
