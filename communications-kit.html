@@ -54,7 +54,7 @@
     <div class="menu-items">
       <div class="menu-sub" onclick="dismiss_menu()"><a href="index.html">Home</a></div>
       <div class="menu-sub" onclick="dismiss_menu()"><a href="about.html">About the challenge</a></div>
-<div class="menu-sub" onclick="dismiss_menu()"> <a href="cities/index.html">Participating Cities</a></div>
+      <div class="menu-sub" onclick="dismiss_menu()"> <a href="cities/index.html">Participating Cities</a></div>
       <div class="menu-sub" onclick="dismiss_menu()"><a href="team.html">Team</a></div>
       <div class="menu-sub" onclick="dismiss_menu()"><a href="topics/index.html">Challenge Topics</a></div>
       <div class="menu-sub" onclick="dismiss_menu()"><a href="communications-kit.html">Communications Kit</a></div>
@@ -68,6 +68,9 @@
   <section class="light-section topic_desc">
     <h1>Communications Kit</h1>
     <p>Materials to support you to advertise the open challenge through your networks and in your communities will be available here.</p>
+    <div class="main-buttons comms">
+      <a :href="aboutData[0].flyer.data.full_url" target="_blank" class="button">Download the Flyer</a>
+   </div>
   </section>
 
 
