@@ -80,7 +80,7 @@
           <div class="topic-wrap">
             <h1>{{city.name}}<span id="country">,&nbsp{{city.country}}</span></h1>
             <div class="challenge-tags">
-              <a v-for="challenge in city.city_challenge" :href="'topics/' + challenge.city_challenge_id.slug"><span
+              <a v-for="challenge in city.city_challenge" :href="'../topics/' + challenge.city_challenge_id.slug"><span
                   id="tag">{{challenge.city_challenge_id.title}}</span></a>
             </div>
 
