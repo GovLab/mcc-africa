@@ -527,6 +527,9 @@ align-items: center;
     transition: all .6s ease;
   }
 @media screen and (min-width: 320px) and (max-width: 768px){
+  .light-section.how-to-text.topic_desc {
+    padding: 1rem 1rem;
+  }
   .main-buttons{
 text-align: center;
 flex-direction: column;
