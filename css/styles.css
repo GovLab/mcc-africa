@@ -650,6 +650,13 @@ align-items: flex-start;
   max-width: 100%;
   font-size: 1.2em;
 }
+.light-section.topic_desc ul{
+  max-width: 100%;
+  font-size: 1.2em;
+  color: var(--grey8);
+  line-height: 1.8;
+  font-weight: 300;
+}
 .light-section.topic_desc a{
   text-decoration: none;
   color: var(--main-color);
