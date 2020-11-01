@@ -471,8 +471,19 @@ align-items: center;
 
   margin: 2rem 1rem 2rem 1rem;
   }
+  .main-buttons.comms.problem-brief{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  
+    margin: 2rem 0rem 2rem 0rem;
+    }
   .main-buttons.comms a{
     background-color: var(--grey2);
+  }
+ .main-buttons.comms.problem-brief a{
+  margin: -20px 0px -20px 0px;
   }
   .main-buttons.comms a:hover{
     background-color: var(--grey5);

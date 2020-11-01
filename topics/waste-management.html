@@ -79,7 +79,9 @@
       <div class="challenge-description" v-html="challengeData[0].challenge_description">
 
       </div>
-
+      <div v-if="challengeData[0].problem_brief" class="main-buttons comms problem-brief">
+        <a :href="challengeData[0].problem_brief.data.full_url" target="_blank" class="button">Read the detailed Problem Brief</a>
+     </div>
     </section>
     <div class="divider" id="team">
       <h1>Participating Cities</h1>
