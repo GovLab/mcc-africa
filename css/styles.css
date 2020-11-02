@@ -86,13 +86,24 @@ font-weight: 600;
 @media screen and (min-width: 320px) and (max-width: 780px){
 
   .alert-content{
-      margin: 2rem;
+
       height: 15vh;
       border-radius: 25px;
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
+    }
+    p.text-alert{
+      color: var(--secondary-color);
+      font-weight: 600;
+      font-size: 1rem;
+      margin: 0 1rem;
+    }
+    #sub-text{
+      color: var(--secondary-color);
+      font-weight: 400;
+      font-size: 0.8rem;
     }
     .text-alert{
       margin-left: 20px;
@@ -455,6 +466,9 @@ span.bold{
 }
 
  @media screen and (min-width: 320px) and (max-width: 768px){
+  .top-hero{
+    padding-bottom: 0.5rem;
+  }
   .timeline-desc{
     padding: 1rem 2rem;
   }
@@ -515,6 +529,7 @@ height: 20vh;
   }
   .site-logo{
     max-width: 250px;
+    margin-top: 60px;
   }
  }
 .top-section{
@@ -613,6 +628,7 @@ flex-direction: column;
   .main-buttons a{
     padding: 15px;
     max-width: 300px;
+    margin:10px;
       }
 }
 .main-buttons.accent-color a{
