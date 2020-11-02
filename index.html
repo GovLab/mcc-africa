@@ -71,7 +71,7 @@
       <div id="alert-msg" class="alert-content">
         <p class="text-alert">PRESS RELEASE<br><span id="sub-text">"Engaging citizens and driving innovation in African cities: UNDP and The GovLab partner to empower city officials". Read the full press release<a href="https://www.africa.undp.org/content/rba/en/home/presscenter/pressreleases/2020/engaging-citizens-and-driving-innovation-in-african-cities--.html"
               id="text-link" target="_blank"> here.</a></a></span></p>
-    
+
         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
       </div>
     </div>
@@ -178,7 +178,7 @@
     <section style="z-index:-10" id="topics">
       <div class="topic-row challenge-row">
         <div v-for="challenge in challengeData" class="challenge-column"
-          :style="{ backgroundImage: 'url(' + challenge.image.data.full_url+ ')' }">
+          :style="{ backgroundImage: 'url(' + challenge.image.data.thumbnails[5].url+ ')' }">
           <div class="topic-wrap">
             <p>{{challenge.title}}</p>
             <p><a :href="'topics/' + challenge.slug" class="button more-info">More Information</a></p>
@@ -201,7 +201,7 @@
           </div>
         </div>
         <div v-for="city in indexData" class="topic-column"
-          :style="{ backgroundImage: 'url(' + city.image.data.full_url+ ')' }">
+          :style="{ backgroundImage: 'url(' + city.image.data.thumbnails[5].url+ ')' }">
           <div class="topic-wrap">
             <h1>{{city.name}}<span id="country">,&nbsp{{city.country}}</span></h1>
             <div class="challenge-tags">
