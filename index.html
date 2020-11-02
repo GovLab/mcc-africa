@@ -66,8 +66,17 @@
   </div>
 
 
-  <div class="row top-section">
+  <div class="row top-section home-page">
+    <div class="alert">
+      <div id="alert-msg" class="alert-content">
+        <p class="text-alert">PRESS RELEASE<br><span id="sub-text">"Engaging citizens and driving innovation in African cities: UNDP and The GovLab partner to empower city officials". Read the full press release<a href="https://www.africa.undp.org/content/rba/en/home/presscenter/pressreleases/2020/engaging-citizens-and-driving-innovation-in-african-cities--.html"
+              id="text-link" target="_blank"> here.</a></a></span></p>
+    
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      </div>
+    </div>
     <div class="column large-12 site-logo__wrapper">
+
       <a href="/index.html"><img class="site-logo" src="images/mcc-logo-af-green.png"
           alt="Multi City Challenge Logo"></a>
     </div>
@@ -253,7 +262,14 @@
     </div>
   </div>
 </body>
-
+<script>
+  $(document).ready(function () {
+    var alert_msg = document.getElementById("alert-msg");
+    $(".close").click(function () {
+      alert_msg.style.display = "none";
+    });
+  });
+</script>
 <script>
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
   function myFunction() {

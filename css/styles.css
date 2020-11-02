@@ -33,6 +33,71 @@ body {
   font-family: 'proxima-nova', sans-serif;
 
 }
+
+.row.top-section.home-page{
+  display:flex;
+  flex-direction: column;
+  padding-top:0;
+}
+.alert{
+  height: 12vh;
+}
+.alert-content{
+  margin: 2rem 0rem 0rem 0rem;
+  height: 10vh;
+  width: 80vw;
+  background-color: var(--accent-color);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.close{
+width: 5%;
+text-align: right;
+margin-right: 20px;
+}
+a.close{
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.text-alert{
+  text-align: center;
+  width:95%;
+}
+p.text-alert{
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+#sub-text{
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 1rem;
+}
+a#text-link{
+  color: var(--dark-grey);
+text-decoration: none;
+font-weight: 600;
+}
+@media screen and (min-width: 320px) and (max-width: 780px){
+
+  .alert-content{
+      margin: 2rem;
+      height: 15vh;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .text-alert{
+      margin-left: 20px;
+    }
+  }
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -201,7 +266,7 @@ color: #ffffff;
   align-items: center;
 }
 .top-hero{
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 .row.top-section.topic{
   display:flex;
@@ -442,7 +507,7 @@ text-align: center;
    }
    .site-logo{
     max-width: 380px;
-  margin-top: 70px;
+  margin-top: 40px;
   }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .imagine-banner h2 {
