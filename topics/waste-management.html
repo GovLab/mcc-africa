@@ -92,7 +92,7 @@
         <template v-for="city in indexData">
           <div v-for="challenge in city.city_challenge"
             v-if="challenge.city_challenge_id.title == challengeData[0].title" class="topic-column"
-            :style="{ backgroundImage: 'url(' + city.image.data.full_url+ ')' }">
+            :style="{ backgroundImage: 'url(' + city.image.data.thumbnails[5].url+ ')' }">
             <div class="topic-wrap">
               <h1>{{city.name}}<span id="country">,&nbsp{{city.country}}</span></h1>
               <div class="challenge-tags">

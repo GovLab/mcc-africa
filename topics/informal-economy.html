@@ -69,7 +69,7 @@
     </div>
       <section>
         <div class="main-buttons accent-color index-page-button">
-           <a href="https://demo-multi-city-challenge-africa.yrpri.org/group/3645/config/rn=Back%20to%20Topics;ru=https://docs.google.com/document/d/1W2ZI5SZ1Vv0rz4GNkQL9vOUNtxDOOeDxURUgBxLH6Ic/"  target="_blank" class="button">Participate Now!</a>
+           <a href="challengeData[2].challenge_link"  target="_blank" class="button">Participate Now!</a>
            <a href="../contact.html" class="button home-btn" target="_blank">Got Questions?</a>
            <a href="../how-to-participate.html" class="button home-btn" target="_blank">How to Participate?</a>
  
@@ -93,7 +93,7 @@
           <template v-for="city in indexData">
             <div v-for="challenge in city.city_challenge"
               v-if="challenge.city_challenge_id.title == challengeData[2].title" class="topic-column"
-              :style="{ backgroundImage: 'url(' + city.image.data.full_url+ ')' }">
+              :style="{ backgroundImage: 'url(' + city.image.data.thumbnails[5].url+ ')' }">
               <div class="topic-wrap">
                 <h1>{{city.name}}<span id="country">,&nbsp{{city.country}}</span></h1>
                 <div class="challenge-tags">
