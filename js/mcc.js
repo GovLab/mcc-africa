@@ -36,6 +36,7 @@ new Vue({
       timelineData: [],
       fadeData: [],
       timeline_description: [],
+      updateData: [],
       apiURL: 'https://directus.thegovlab.com/mcc-africa',
 
     }
@@ -47,6 +48,7 @@ new Vue({
     this.fetchTeam();
     this.fetchAbout();
     this.fetchTime();
+    this.fetchUpdates();
     this.fetchFadetext();
     
  
@@ -177,6 +179,25 @@ new Vue({
 ).then(data => {
 
   self.fadeData = data.data;
+})
+.catch(error => console.error(error));
+    },
+    fetchUpdates() {
+      self = this;
+      const client = new DirectusSDK({
+        url: "https://directus.thegovlab.com/",
+        project: "mcc-africa",
+        storage: window.localStorage
+      });
+
+      client.getItems(
+  'updates',
+  {
+    fields: ['*.*']
+  }
+).then(data => {
+
+  self.updateData = data.data;
 })
 .catch(error => console.error(error));
     },

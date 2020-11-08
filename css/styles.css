@@ -18,6 +18,7 @@
   --grey9: rgba(0, 0, 0, 0.9);
   --grey2: rgba(0, 0, 0, 0.2);
   --grey05: rgba(0, 0, 0, 0.05);
+  --light-grey: #3d3d3d;
   font-size: 16px;
 }
 html,body
@@ -522,16 +523,19 @@ span.bold{
 text-align: center;
    }
    .site-logo{
-    max-width: 380px;
-  margin-top: 40px;
+    max-width: 450px;
+    width: 450px;
+  margin: 40px 0;
   }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .imagine-banner h2 {
 height: 20vh;
   }
   .site-logo{
-    max-width: 250px;
-    margin-top: 60px;
+    max-width: 400px;
+    width: 400px;
+  padding: 20px 0;
+  margin:60px 0 0 0;
   }
  }
 .top-section{
@@ -586,18 +590,30 @@ align-items: center;
   transition: all .6s ease;
 }
 .light-section.how-to-text.topic_desc {
-  padding: 2rem 15rem;
+  padding: 0rem 15rem 2rem 15rem;
 }
 .light-section.how-to-text.topic_desc  p{
   line-height: 1.5;
   font-size: 1rem;
   font-weight: 400;
+  margin-top:0;
 }
-.light-section.how-to-text.topic_desc h3 strong{
+.light-section.how-to-text.topic_desc h3{
   color:var(--main-color);
   font-size: 2rem;
   font-weight: 200;
   text-transform: uppercase;
+  
+  margin-bottom: 0.8rem;
+}
+.light-section.how-to-text.topic_desc h3 strong{
+  color:var(--light-grey);
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+  border-bottom: 2px solid var(--main-color);
+  text-transform: uppercase;
+  
 }
 .light-section.how-to-text.topic_desc  ul{
   line-height: 1.5;
@@ -634,11 +650,11 @@ flex-direction: column;
       }
 }
 .main-buttons.accent-color a{
-  background-color: var(--accent-color);
+  background-color: var(--accent-color-hover);
   z-index: 100;
 }
 .main-buttons.accent-color a:hover {
-  background-color: var(--accent-color-hover);
+  background-color: var(--accent-color);
   transition: all .6s ease;
 }
 .index-page-button{
@@ -762,16 +778,54 @@ align-items: flex-start;
   text-transform: uppercase;
   margin-bottom:10px;
 }
+.blog-item{
+  background-color: var(--grey05);
+  margin: 2rem 0;
+  padding: 2rem 4rem;
+}
+.light-section.how-to-text.topic_desc .blog-item p.tag-p{
+margin:0;
+font-size: 0.8rem;
+color: #ffffff;
+}
+.light-section.how-to-text.topic_desc .blog-item p{
+  margin:0.5rem 0 1rem 0;
+  }
+  .light-section.how-to-text.topic_desc .blog-item h2{
+    margin:1rem 0 0 0;
+    }
+.blog-item p.tag-p span{
+  background-color: var(--main-color);
+  padding: 5px 10px;
+}
+.light-section.how-to-text.topic_desc .blog-item a{
+  padding: 10px;
+  background-color: var(--grey2);
+  text-transform: uppercase;
+  margin: 10px 0;
+  }
+  .light-section.how-to-text.topic_desc .blog-item a:hover{
+    transition: all .6s ease;
+    background-color: var(--main-color);
+    color: #ffffff;
+
+    }
 @media screen and (min-width: 769px) and (max-width: 1100px){
   .light-section.topic_desc{
-
     padding: 2rem 5rem;
   }
+  .light-section.how-to-text.topic_desc{
+    padding: 2rem 5rem;
+  }
+
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .light-section.topic_desc{
 
     padding: 2rem 1rem;
+  }
+  .blog-item{
+    padding: 2rem 2rem;
   }
   .main-buttons.accent-color.topic-page-button{
     padding: 0rem 1rem 3rem 1rem;
@@ -922,8 +976,21 @@ color: var(--secondary-color);
 background-color: var(--main-color);
 color: #ffffff;
 }
+@media screen and (min-width: 1101px) and (max-width: 1300px){
+  .challenge-row{
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+  }
+  .challenge-column{
 
-@media screen and (min-width: 769px) and (max-width: 1200px){
+    border: 5px solid white;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1100px){
   .challenge-row{
     height: auto;
     align-items: center;
@@ -932,7 +999,7 @@ color: #ffffff;
   }
   .challenge-column{
     -webkit-flex: 0 0 100%;
-  -ms-flex: 0 0 30%;
+  -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
   border: none;

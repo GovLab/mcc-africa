@@ -69,19 +69,24 @@
   <div class="row top-section home-page">
     <div class="alert">
       <div id="alert-msg" class="alert-content">
-        <p class="text-alert">PRESS RELEASE<br><span id="sub-text">"Engaging citizens and driving innovation in African cities: UNDP and The GovLab partner to empower city officials". Read the full press release<a href="https://www.africa.undp.org/content/rba/en/home/presscenter/pressreleases/2020/engaging-citizens-and-driving-innovation-in-african-cities--.html"
-              id="text-link" target="_blank"> here.</a></a></span></p>
+        <p class="text-alert">SHARE YOUR IDEAS!<br><span id="sub-text">We want to hear your solutions to three complex
+            urban challenges in five African cities. Find more information about how to participate <a
+              href="https://africa.multicitychallenge.org/how-to-participate.html" id="text-link" target="_blank">
+              here.</a></a></span></p>
 
         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
       </div>
     </div>
-    <div class="column large-12 site-logo__wrapper">
-
-      <a href="/index.html"><img class="site-logo" src="images/mcc-logo-af-green.png"
-          alt="Multi City Challenge Logo"></a>
-    </div>
   </div>
-  <div class="row align-center top-hero">
+  <div id="home-page" @load="default_timeline_description()">
+    <div class="row top-section home-page">
+      <div class="column large-12 site-logo__wrapper">
+
+        <a :href="'https://youtu.be/' + aboutData[0].promo_video_id" target="_blank"><img class="site-logo"
+            src="images/hero.jpeg" alt="Multi City Challenge Logo"></a>
+      </div>
+    </div>
+    <!-- <div class="row align-center top-hero">
     <section class="imagine-banner">
       <h2>Public institutions need to change how they work, becoming more data-driven, agile, innovative, and capable of
         tapping expertise from new sources.</h2>
@@ -89,17 +94,13 @@
         solve on their own.</h2>
       <h2>The Multi-City Challenge helps solving urban problems using the collective wisdom of our communities.</h2>
     </section>
-    <div class="undp">
-      <!-- <p><i>In Partnership with</i></p>
-      <img src="images/undp.png"> -->
-    </div>
-  </div>
+  </div> -->
 
-  <div class="main-buttons">
-    <a href="how-to-participate.html" class="button home-btn" target="_blank">How to Participate?</a>
-    <a href="contact.html" class="button home-btn" target="_blank">Got Questions?</a>
-  </div>
-  <div id="home-page" @load="default_timeline_description()">
+    <div class="main-buttons">
+      <a href="how-to-participate.html" class="button home-btn" target="_blank">How to Participate?</a>
+      <a href="updates.html" class="button home-btn" target="_blank">Updates</a>
+    </div>
+
 
     <div class="text-box">
       <p>The Multi City Challenge is a process by which cities facing common problems pool expertise from residents to
@@ -119,6 +120,9 @@
     <div class="divider">
 
       <h1>The Multi city challenge</h1>
+    </div>
+    <div class="main-buttons accent-color">
+      <a href="contact.html" class="button home-btn" target="_blank">Got Questions? Contact Us</a>
     </div>
     <div class="row-cust mt-5">
       <div class="column-3-timeline">
@@ -140,6 +144,7 @@
         <div class="column training">
           <p>{{aboutData[0].home_page_mcc}}</p>
         </div>
+
         <div class="column image-col-training">
 
         </div>
@@ -228,14 +233,14 @@
       </div>
       <div class="footer-col">
         <h4>FOLLOW US</h4>
-        <p><b> UNDP</b> &nbsp <a href="https://twitter.com/undptech" target="_blank"><i class="e-social-media-item fa fa-twitter"
-              aria-hidden="true"></i></a>
+        <p><b> UNDP</b> &nbsp <a href="https://twitter.com/undptech" target="_blank"><i
+              class="e-social-media-item fa fa-twitter" aria-hidden="true"></i></a>
           <a href="https://www.facebook.com/UNDPtech/" target="_blank"><i class="e-social-media-item fa fa-facebook"
               aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/company/undptechsingapore/" target="_blank"><i
               class="e-social-media-item fa fa-linkedin" aria-hidden="true"></i></a></p>
-        <p> <b> The GovLab</b>&nbsp <a href="https://twitter.com/TheGovLab" target="_blank"><i class="e-social-media-item fa fa-twitter"
-              aria-hidden="true"></i></a>
+        <p> <b> The GovLab</b>&nbsp <a href="https://twitter.com/TheGovLab" target="_blank"><i
+              class="e-social-media-item fa fa-twitter" aria-hidden="true"></i></a>
           <a href="https://www.facebook.com/thegovlab/" target="_blank"><i class="e-social-media-item fa fa-facebook"
               aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/company/3288504" target="_blank"><i
