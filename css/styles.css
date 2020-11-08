@@ -554,7 +554,6 @@ align-items: center;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-
   margin: 2rem 1rem 2rem 1rem;
   }
   .main-buttons.comms.problem-brief{
@@ -569,7 +568,7 @@ align-items: center;
     background-color: var(--grey2);
   }
  .main-buttons.comms.problem-brief a{
-  margin: -20px 0px -20px 0px;
+  margin: -20px 5px -20px 5px;
   }
   .main-buttons.comms a:hover{
     background-color: var(--grey5);
