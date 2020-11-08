@@ -18,6 +18,7 @@
   --grey9: rgba(0, 0, 0, 0.9);
   --grey2: rgba(0, 0, 0, 0.2);
   --grey05: rgba(0, 0, 0, 0.05);
+  --grey03: rgba(0, 0, 0, 0.03);
   --light-grey: #3d3d3d;
   font-size: 16px;
 }
@@ -469,6 +470,12 @@ span.bold{
 }
 
  @media screen and (min-width: 320px) and (max-width: 768px){
+  .column.training{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+  }
   .top-hero{
     padding-bottom: 0.5rem;
   }
@@ -554,7 +561,7 @@ align-items: center;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin: 2rem 1rem 2rem 1rem;
+  margin: 2rem 0rem 2rem 0rem;
   }
   .main-buttons.comms.problem-brief{
     display: flex;
@@ -582,7 +589,7 @@ align-items: center;
   padding: 15px 20px;
   max-width: 350px;
   text-align: center;
-  margin: -20px 10px -20px 10px;
+  margin: -20px 0px -20px 5px;
 }
 .home-btn:hover{
   background-color: var(--accent-color);
@@ -701,6 +708,81 @@ align-items: flex-start;
   padding-bottom: 2rem;
   padding: 2rem 20rem;
 }
+.comms-kit .light-section.topic_desc{
+  background-color: white;
+  margin-top:0px;
+  padding-bottom: 2rem;
+  padding: 0rem 20rem;
+}
+#videos.light-section.topic_desc{
+  padding: 0rem 20rem 2rem 20rem;
+}
+#videos.light-section.topic_desc .video-section{
+  display:flex;
+flex-direction: row;
+}
+#videos.light-section.topic_desc .video-section img{
+  height: 250px;
+  margin: 40px 20px 40px 0;
+}
+.comms-content{
+  padding: 2rem;
+  margin: 1rem 0;
+  background-color: var(--grey03);
+}
+.comms-content i.fa-facebook{
+  color: #3b5998;
+}
+.comms-content p.fb{
+  font-size: 0.8rem;
+  color: #3b5998;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.comms-content i.fa-twitter{
+  color: #1da1f2;
+}
+.comms-content p.twitter{
+  font-size: 0.8rem;
+  color: #1da1f2;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.comms-content i.fa-envelope{
+  color: var(--accent-color);
+}
+.comms-content p.email{
+  font-size: 0.8rem;
+  color: #3d3d3d;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.comms-content i.fa-whatsapp-square{
+  color: #25D366;
+  font-size: 1.5rem;
+}
+.comms-content i.fa-telegram{
+  color: #0088CC;
+  font-size: 1.5rem;
+}
+
+.comms-content p.messages{
+  font-size: 0.8rem;
+  color: #3d3d3d;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.comms-content p.sm-logo{
+  margin:0;
+}
+.light-section.topic_desc h3{
+  text-transform: uppercase;
+  font-weight: 400;
+  margin:0;
+}
+.light-section.topic_desc h3 span{
+border-bottom: 2px solid var(--main-color);
+}
 .light-section.topic_desc.mcc-desc{
   background-color: var(--grey05);
   margin-top:0px;
@@ -816,11 +898,28 @@ color: #ffffff;
   .light-section.how-to-text.topic_desc{
     padding: 2rem 5rem;
   }
+  .comms-kit .light-section.topic_desc{
+    padding: 2rem 5rem;
+  }
+  #videos.light-section.topic_desc{
+    padding: 0rem 5rem 2rem 5rem;
+  }
 
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .light-section.topic_desc{
 
+    padding: 2rem 1rem;
+  }
+  #videos.light-section.topic_desc{
+    padding: 0rem 1rem 2rem 1rem;
+  }
+  #videos.light-section.topic_desc .video-section{
+    display:flex;
+  flex-direction: column;
+  text-align:center
+  }
+  .comms-kit .light-section.topic_desc{
     padding: 2rem 1rem;
   }
   .blog-item{
@@ -1031,7 +1130,7 @@ color: #ffffff;
 
   .topic-column.description.af-participants{
     background-size: contain;
-    height: 280px;
+    height: 340px;
     background-repeat: no-repeat;
   }
   .topic-row{

@@ -3,14 +3,14 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40012093-29"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40012093-29"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-40012093-29');
-</script>
+    gtag('config', 'UA-40012093-29');
+  </script>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,7 +35,7 @@
 
 
   <!-- Top Navigation Menu -->
-  <div style="height:12vh"class="topnav">
+  <div style="height:12vh" class="topnav">
     <div class="menu-bars">
       <div class="bar-wrap">
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -43,11 +43,14 @@
         </a>
       </div>
     </div>
-    <a class="top_logo" href="index.html"><img style="margin: 10px 25px;height:70px; width:auto" src="images/UNDP_eng_GCTISDS_white.png" alt="UNDP Logo"><img src="images/govlab-logo-white.png" alt="The GovLab"></a>
+    <a class="top_logo" href="index.html"><img style="margin: 10px 25px;height:70px; width:auto"
+        src="images/UNDP_eng_GCTISDS_white.png" alt="UNDP Logo"><img src="images/govlab-logo-white.png"
+        alt="The GovLab"></a>
 
     <!-- Navigation links (hidden by default) -->
-      <div class='lang-select'>
-      <a class="top_logo" target="_blank" href="https://twitter.com/search?q=%23MCCAfrica&src=typed_query"><img style="width:auto; height: 42px;" src="images/twitter-logo-white.png" alt="UNDP Logo"><b>#MCCAfrica</b></a>
+    <div class='lang-select'>
+      <a class="top_logo" target="_blank" href="https://twitter.com/search?q=%23MCCAfrica&src=typed_query"><img
+          style="width:auto; height: 42px;" src="images/twitter-logo-white.png" alt="UNDP Logo"><b>#MCCAfrica</b></a>
     </div>
   </div>
   <div id="myLinks">
@@ -60,23 +63,106 @@
       <div class="menu-sub" onclick="dismiss_menu()"><a href="topics/index.html">Challenge Topics</a></div>
       <div class="menu-sub" onclick="dismiss_menu()"> <a href="cities/index.html">Participating Cities</a></div>
       <div class="menu-sub" onclick="dismiss_menu()"><a href="communications-kit.html">Communications Kit</a></div>
-      
+
     </div>
   </div>
 
-<div id="home-page">
+  <div id="home-page">
 
 
-  <section class="light-section topic_desc">
-    <h1>Communications Kit</h1>
-    <p>Materials to support you to advertise the open challenge through your networks and in your communities will be available here.</p>
-    <div class="main-buttons comms">
-      <a :href="aboutData[0].flyer.data.full_url" target="_blank" class="button">Download the Flyer</a>
-   </div>
-  </section>
+    <section class="light-section topic_desc">
+      <h1>Communications Kit</h1>
+      <p>Materials to support you to advertise the open challenge through your networks and in your communities will are
+        available here. For more information, contact <a
+          href="mailto:multicitychallenge@thegovlab.org">multicitychallenge@thegovlab.org</a>.</p>
+      <ul>
+        <li><a href="#videos">Promo videos</a></li>
+        <li><a href="#facebook">Facebook Posts</a></li>
+        <li><a href="#tweets">Tweets</a></li>
+        <li><a href="#email">Emails</a></li>
+        <li><a href="#messages">WhatsApp/Telegram Messages</a></li>
+        <li><a href="#posters">Posters, Banners and Flyers</a></li>
+        <li><a href="#logos">Logos</a></li>
+      </ul>
+    </section>
+    <div class="comms-kit">
+    <section id="videos" class="light-section topic_desc">
+      <div class="video-section">
+
+        <a :href="'https://youtu.be/' + aboutData[0].promo_video_id" target="_blank"><img src="images/hero.jpeg"
+            alt="Multi City Challenge Logo"></a>
 
 
-</div>
+        <a :href="'https://youtu.be/' + aboutData[0].how_to_idea_id" target="_blank"><img src="images/how-to.jpeg"
+            alt="Multi City Challenge Logo"></a>
+
+    </section>
+    <section id="facebook" class="light-section topic_desc">
+      <div v-if="post.content_type=='facebook'" v-for="post in commsData">
+
+        <div class="comms-content">
+          <p class="sm-logo fb"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp facebook post</p>
+          <div v-html="post.content">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="tweets" class="light-section topic_desc">
+      <div v-if="post.content_type=='tweet'" v-for="post in commsData">
+
+        <div class="comms-content">
+          <p class="sm-logo twitter"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp Tweet</p>
+          <div v-html="post.content">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="email" class="light-section topic_desc">
+      <div v-if="post.content_type=='email'" v-for="post in commsData">
+
+        <div class="comms-content">
+          <p class="sm-logo email"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp Email</p>
+          <div v-html="post.content">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="messages" class="light-section topic_desc">
+      <div v-if="post.content_type=='whatsapp'" v-for="post in commsData">
+
+        <div class="comms-content">
+          <p class="sm-logo messages"><i class="fab fa-whatsapp-square" aria-hidden="true"></i>&nbsp <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp WhatsApp/Telegram</p>
+          <div v-html="post.content">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="posters" class="light-section topic_desc">
+      <h3><span>POSTERS, FLYERS AND BANNERS</span></h3>
+      <div class="main-buttons comms">
+        <a :href="aboutData[0].flyer.data.full_url" target="_blank" class="button">Download the Flyers</a>
+        <a v-if="aboutData[0].posters" :href="aboutData[0].posters.data.full_url" target="_blank"
+          class="button">Download the Posters</a>
+        <a v-if="aboutData[0].banners" :href="aboutData[0].banners.data.full_url" target="_blank"
+          class="button">Download the Banners</a>
+      </div>
+    </section>
+    <section id="logos" class="light-section topic_desc">
+      <h3><span>brand assets</span></h3>
+      <div class="main-buttons comms">
+        <a v-if="aboutData[0].thegovlab_assets" :href="aboutData[0].flyer.data.full_url" target="_blank" class="button">The govlab</a>
+        <a v-if="aboutData[0].undp_assets" :href="aboutData[0].posters.data.full_url" target="_blank"
+          class="button">UNDP</a>
+        <a v-if="aboutData[0].mcc_assets" :href="aboutData[0].banners.data.full_url" target="_blank"
+          class="button">Multi City challenge-Africa</a>
+      </div>
+    </section>
+    </div>
+  </div>
   <footer>
     <div class="footer-row">
       <div class="footer-col">
@@ -86,14 +172,14 @@
       </div>
       <div class="footer-col">
         <h4>FOLLOW US</h4>
-        <p><b> UNDP</b> &nbsp <a href="https://twitter.com/undptech" target="_blank"><i class="e-social-media-item fa fa-twitter"
-              aria-hidden="true"></i></a>
+        <p><b> UNDP</b> &nbsp <a href="https://twitter.com/undptech" target="_blank"><i
+              class="e-social-media-item fa fa-twitter" aria-hidden="true"></i></a>
           <a href="https://www.facebook.com/UNDPtech/" target="_blank"><i class="e-social-media-item fa fa-facebook"
               aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/company/undptechsingapore/" target="_blank"><i
               class="e-social-media-item fa fa-linkedin" aria-hidden="true"></i></a></p>
-        <p> <b> The GovLab</b>&nbsp <a href="https://twitter.com/TheGovLab" target="_blank"><i class="e-social-media-item fa fa-twitter"
-              aria-hidden="true"></i></a>
+        <p> <b> The GovLab</b>&nbsp <a href="https://twitter.com/TheGovLab" target="_blank"><i
+              class="e-social-media-item fa fa-twitter" aria-hidden="true"></i></a>
           <a href="https://www.facebook.com/thegovlab/" target="_blank"><i class="e-social-media-item fa fa-facebook"
               aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/company/3288504" target="_blank"><i
@@ -136,7 +222,7 @@
   /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
   function dismiss_menu() {
     var x = document.getElementById("myLinks");
-   x.style.display = "none";
+    x.style.display = "none";
   }
 </script>
 <!-- <script>
