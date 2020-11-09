@@ -22,7 +22,8 @@
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js" integrity="sha256-lrZTgsdM1iVdRigETFOU8u8/BmLX1ysQ8bzrULbuVFU="
+    crossorigin="anonymous"></script>
   <script src="https://unpkg.com/@directus/sdk-js@5.3.4/dist/directus-sdk.umd.min.js"></script>
   <script src="https://kit.fontawesome.com/f713a12e61.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -64,7 +65,7 @@
 
   <div id="home-page">
     <div class="row top-section topic"  :style="{ backgroundImage: 'url(' + indexData[1].image.data.full_url+ ')' }">
-      
+
       <h1>{{indexData[1].name}}</h1>
       <p>{{indexData[1].country}}</p>
     </div>
@@ -72,7 +73,7 @@
         <div class="main-buttons accent-color index-page-button cities">
           <a href="../how-to-participate.html" class="button home-btn" target="_blank">How to Participate?</a>
           <a href="../contact.html" class="button home-btn" target="_blank">Got Questions? Contact Us</a>
-           
+
         </div>
       </section>
       <section style="text-align: center; padding-bottom:0"class="light-section topic_desc">
@@ -82,12 +83,12 @@
         <div class="topic-row challenge-row">
           <div v-for="challenge in indexData[1].city_challenge" :style="{ backgroundImage: 'url(' + challenge.city_challenge_id.image.data.full_url+ ')' }" class="challenge-column">
             <div class="topic-wrap">
-              <p>{{challenge.city_challenge_id.title}}</p>   
+              <p>{{challenge.city_challenge_id.title}}</p>
               <p><a :href="'../topics/'+ challenge.city_challenge_id.slug" class="button more-info">More Information</a></p>
             </div>
           </div>
         </div>
-        
+
       </section>
       <div class="divider" id="team">
         <h1>Team</h1>
@@ -110,7 +111,7 @@
           </div>
         </div>
         </div>
-  
+
     </div>
 
 </div>

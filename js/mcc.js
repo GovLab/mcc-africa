@@ -65,19 +65,21 @@ new Vue({
         storage: window.localStorage
       });
 
-      client.getItems(
-  'cities',
-  {
-    fields: ['*.*','city_challenge.*','city_challenge.city_challenge_id.*','city_challenge.city_challenge_id.image.data.*','city_team.people_id.*','city_team.people_id.image.data.*']
-  }
-).then( function(data) {
-  data.data[0].city_team.sort(function(a, b) {
+  //     client.getItems(
+  // 'cities',
+  // {
+  //   fields: ['*.*','city_challenge.*','city_challenge.city_challenge_id.*','city_challenge.city_challenge_id.image.data.*','city_team.people_id.*','city_team.people_id.image.data.*']
+  // }
+axios.get('https://directus.thegovlab.com/mcc-africa/items/cities?fields=*.*,city_challenge.*,city_challenge.city_challenge_id.*,city_challenge.city_challenge_id.image.data.*,city_team.people_id.*,city_team.people_id.image.data.*').then( function(data) {
+
+  data.data.data[0].city_team.sort(function(a, b) {
     var textA = a.people_id.name.toUpperCase();
     var textB = b.people_id.name.toUpperCase();
     return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
 });
 
-  self.indexData = data.data;
+  self.indexData = data.data.data;
+  console.log(self.indexData);
 })
 .catch( function(error){ console.error(error);})},
     fetchChallenge: function() {
@@ -88,14 +90,14 @@ new Vue({
         storage: window.localStorage
       });
 
-      client.getItems(
-  'challenge',
-  {
-    fields: ['*.*']
-  }
-).then(function(data) {
+  //     client.getItems(
+  // 'challenge',
+  // {
+  //   fields: ['*.*']
+  // }
+axios.get('https://directus.thegovlab.com/mcc-africa/items/challenge?fields=*.*').then( function(data) {
 
-  self.challengeData = data.data;
+  self.challengeData = data.data.data;
 })
 .catch( function(error){ console.error(error);})},
     fetchTeam: function() {
@@ -106,20 +108,20 @@ new Vue({
         storage: window.localStorage
       });
 
-      client.getItems(
-  'people',
-  {
-    fields: ['*.*']
-  }
-).then(function(data){
+  //     client.getItems(
+  // 'people',
+  // {
+  //   fields: ['*.*']
+  // }
+axios.get('https://directus.thegovlab.com/mcc-africa/items/people?fields=*.*').then( function(data) {
 
-  data.data.sort(function(a, b) {
+  data.data.data.sort(function(a, b) {
     var textA = a.name.toUpperCase();
     var textB = b.name.toUpperCase();
     return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
 });
 
-  self.teamData = data.data;
+  self.teamData = data.data.data;
 
 })
 .catch( function(error){ console.error(error);})},
@@ -131,14 +133,14 @@ new Vue({
         storage: window.localStorage
       });
 
-      client.getItems(
-  'about',
-  {
-    fields: ['*.*']
-  }
-).then( function(data) {
-
-  self.aboutData = data.data;
+  //     client.getItems(
+  // 'about',
+  // {
+  //   fields: ['*.*']
+  // }
+axios.get('https://directus.thegovlab.com/mcc-africa/items/about?fields=*.*').then( function(data) {
+  console.log(data);
+  self.aboutData = data.data.data;
 })
 .catch( function(error){ console.error(error);})},
     fetchTime: function(){
@@ -149,13 +151,14 @@ new Vue({
         storage: window.localStorage
       });
 
-      client.getItems(
-  'timeline',
-  {
-    fields: ['*.*']
-  }
-).then(function(data) {
-  self.timelineData = data.data;
+//       client.getItems(
+//   'timeline',
+//   {
+//     fields: ['*.*']
+//   }
+// ).then(function(data) {
+axios.get('https://directus.thegovlab.com/mcc-africa/items/timeline?fields=*.*').then( function(data) {
+  self.timelineData = data.data.data;
   self.default_timeline_description();
 })
 .catch( function(error){ console.error(error);})},
@@ -167,14 +170,15 @@ new Vue({
         storage: window.localStorage
       });
 
-      client.getItems(
-  'fadetext',
-  {
-    fields: ['*.*']
-  }
-).then(function(data) {
+//       client.getItems(
+//   'fadetext',
+//   {
+//     fields: ['*.*']
+//   }
+// ).then(function(data) {
+axios.get('https://directus.thegovlab.com/mcc-africa/items/fadetext?fields=*.*').then( function(data) {
 
-  self.fadeData = data.data;
+  self.fadeData = data.data.data;
 })
 .catch( function(error){ console.error(error);})},
     fetchUpdates: function() {
@@ -185,14 +189,15 @@ new Vue({
         storage: window.localStorage
       });
 
-      client.getItems(
-  'updates',
-  {
-    fields: ['*.*']
-  }
-).then(function(data) {
+//       client.getItems(
+//   'updates',
+//   {
+//     fields: ['*.*']
+//   }
+// ).then(function(data) {
+axios.get('https://directus.thegovlab.com/mcc-africa/items/updates?fields=*.*').then( function(data) {
 
-  self.updateData = data.data;
+  self.updateData = data.data.data;
 })
 .catch( function(error){ console.error(error);})},
     fetchComms: function() {
@@ -203,14 +208,14 @@ new Vue({
         storage: window.localStorage
       });
 
-      client.getItems(
-  'communications',
-  {
-    fields: ['*.*']
-  }
-).then(function(data) {
-
-  self.commsData = data.data;
+//       client.getItems(
+//   'communications',
+//   {
+//     fields: ['*.*']
+//   }
+// ).then(function(data) {
+axios.get('https://directus.thegovlab.com/mcc-africa/items/communications?fields=*.*').then( function(data) {
+  self.commsData = data.data.data;
 })
 .catch( function(error){ console.error(error);})},
     show_description: function(index){
