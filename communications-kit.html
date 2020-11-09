@@ -87,6 +87,7 @@
     </section>
     <div class="comms-kit">
     <section id="videos" class="light-section topic_desc">
+      <h3><span>PROMO VIDEOS</span></h3>
       <div class="video-section">
 
         <a :href="'https://youtu.be/' + aboutData[0].promo_video_id" target="_blank"><img src="images/hero.jpeg"
@@ -151,7 +152,7 @@
           class="button">Download the Banners</a>
       </div>
     </section>
-    <section id="logos" class="light-section topic_desc">
+    <section v-if="aboutData[0].thegovlab_assets"style="padding-top:2rem" id="logos" class="light-section topic_desc">
       <h3><span>brand assets</span></h3>
       <div class="main-buttons comms">
         <a v-if="aboutData[0].thegovlab_assets" :href="aboutData[0].flyer.data.full_url" target="_blank" class="button">The govlab</a>
