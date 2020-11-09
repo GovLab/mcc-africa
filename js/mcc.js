@@ -26,7 +26,7 @@ new Vue({
     
   el: '#home-page',
     
-  data () {
+  data: function () {
   
     return {
       indexData: [],
