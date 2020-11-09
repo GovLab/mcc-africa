@@ -26,7 +26,7 @@ new Vue({
     
   el: '#home-page',
     
-  data: function () {
+  data () {
   
     return {
       indexData: [],
@@ -57,7 +57,7 @@ new Vue({
   },
   methods: {
 
-    fetchIndex: function() {
+    fetchIndex() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -81,7 +81,7 @@ new Vue({
 })
 .catch(error => console.error(error));
     },
-    fetchChallenge: function() {
+    fetchChallenge() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -100,7 +100,7 @@ new Vue({
 })
 .catch(error => console.error(error));
     },
-    fetchTeam: function() {
+    fetchTeam() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -126,7 +126,7 @@ new Vue({
 })
 .catch(error => console.error(error));
     },
-    fetchAbout: function() {
+    fetchAbout() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -145,7 +145,7 @@ new Vue({
 })
 .catch(error => console.error(error));
     },
-    fetchTime: function(){
+    fetchTime() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -165,7 +165,7 @@ new Vue({
 })
 .catch(error => console.error(error));
     },
-    fetchFadetext: function() {
+    fetchFadetext() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -184,7 +184,7 @@ new Vue({
 })
 .catch(error => console.error(error));
     },
-    fetchUpdates: function() {
+    fetchUpdates() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -203,7 +203,7 @@ new Vue({
 })
 .catch(error => console.error(error));
     },
-    fetchComms: function() {
+    fetchComms() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
