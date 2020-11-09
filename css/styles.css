@@ -663,7 +663,7 @@ flex-direction: column;
 }
 .main-buttons.accent-color a{
   background-color: var(--accent-color-hover);
-  z-index: 100;
+  z-index: 0;
 }
 .main-buttons.accent-color a:hover {
   background-color: var(--accent-color);
