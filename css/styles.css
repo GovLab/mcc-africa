@@ -898,6 +898,9 @@ color: #ffffff;
 
     }
 @media screen and (min-width: 769px) and (max-width: 1100px){
+  .light-section.topic_desc.mcc-desc{
+    padding: 2rem 5rem;
+  }
   .light-section.topic_desc{
     padding: 2rem 5rem;
   }
@@ -913,6 +916,9 @@ color: #ffffff;
 
 }
 @media screen and (min-width: 320px) and (max-width: 768px){
+  .light-section.topic_desc.mcc-desc{
+    padding: 2rem 1rem;
+  }
   .light-section.topic_desc{
 
     padding: 2rem 1rem;
