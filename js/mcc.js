@@ -19,15 +19,15 @@ main();
 ///// TEAM  API REQUEST ` `
 ////////////////////////////////////////////////////////////
 
-
+// Vue.use(Vuetify);
 Vue.use(VueMeta);
 
 new Vue({
-    
+
   el: '#home-page',
-    
-  data () {
-  
+
+  data: function () {
+
     return {
       indexData: [],
       challengeData: [],
@@ -43,7 +43,7 @@ new Vue({
     }
   },
 
-  created: function created() {
+  created: function () {
     this.fetchIndex();
     this.fetchChallenge();
     this.fetchTeam();
@@ -52,12 +52,12 @@ new Vue({
     this.fetchUpdates();
     this.fetchComms();
     this.fetchFadetext();
-    
- 
+
+
   },
   methods: {
 
-    fetchIndex() {
+    fetchIndex: function() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -70,7 +70,7 @@ new Vue({
   {
     fields: ['*.*','city_challenge.*','city_challenge.city_challenge_id.*','city_challenge.city_challenge_id.image.data.*','city_team.people_id.*','city_team.people_id.image.data.*']
   }
-).then(data => {
+).then( function(data) {
   data.data[0].city_team.sort(function(a, b) {
     var textA = a.people_id.name.toUpperCase();
     var textB = b.people_id.name.toUpperCase();
@@ -79,9 +79,8 @@ new Vue({
 
   self.indexData = data.data;
 })
-.catch(error => console.error(error));
-    },
-    fetchChallenge() {
+.catch( function(error){ console.error(error);})},
+    fetchChallenge: function() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -94,13 +93,12 @@ new Vue({
   {
     fields: ['*.*']
   }
-).then(data => {
+).then(function(data) {
 
   self.challengeData = data.data;
 })
-.catch(error => console.error(error));
-    },
-    fetchTeam() {
+.catch( function(error){ console.error(error);})},
+    fetchTeam: function() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -113,7 +111,7 @@ new Vue({
   {
     fields: ['*.*']
   }
-).then(data => {
+).then(function(data){
 
   data.data.sort(function(a, b) {
     var textA = a.name.toUpperCase();
@@ -122,11 +120,10 @@ new Vue({
 });
 
   self.teamData = data.data;
-  
+
 })
-.catch(error => console.error(error));
-    },
-    fetchAbout() {
+.catch( function(error){ console.error(error);})},
+    fetchAbout: function() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -139,13 +136,12 @@ new Vue({
   {
     fields: ['*.*']
   }
-).then(data => {
-  
+).then( function(data) {
+
   self.aboutData = data.data;
 })
-.catch(error => console.error(error));
-    },
-    fetchTime() {
+.catch( function(error){ console.error(error);})},
+    fetchTime: function(){
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -158,14 +154,12 @@ new Vue({
   {
     fields: ['*.*']
   }
-).then(data => {
-
+).then(function(data) {
   self.timelineData = data.data;
-  this.default_timeline_description();
+  self.default_timeline_description();
 })
-.catch(error => console.error(error));
-    },
-    fetchFadetext() {
+.catch( function(error){ console.error(error);})},
+    fetchFadetext: function() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -178,13 +172,12 @@ new Vue({
   {
     fields: ['*.*']
   }
-).then(data => {
+).then(function(data) {
 
   self.fadeData = data.data;
 })
-.catch(error => console.error(error));
-    },
-    fetchUpdates() {
+.catch( function(error){ console.error(error);})},
+    fetchUpdates: function() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -197,13 +190,12 @@ new Vue({
   {
     fields: ['*.*']
   }
-).then(data => {
+).then(function(data) {
 
   self.updateData = data.data;
 })
-.catch(error => console.error(error));
-    },
-    fetchComms() {
+.catch( function(error){ console.error(error);})},
+    fetchComms: function() {
       self = this;
       const client = new DirectusSDK({
         url: "https://directus.thegovlab.com/",
@@ -216,25 +208,24 @@ new Vue({
   {
     fields: ['*.*']
   }
-).then(data => {
+).then(function(data) {
 
   self.commsData = data.data;
 })
-.catch(error => console.error(error));
-    },
-    show_description(index){
+.catch( function(error){ console.error(error);})},
+    show_description: function(index){
       index=index+1;
       var id_index="timeline";
       id_index=id_index.concat(index);
-      console.log(id_index);
+
       var element = document.getElementById(id_index);
       element.classList.toggle("active");
-      self.timeline_description = self.timelineData.filter(date_item => date_item.order == index);
+      self.timeline_description = self.timelineData.filter(function(date_item){ return date_item.order == index});
 
     },
-    default_timeline_description(){
-      self.timeline_description = self.timelineData.filter(date_item => date_item.active == true);
-      
+    default_timeline_description: function(){
+      self.timeline_description = self.timelineData.filter(function(date_item){ return date_item.active == true});
+
       // var id_index="timeline";
       // var index=self.timeline_description[0].order;
       // id_index=id_index.concat(index);
@@ -242,7 +233,7 @@ new Vue({
       // var element_test = document.getElementById(id_index);
       // console.log(element_test);
       // element_test.classList.toggle("active");
-      
+
     }
 }
 });
