@@ -166,7 +166,7 @@
       </a>
 
       <a target="_blank" v-for="(timeline,index) in timelineData" @click="show_description(index)"
-        v-if="timeline.order == 5" class="column-3-timeline-5 last" v-bind:id="'timeline' + timeline.order">
+        v-if="timeline.order == 4" class="column-3-timeline-5 last" v-bind:id="'timeline' + timeline.order">
         <div class="dot-class"> <span class="dot"></span></div>
         <p style="margin-right: 1rem;"><b>{{timeline.title}}</b></br><span class="text-green">{{timeline.date}}</span>
         </p>
