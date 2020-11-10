@@ -83,6 +83,7 @@
         <li><a href="#email">Emails</a></li>
         <li><a href="#messages">WhatsApp/Telegram Messages</a></li>
         <li><a href="#posters">Posters, Banners and Flyers</a></li>
+        <li><a href="#press">Press Release</a></li>
         <li><a href="#logos">Logos</a></li>
       </ul>
     </section>
@@ -115,6 +116,17 @@
 
         <div class="comms-content">
           <p class="sm-logo twitter"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp Tweet</p>
+          <div v-html="post.content">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="press" class="light-section topic_desc">
+      <div v-if="post.content_type=='press'" v-for="post in commsData">
+
+        <div class="comms-content">
+          <p class="sm-logo press"><i class="fas fa-file-alt" aria-hidden="true"></i>&nbsp Press Release</p>
           <div v-html="post.content">
 
           </div>
