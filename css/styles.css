@@ -569,6 +569,7 @@ align-items: center;
   align-items: center;
   margin: 2rem 0rem 2rem 0rem;
   }
+
   .main-buttons.comms.problem-brief{
     display: flex;
     flex-direction: row;
@@ -647,6 +648,13 @@ align-items: center;
     background-color: var(--grey5);
     transition: all .6s ease;
   }
+  .how-to-text .main-buttons.in-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0rem 2rem 0rem;
+    }
 @media screen and (min-width: 320px) and (max-width: 768px){
   .light-section.how-to-text.topic_desc {
     padding: 1rem 1rem;
