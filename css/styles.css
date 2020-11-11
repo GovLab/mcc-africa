@@ -753,6 +753,15 @@ flex-direction: row;
   font-weight: 400;
   text-transform: uppercase;
 }
+.comms-content i.fa-desktop{
+  color: #3d3d3d;
+}
+.comms-content p.deck{
+  font-size: 0.8rem;
+  color: #3d3d3d;
+  font-weight: 400;
+  text-transform: uppercase;
+}
 .comms-content i.fa-twitter{
   color: #1da1f2;
 }

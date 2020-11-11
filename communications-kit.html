@@ -82,9 +82,10 @@
         <li><a href="#tweets">Tweets</a></li>
         <li><a href="#email">Emails</a></li>
         <li><a href="#messages">WhatsApp/Telegram Messages</a></li>
-        <li><a href="#posters">Posters, Banners and Flyers</a></li>
+        <li><a href="#slides">Slide Deck</a></li>
         <li><a href="#press">Press Release</a></li>
         <li><a href="#logos">Logos</a></li>
+        <li><a href="#posters">Banners and Flyers</a></li>
       </ul>
     </section>
     <div class="comms-kit">
@@ -155,14 +156,15 @@
         </div>
       </div>
     </section>
-    <section id="posters" class="light-section topic_desc">
-      <h3><span>POSTERS, FLYERS AND BANNERS</span></h3>
-      <div class="main-buttons comms">
-        <a :href="aboutData[0].flyer.data.full_url" target="_blank" class="button">Download the Flyers</a>
-        <a v-if="aboutData[0].posters" :href="aboutData[0].posters.data.full_url" target="_blank"
-          class="button">Download the Posters</a>
-        <a v-if="aboutData[0].banners" :href="aboutData[0].banners.data.full_url" target="_blank"
-          class="button">Download the Banners</a>
+    <section id="slides" class="light-section topic_desc">
+      <div v-if="post.content_type=='slide_deck'" v-for="post in commsData">
+
+        <div class="comms-content">
+          <p class="sm-logo deck"><i class="fa fa-desktop" aria-hidden="true"></i>&nbsp Slide Deck</p>
+          <div v-html="post.content">
+
+          </div>
+        </div>
       </div>
     </section>
     <section v-if="aboutData[0].thegovlab_assets"style="padding-top:2rem" id="logos" class="light-section topic_desc">
@@ -173,6 +175,16 @@
           class="button">UNDP</a>
         <a v-if="aboutData[0].mcc_assets" :href="aboutData[0].banners.data.full_url" target="_blank"
           class="button">Multi City challenge-Africa</a>
+      </div>
+    </section>
+    <section id="posters" class="light-section topic_desc">
+      <h3><span>POSTERS, FLYERS AND BANNERS</span></h3>
+      <div class="main-buttons comms">
+        <a :href="aboutData[0].flyer.data.full_url" target="_blank" class="button">Download the Flyers</a>
+        <a v-if="aboutData[0].posters" :href="aboutData[0].posters.data.full_url" target="_blank"
+          class="button">Download the Posters</a>
+        <a v-if="aboutData[0].banners" :href="aboutData[0].banners.data.full_url" target="_blank"
+          class="button">Download the Banners</a>
       </div>
     </section>
     </div>
