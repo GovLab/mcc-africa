@@ -109,44 +109,36 @@ font-weight: 600;
   color: #6B0001;
   font-weight: 600;
 }
-@media all and (-ms-high-contrast:none)
-{
-  .alert#browser-notice-container{
+
+  @media all and (-ms-high-contrast:none)
+  {
+  #browser-notice{ /* IE10 */
+   background-color: #FFCACE;
+   color: #000000;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   z-index: 1;
+   font-size: 0.85rem;
+   display: block;
+   font-weight: 400;
+  }
+  
+  *::-ms-backdrop,  #browser-notice{/* IE11 */
+   background-color: #FFCACE;
+   color: #000000;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   z-index: 1;
+   font-size: 0.85rem;
+   display: none;
+   font-weight: 400;
+   } 
+   *::-ms-backdrop, .alert#browser-notice-container{
     height: 12vh;
   }
-#browser-notice{ /* IE10 */
- background-color: #FFCACE;
- color: #000000;
- padding-top: 10px;
- padding-bottom: 10px;
- z-index: 1;
- font-size: 0.85rem;
- display: block;
- font-weight: 400;
-}
+  }
 
-.img-shade{
- background-color: rgba(0,46,155,0.5);
- height:  100%;
-}
 
-*::-ms-backdrop,  #browser-notice{/* IE11 */
- background-color: #FFCACE;
- color: #000000;
- padding-top: 10px;
- padding-bottom: 10px;
- z-index: 1;
- font-size: 0.85rem;
- display: none;
- font-weight: 400;
- } 
-
- *::-ms-backdrop, .img-shade{
-   background-color: rgba(0,46,155,0.5);
-   height:  100%;
- }
-
-}
 @media screen and (min-width: 320px) and (max-width: 780px){
 .alert{
   height:16vh;
