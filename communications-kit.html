@@ -202,7 +202,7 @@
     <section style="padding-top:2rem" id="posters" class="light-section topic_desc center">
       <h3><span>POSTERS AND BANNERS</span></h3>
       <div class="row">
-        <img class="posters" v-for="poster in posterData" :src="poster.poster_upload.data.full_url">
+        <a v-for="poster in posterData" :href="poster.poster_upload.data.full_url" target="_blank"><img class="posters" :src="poster.poster_upload.data.full_url"></a>
       </div>
       
       <div class="main-buttons comms">
