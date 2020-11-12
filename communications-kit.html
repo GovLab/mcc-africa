@@ -109,6 +109,11 @@
           <div v-html="post.content">
 
           </div>
+          <img class="banners" v-for="images in post.social_media_image":src="images.banner_id.banner_upload.data.full_url">
+          <div v-for="images in post.social_media_image" class="main-buttons comms">
+            <a :href="images.banner_id.banner_upload.data.full_url" target="_blank"
+            class="button"  download="logo">Download the Banner</a>
+          </div>
         </div>
       </div>
     </section>
@@ -116,9 +121,34 @@
       <div v-if="post.content_type=='tweet'" v-for="post in commsData">
 
         <div class="comms-content">
-          <p class="sm-logo twitter"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp Tweet</p>
+
+          <p class="sm-logo twitter"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp TWEET &nbsp&nbsp<a :href="'https://twitter.com/intent/tweet?text='+ post.tweet_clean" class="sm-logo twitter">Click to tweet this!</a></p>
+         
           <div v-html="post.content">
 
+          </div>
+
+          <img class="banners" v-for="images in post.social_media_image":src="images.banner_id.banner_upload.data.full_url">
+          <div v-for="images in post.social_media_image" class="main-buttons comms">
+            <a :href="images.banner_id.banner_upload.data.full_url" target="_blank"
+            class="button"  download="logo">Download the Banner</a>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    <section id="messages" class="light-section topic_desc">
+      <div v-if="post.content_type=='whatsapp'" v-for="post in commsData">
+
+        <div class="comms-content">
+          <p class="sm-logo messages"><i class="fab fa-whatsapp-square" aria-hidden="true"></i>&nbsp <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp WhatsApp/Telegram</p>
+          <div v-html="post.content">
+
+          </div>
+          <img class="banners" v-for="images in post.social_media_image":src="images.banner_id.banner_upload.data.full_url">
+          <div v-for="images in post.social_media_image" class="main-buttons comms">
+            <a :href="images.banner_id.banner_upload.data.full_url" target="_blank"
+            class="button"  download="logo">Download the Banner</a>
           </div>
         </div>
       </div>
@@ -145,17 +175,7 @@
         </div>
       </div>
     </section>
-    <section id="messages" class="light-section topic_desc">
-      <div v-if="post.content_type=='whatsapp'" v-for="post in commsData">
 
-        <div class="comms-content">
-          <p class="sm-logo messages"><i class="fab fa-whatsapp-square" aria-hidden="true"></i>&nbsp <i class="fa fa-telegram" aria-hidden="true"></i>&nbsp WhatsApp/Telegram</p>
-          <div v-html="post.content">
-
-          </div>
-        </div>
-      </div>
-    </section>
     <section id="slides" class="light-section topic_desc">
       <div v-if="post.content_type=='slide_deck'" v-for="post in commsData">
 
@@ -177,14 +197,18 @@
           class="button">Multi City challenge-Africa</a>
       </div>
     </section>
-    <section id="posters" class="light-section topic_desc">
-      <h3><span>POSTERS, FLYERS AND BANNERS</span></h3>
+    <section id="posters" class="light-section topic_desc center">
+      <h3><span>POSTERS AND BANNERS</span></h3>
+      <div class="row">
+        <img class="posters" v-for="poster in posterData" :src="poster.poster_upload.data.full_url">
+      </div>
+      
       <div class="main-buttons comms">
-        <a :href="aboutData[0].flyer.data.full_url" target="_blank" class="button">Download the Flyers</a>
-        <a v-if="aboutData[0].posters" :href="aboutData[0].posters.data.full_url" target="_blank"
+        
+        <!-- <a v-if="aboutData[0].posters" :href="aboutData[0].posters.data.full_url" target="_blank"
           class="button">Download the Posters</a>
         <a v-if="aboutData[0].banners" :href="aboutData[0].banners.data.full_url" target="_blank"
-          class="button">Download the Banners</a>
+          class="button">Download the Banners</a> -->
       </div>
     </section>
     </div>
