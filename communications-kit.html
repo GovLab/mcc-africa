@@ -189,17 +189,17 @@
         </div>
       </div>
     </section>
-    <section v-if="aboutData[0].thegovlab_assets"style="padding-top:2rem" id="logos" class="light-section topic_desc">
+    <section style="padding-top:2rem" id="logos" class="light-section topic_desc">
       <h3><span>brand assets</span></h3>
       <div class="main-buttons comms">
-        <a v-if="aboutData[0].thegovlab_assets" :href="aboutData[0].flyer.data.full_url" target="_blank" class="button">The govlab</a>
-        <a v-if="aboutData[0].undp_assets" :href="aboutData[0].posters.data.full_url" target="_blank"
+        <a v-if="aboutData[0].govlab_assets" :href="aboutData[0].govlab_assets.data.full_url" target="_blank" class="button">The govlab</a>
+        <a v-if="aboutData[0].undp_assets" :href="aboutData[0].undp_assets.data.full_url" target="_blank"
           class="button">UNDP</a>
-        <a v-if="aboutData[0].mcc_assets" :href="aboutData[0].banners.data.full_url" target="_blank"
+        <a v-if="aboutData[0].mcc_assets" :href="aboutData[0].mcc_assets.data.full_url" target="_blank"
           class="button">Multi City challenge-Africa</a>
       </div>
     </section>
-    <section id="posters" class="light-section topic_desc center">
+    <section style="padding-top:2rem" id="posters" class="light-section topic_desc center">
       <h3><span>POSTERS AND BANNERS</span></h3>
       <div class="row">
         <img class="posters" v-for="poster in posterData" :src="poster.poster_upload.data.full_url">
