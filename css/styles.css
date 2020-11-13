@@ -634,6 +634,7 @@ align-items: center;
     }
   .main-buttons.comms a{
     background-color: var(--grey2);
+    margin: -20px 5px -20px 0;
   }
  .main-buttons.comms.problem-brief a{
   margin: -20px 5px -20px 5px;
@@ -784,8 +785,7 @@ align-items: flex-start;
 .comms-kit .light-section.topic_desc{
   background-color: white;
   margin-top:0px;
-  padding-bottom: 2rem;
-  padding: 0rem 20rem;
+  padding: 0rem 15rem 4rem 15rem;
 }
 #videos.light-section.topic_desc{
   padding: 0rem 15rem 2rem 15rem;
@@ -1707,6 +1707,9 @@ footer .row{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.column a{
+  margin-right:20px;
 }
 .column-3{
   width:33%;
