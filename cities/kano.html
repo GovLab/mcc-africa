@@ -79,8 +79,10 @@
       </section>
       <section id="videos" class="light-section topic_desc center">
         <div class="video-section">
-            <a v-if="aboutData[0].kano_video_id" :href="'https://youtu.be/' + aboutData[0].kano_video_id" class="video-item full" target="_blank"><img src="../images/kano.jpeg"
+            <a v-if="aboutData[0].kano_video_id" :href="'https://youtu.be/' + aboutData[0].kano_video_id" class="video-item" target="_blank"><img src="../images/kano_video.png"
               alt="Multi City Challenge Logo"></a>
+              <a v-if="aboutData[0].kano_new_video_id" :href="'https://youtu.be/' + aboutData[0].kano_new_video_id" class="video-item" target="_blank"><img src="../images/kano.jpeg"
+                alt="Multi City Challenge Logo"></a>
           </div>
           </section>
       <section style="text-align: center; padding-bottom:0"class="light-section topic_desc">
