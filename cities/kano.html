@@ -74,7 +74,7 @@
         <div class="main-buttons accent-color index-page-button cities">
           <a href="../how-to-participate.html" class="button home-btn" target="_blank">How to Participate?</a>
           <a href="../contact.html" class="button home-btn" target="_blank">Got Questions? Contact Us</a>
-
+          <a v-if="aboutData[0].kano_flyer" :href="aboutData[0].kano_flyer.data.full_url" class="button home-btn" target="_blank">Download the flyer!</a>
         </div>
       </section>
       <section id="videos" class="light-section topic_desc center">
