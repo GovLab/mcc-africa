@@ -45,6 +45,9 @@ body {
 .alert{
   height: 12vh;
 }
+.alert.topics{
+  height: 0vh;
+}
 .alert-content{
   margin: 2rem 0rem 0rem 0rem;
   height: 12vh;
@@ -344,7 +347,7 @@ color: #ffffff;
 background-color: var(--main-color);
 background-size: cover;
 background-position: center bottom;
-height: 50vh;
+height: 65vh;
 padding: 0 10rem;
 }
 .row.collab{
@@ -608,6 +611,11 @@ height: 20vh;
 .top-section{
   padding-top: 70px;
 padding-bottom: 10px;
+text-align: center;
+}
+.top-section.topic-page{
+  padding-top: 0px;
+  padding-bottom: 0px;
 text-align: center;
 }
 .main-buttons{
