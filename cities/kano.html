@@ -63,7 +63,23 @@
       <div class="menu-sub" onclick="dismiss_menu()"><a href="../communications-kit.html">Communications Kit</a></div>
     </div>
   </div>
+  <div class="row top-section home-page topic-page">
+    <div class="alert" id="browser-notice-container">
+      <div id="browser-notice" class="alert-content">
+        <p class="text-alert">You are using an unsupported browser<br><span id="sub-text"> You are currently using an unsupported browser. We recommend using a newer browser such as Mozilla Firefox,
+          Google Chrome, Safari, or Microsoft Edge.</span></p>
 
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      </div>
+    </div>
+    <div class="alert topics">
+      <div id="alert-msg" class="alert-content">
+        <p class="text-alert">DEADLINE TO SHARE IDEAS EXTENDED AND PUBLIC VOTING OPEN!<br><span id="sub-text">Deadline to vote for your favourite ideas and to submit your own ideas extended until Dec 23rd, 2020!</span></p>
+
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      </div>
+    </div>
+  </div>
   <div id="home-page">
     <div class="row top-section topic"  :style="{ backgroundImage: 'url(' + indexData[2].image.data.full_url+ ')' }">
 
