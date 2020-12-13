@@ -47,7 +47,7 @@ body {
 }
 .alert-content{
   margin: 2rem 0rem 0rem 0rem;
-  height: 10vh;
+  height: 12vh;
   width: 80vw;
   background-color: var(--accent-color);
   border-radius: 25px;
