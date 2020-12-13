@@ -48,7 +48,7 @@ body {
 .alert-content{
   margin: 2rem 0rem 0rem 0rem;
   height: 12vh;
-  width: 80vw;
+  width: 90vw;
   background-color: var(--accent-color);
   border-radius: 25px;
   display: flex;
