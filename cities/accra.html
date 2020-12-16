@@ -107,11 +107,16 @@
         </div>
 
       </section>
+      <section  v-if="indexData[0].participate_text" class="light-section topic_desc mcc-desc">
+        <h1>Participate Now!</h1>
+        <div v-html="indexData[0].participate_text"></div>
+        <div class="main-buttons accent-color index-page-button cities">
+          <a style="color:#ffffff; margin:10px" href="../how-to-participate.html" class="button home-btn" target="_blank">How to Participate?</a>
+    
+    
+        </div>
+      </section>
 
-  <section  v-if="indexData[0].participate_text" class="light-section topic_desc mcc-desc">
-    <h1>Participate Now!</h1>
-    <div v-html="indexData[0].participate_text"></div>
-  </section>
       <div class="divider" id="team">
         <h1>Team</h1>
       </div>
