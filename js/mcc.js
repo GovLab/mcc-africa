@@ -32,6 +32,7 @@ new Vue({
       indexData: [],
       challengeData: [],
       teamData: [],
+      winnersData:[],
       aboutData: [],
       timelineData: [],
       fadeData: [],
@@ -39,6 +40,8 @@ new Vue({
       updateData: [],
       commsData: [],
       posterData:[],
+      showDesc: false,
+      index_active:0,
       apiURL: 'https://directus.thegovlab.com/mcc-africa',
 
     }
@@ -48,6 +51,7 @@ new Vue({
     this.fetchIndex();
     this.fetchChallenge();
     this.fetchTeam();
+    this.fetchWinners();
     this.fetchAbout();
     this.fetchTime();
     this.fetchUpdates();
@@ -147,17 +151,6 @@ axios.get('https://directus.thegovlab.com/mcc-africa/items/people?fields=*.*').t
 .catch( function(error){ console.error(error);})},
     fetchAbout: function() {
       self = this;
-      // const client = new DirectusSDK({
-      //   url: "https://directus.thegovlab.com/",
-      //   project: "mcc-africa",
-      //   storage: window.localStorage
-      // });
-
-  //     client.getItems(
-  // 'about',
-  // {
-  //   fields: ['*.*']
-  // }
 axios.get('https://directus.thegovlab.com/mcc-africa/items/about?fields=*.*').then( function(data) {
   console.log(data);
   self.aboutData = data.data.data;
@@ -165,18 +158,7 @@ axios.get('https://directus.thegovlab.com/mcc-africa/items/about?fields=*.*').th
 .catch( function(error){ console.error(error);})},
     fetchTime: function(){
       self = this;
-      // const client = new DirectusSDK({
-      //   url: "https://directus.thegovlab.com/",
-      //   project: "mcc-africa",
-      //   storage: window.localStorage
-      // });
 
-//       client.getItems(
-//   'timeline',
-//   {
-//     fields: ['*.*']
-//   }
-// ).then(function(data) {
 axios.get('https://directus.thegovlab.com/mcc-africa/items/timeline?fields=*.*').then( function(data) {
   self.timelineData = data.data.data;
   self.default_timeline_description();
@@ -184,18 +166,7 @@ axios.get('https://directus.thegovlab.com/mcc-africa/items/timeline?fields=*.*')
 .catch( function(error){ console.error(error);})},
     fetchFadetext: function() {
       self = this;
-      // const client = new DirectusSDK({
-      //   url: "https://directus.thegovlab.com/",
-      //   project: "mcc-africa",
-      //   storage: window.localStorage
-      // });
 
-//       client.getItems(
-//   'fadetext',
-//   {
-//     fields: ['*.*']
-//   }
-// ).then(function(data) {
 axios.get('https://directus.thegovlab.com/mcc-africa/items/fadetext?fields=*.*').then( function(data) {
 
   self.fadeData = data.data.data;
@@ -203,37 +174,23 @@ axios.get('https://directus.thegovlab.com/mcc-africa/items/fadetext?fields=*.*')
 .catch( function(error){ console.error(error);})},
     fetchUpdates: function() {
       self = this;
-      // const client = new DirectusSDK({
-      //   url: "https://directus.thegovlab.com/",
-      //   project: "mcc-africa",
-      //   storage: window.localStorage
-      // });
 
-//       client.getItems(
-//   'updates',
-//   {
-//     fields: ['*.*']
-//   }
-// ).then(function(data) {
 axios.get('https://directus.thegovlab.com/mcc-africa/items/updates?fields=*.*').then( function(data) {
 
   self.updateData = data.data.data;
 })
 .catch( function(error){ console.error(error);})},
+fetchWinners: function() {
+  self = this;
+
+axios.get('https://directus.thegovlab.com/mcc-africa/items/winners?fields=*.*,winner_names.people_id.*,city.cities_id.*,challenge.challenge_id.*').then( function(data) {
+
+self.winnersData = data.data.data;
+})
+.catch( function(error){ console.error(error);})},
     fetchComms: function() {
       self = this;
-      // const client = new DirectusSDK({
-      //   url: "https://directus.thegovlab.com/",
-      //   project: "mcc-africa",
-      //   storage: window.localStorage
-      // });
 
-//       client.getItems(
-//   'communications',
-//   {
-//     fields: ['*.*']
-//   }
-// ).then(function(data) {
 axios.get('https://directus.thegovlab.com/mcc-africa/items/communications?fields=*.*,social_media_image.banner_id.banner_upload.data.*').then( function(data) {
   self.commsData = data.data.data;
 })
@@ -259,6 +216,15 @@ axios.get('https://directus.thegovlab.com/mcc-africa/items/communications?fields
       // console.log(element_test);
       // element_test.classList.toggle("active");
 
+    },
+    toggleMessage (index) {
+      
+      this.index_active = index;
+  
+        this.showDesc = !this.showDesc;
+   
+  
+    console.log(this.showDesc);
     }
 }
 });
