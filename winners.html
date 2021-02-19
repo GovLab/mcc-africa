@@ -89,7 +89,7 @@
               <p>{{winner_name.people_id.name}}</p>
             </div>
             <p class="winner-org" v-if="winner.organization_name"><i class="material-icons link">link</i>&nbsp<a
-                :href="winner.organization_link"><span class="underline">{{winner.organization_name}}</span></a></p>
+                :href="winner.organization_link" target="_blank" ><span class="underline">{{winner.organization_name}}</span></a></p>
           </div>
           <div class="winner_challenge" v-for="winner_challenge in winner.challenge">
             <p><b>Challenge:</b>&nbsp<a :href="'topics/' + winner_challenge.challenge_id.slug"><span
@@ -100,7 +100,7 @@
 
               <div class="faq-item">
                 <div class="button-group">
-                  <a :href="winner.video_identifier" class="video-button">
+                  <a :href="winner.video_identifier" target="_blank" class="video-button">
                     Watch the video
                   </a>
                   <button v-on:click="toggleMessage(index)" class="accordion">
@@ -155,7 +155,7 @@
                   <p>{{winner_name.people_id.name}}</p>
                 </div>
                 <p class="winner-org" v-if="winner.organization_name"><i class="material-icons link">link</i>&nbsp<a
-                    :href="winner.organization_link"><span class="underline">{{winner.organization_name}}</span></a></p>
+                    :href="winner.organization_link" target="_blank" ><span class="underline">{{winner.organization_name}}</span></a></p>
               </div>
               <div class="winner_challenge" v-for="winner_challenge in winner.challenge">
                 <p><b>Challenge:</b>&nbsp<a :href="'topics/' + winner_challenge.challenge_id.slug"><span
@@ -166,7 +166,7 @@
 
                   <div class="faq-item">
                     <div class="button-group">
-                      <a :href="winner.video_identifier" class="video-button">
+                      <a :href="winner.video_identifier" target="_blank" class="video-button">
                         Watch the video
                       </a>
                       <button v-on:click="toggleMessage(index)" class="accordion">
