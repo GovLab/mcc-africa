@@ -142,81 +142,78 @@
       <div class="divider" id="team">
         <h1>{{city.name}} Winners</h1>
       </div>
-      
+
       <div class="winner-section">
 
         <template v-for="(winner,index) in winnersData"
           v-if="!winner.multicitychallenge_winner && !winner.special_recognition">
-         <div class="winner-item" v-for="city_name in winner.city" v-if="city_name.cities_id.name == city.name">
-          <div class="winner-content">
+          <div class="winner-item" v-for="city_name in winner.city" v-if="city_name.cities_id.name == city.name">
+            <div class="winner-content">
 
-            <h3> <i class="material-icons cup">emoji_events</i>&nbsp{{winner.title}}</h3>
-            <div class="winner-names">
-              <div v-for="winner_name in winner.winner_names">
-                <p>{{winner_name.people_id.name}}</p>
+              <h3> <i class="material-icons cup">emoji_events</i>&nbsp{{winner.title}}</h3>
+              <div class="winner-names">
+                <div v-for="winner_name in winner.winner_names">
+                  <p>{{winner_name.people_id.name}}</p>
+                </div>
+                <p class="winner-org" v-if="winner.organization_name"><i class="material-icons link">link</i>&nbsp<a
+                    :href="winner.organization_link"><span class="underline">{{winner.organization_name}}</span></a></p>
               </div>
-              <p class="winner-org" v-if="winner.organization_name"><i class="material-icons link">link</i>&nbsp<a
-                  :href="winner.organization_link"><span class="underline">{{winner.organization_name}}</span></a></p>
-            </div>
-            <div class="winner_challenge" v-for="winner_challenge in winner.challenge">
-              <p><b>Challenge:</b>&nbsp<a :href="'topics/' + winner_challenge.challenge_id.slug"><span
-                    class="underline">{{winner_challenge.challenge_id.title}}</span></a></p>
-            </div>
-            <div class="actions-accordion">
-              <div class="faq-section">
+              <div class="winner_challenge" v-for="winner_challenge in winner.challenge">
+                <p><b>Challenge:</b>&nbsp<a :href="'topics/' + winner_challenge.challenge_id.slug"><span
+                      class="underline">{{winner_challenge.challenge_id.title}}</span></a></p>
+              </div>
+              <div class="actions-accordion">
+                <div class="faq-section">
 
-                <div class="faq-item">
-                  <div class="button-group">
-                    <a :href="winner.video_identifier" class="video-button">
-                      Watch the video
-                    </a>
-                    <button v-on:click="toggleMessage(index)" class="accordion">
-                      <h2 v-if="!showDesc || index_active != index">Read more</h2>
-                      <i v-if="!showDesc || index_active != index" class="material-icons down"></i>
-                      <h2 v-if="showDesc && index_active == index">Read less</h2>
-                      <i v-if="showDesc && index_active == index" class="material-icons up-icon"></i>
-                    </button>
+                  <div class="faq-item">
+                    <div class="button-group">
+                      <a :href="winner.video_identifier" class="video-button">
+                        Watch the video
+                      </a>
+                      <button v-on:click="toggleMessage(index)" class="accordion">
+                        <h2 v-if="!showDesc || index_active != index">Read more</h2>
+                        <i v-if="!showDesc || index_active != index" class="material-icons down"></i>
+                        <h2 v-if="showDesc && index_active == index">Read less</h2>
+                        <i v-if="showDesc && index_active == index" class="material-icons up-icon"></i>
+                      </button>
 
-                  </div>
-                  <div v-if="showDesc && index_active == index" class="panel">
-                    <div class="action-text" v-html="winner.description">
+                    </div>
+                    <div v-if="showDesc && index_active == index" class="panel">
+                      <div class="action-text" v-html="winner.description">
 
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
 
+            </div>
           </div>
-        </div>
-      </template>
-      <template v-for="win in winnersData" v-if="win.special_recognition">
-        <template  v-for="city_name in win.city" v-if="city_name.cities_id.name == city.name">
-        {{win.special_recognition}}
-        <div class="winner-item special">
+        </template>
+
+        <div class="winner-item special" v-if="city.name == 'Mutare'">
           <h3>SPECIAL RECOGNITION</h3>
 
 
           <div v-for="(winner,index) in winnersData"
-            v-if="winner.multicitychallenge_winner && winner.special_recognition">
-            <div class="special-recognition">
-              <p><b>{{winner.title}}</b>,
+            v-if="!winner.multicitychallenge_winner && winner.special_recognition">
+            <template v-for="city_name in winner.city" v-if="city_name.cities_id.name == city.name">
+              <div class="special-recognition">
+                <p><b>{{winner.title}}</b>,
 
-                <span v-for="winner_name in winner.winner_names">{{winner_name.people_id.name}}</span>,
-                <span v-if="winner.organization_name">{{winner.organization_name}}</span>
+                  <span v-for="winner_name in winner.winner_names">{{winner_name.people_id.name}}</span>,
+                  <span v-if="winner.organization_name">{{winner.organization_name}}</span>
 
-            </div>
-            </p>
-
+              </div>
+              </p>
+            </template>
           </div>
 
         </div>
-      </template>
-    </template>
       </div>
- 
+
     </div>
-</div>
+  </div>
   <footer>
     <div class="footer-row">
       <div class="footer-col">
