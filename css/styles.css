@@ -2279,6 +2279,10 @@ p.winner-org a{
   justify-content: center;
   align-items: center;
 }
+a.video-button{
+  text-decoration: none;
+  color: var(--grey9);
+}
 .accordion{
   background-color: var(--grey1);
   cursor: pointer;
