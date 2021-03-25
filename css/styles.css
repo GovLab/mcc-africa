@@ -2199,6 +2199,29 @@ color: #ffffff;
 .explainer{
   padding: 2rem 6rem;
 }
+.winners-header-video{
+  display:flex;
+  flex-direction: row;
+}
+.winners-header-video .column{
+  width: 60%;
+}
+.winners-header-video .explainer{
+  padding: 2rem 2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.winners-header-video .explainer p{
+  line-height: 2;
+  font-size:1rem;
+}
+.winners-header-video .site-logo{
+  margin: 40px 80px;
+  max-width: 500px;
+  width:500px;
+}
 .winner-section{
   padding: 2rem 4rem;
 }
@@ -2360,6 +2383,16 @@ color:var(--main-color);
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px){
+  .winners-header-video{
+    display:flex;
+    flex-direction: column;
+  }
+  .winners-header-video .column{
+    width: 100%;
+  }
+  .winners-header-video .site-logo{
+    margin: 0px 80px;
+  }
   .winner-item{
     -webkit-flex: 0 0 100%;
   -ms-flex: 0 0 100%;;
