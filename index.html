@@ -200,7 +200,7 @@
     <section style="z-index:-10" id="topics">
       <div class="topic-row challenge-row">
         <div v-for="challenge in challengeData" class="challenge-column"
-          :style="{ backgroundImage: 'url(' + challenge.image.data.thumbnails[5].url+ ')' }">
+          :style="{ backgroundImage: 'url(' + 'data/assets/' + challenge.image.filename_disk+ ')' }">
           <div class="topic-wrap">
             <p>{{challenge.title}}</p>
             <p><a :href="'topics/' + challenge.slug" class="button more-info">More Information</a></p>
@@ -223,7 +223,7 @@
           </div>
         </div>
         <div v-for="city in indexData" class="topic-column"
-          :style="{ backgroundImage: 'url(' + city.image.data.thumbnails[5].url+ ')' }">
+          :style="{ backgroundImage: 'url(' + 'data/assets/' + city.image.filename_disk+ ')' }">
           <div class="topic-wrap">
             <h1>{{city.name}}<span id="country">,&nbsp{{city.country}}</span></h1>
             <div class="challenge-tags">
