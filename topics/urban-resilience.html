@@ -110,7 +110,8 @@
           <template v-for="city in indexData">
             <div v-for="challenge in city.city_challenge"
               v-if="challenge.city_challenge_id.title == challengeData[1].title" class="topic-column"
-              :style="{ backgroundImage: 'url(' + (city.image.data.thumbnails[5].url.startsWith('assets/') ? '/data/' + city.image.data.thumbnails[5].url : city.image.data.thumbnails[5].url) + ')' }">
+              :style="{ backgroundImage: 'url(' + (city.image.data.thumbnails[5].url.indexOf('assets/') > -1 ? '../data/assets/' + city.image.filename_disk : city.image.data.thumbnails[5].url) + ')' }">
+
               <div class="topic-wrap">
                 <h1>{{city.name}}<span id="country">,&nbsp{{city.country}}</span></h1>
                 <div class="challenge-tags">

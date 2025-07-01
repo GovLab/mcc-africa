@@ -74,7 +74,7 @@
   <div v-for="people in teamData" v-if="people.affiliation=='undp' && people.leadership== false" class="topic-row bio-page">
 
       <div class="team-image">
-        <div class="square" :style="{ backgroundImage: 'url(' + people.image.data.full_url+ ')' }">
+        <div class="square" :style="{ backgroundImage: 'url(' + 'data/assets/' + people.image.filename_disk+ ')' }">
         </div>
         <h4>{{people.name}}</h4>
         <h5>{{people.title}}</h5>
