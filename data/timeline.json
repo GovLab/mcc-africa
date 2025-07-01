@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "status": "published",
+      "title": "Problem definition training programme",
+      "date": "Oct 2020",
+      "order": 1,
+      "description": "Public officials from the participating cities will join an extensive training curriculum focused on how to leverage new technology, data, and the collective wisdom in our communities to better tackle public problems. For 4 weeks they will work together to define the challenges that will be presented to the public.",
+      "active": true
+    },
+    {
+      "id": 2,
+      "status": "published",
+      "title": "Open Challenge: Share your ideas",
+      "date": "Nov 4th - Dec 23rd 2020 (Deadline extended!)",
+      "order": 2,
+      "description": "The participating cities, Accra, Bahir Dar, Kampala, Kano, and Mutare, have defined three shared challenges to solve together with their communities: 1) reducing waste generation and improving waste management; 2) building urban resilience in slums and informal settlements, and; 3) integrating the informal economy. We seek innovative, low-cost ideas to solve these challenges that can be implemented by the cities in the short term. Solutions can include products, services, software, methods, models, public programme designs, and more. Solutions do not need to be novel but need to show how they will work at least in one of the participating cities. The public can also comment on ideas submitted by others.",
+      "active": false
+    },
+    {
+      "id": 4,
+      "status": "published",
+      "title": "Open Challenge: Public Evaluation",
+      "date": "Dec 14th - Dec 23rd 2020",
+      "order": 3,
+      "description": "Ideas will be evaluated by the public using two criteria: Impact and Practicality. The public will be asked to evaluate whether your idea, if implemented, is likely to improve the problem (impact) and can be accomplished quickly (practicality). The public rating and ranking will lead to the shortlisting of the top 20 proposals in each challenge.\n",
+      "active": false
+    },
+    {
+      "id": 5,
+      "status": "published",
+      "title": "Winners announcement",
+      "date": "February 22nd, 2021",
+      "order": 4,
+      "description": "The public rating and ranking will lead to the shortlisting of the top 20 proposals in each challenge. The top 20 rated ideas by the public will be evaluated by a panel of independent experts, comprising city officials, UNDP and GovLab experts. Our judges will evaluate these ideas based on five criteria: 1) Is the solution responsive to the specific challenge/problem?; 2) Is the solution likely to solve that challenge/problem?; 3) Is there evidence to support the solution?; 4) Is the solution feasible?; 5) Can it be implemented in under one year? Winners will be notified by the Multi-City Challenge team via email during January 2021 and will be invited to participate in a virtual recognition ceremony.",
+      "active": false
+    }
+  ],
+  "public": true
+}

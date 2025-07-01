@@ -1,0 +1,2858 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "status": "published",
+      "name": "Accra",
+      "image": {
+        "id": 91,
+        "storage": "local",
+        "private_hash": "7hpc5z8tv84c0s8s",
+        "filename_disk": "fbc6e8e8-96e1-43d2-a647-3e5387232a6c.png",
+        "filename_download": "ghana.png",
+        "title": "Ghana",
+        "type": "image/png",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-08T19:37:57+00:00",
+        "charset": "binary",
+        "filesize": 397355,
+        "width": 998,
+        "height": 665,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "650b2b947bcfc914abd330dce7662263",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/fbc6e8e8-96e1-43d2-a647-3e5387232a6c.png",
+          "url": "/uploads/mcc-africa/originals/fbc6e8e8-96e1-43d2-a647-3e5387232a6c.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/7hpc5z8tv84c0s8s?key=directus-small-crop",
+              "relative_url": "/mcc-africa/assets/7hpc5z8tv84c0s8s?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/7hpc5z8tv84c0s8s?key=directus-small-contain",
+              "relative_url": "/mcc-africa/assets/7hpc5z8tv84c0s8s?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/7hpc5z8tv84c0s8s?key=directus-medium-crop",
+              "relative_url": "/mcc-africa/assets/7hpc5z8tv84c0s8s?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/7hpc5z8tv84c0s8s?key=directus-medium-contain",
+              "relative_url": "/mcc-africa/assets/7hpc5z8tv84c0s8s?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/7hpc5z8tv84c0s8s?key=directus-large-crop",
+              "relative_url": "/mcc-africa/assets/7hpc5z8tv84c0s8s?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/7hpc5z8tv84c0s8s?key=directus-large-contain",
+              "relative_url": "/mcc-africa/assets/7hpc5z8tv84c0s8s?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/7hpc5z8tv84c0s8s?key=thumbnail",
+              "relative_url": "/mcc-africa/assets/7hpc5z8tv84c0s8s?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "country": "Ghana",
+      "slug": "accra.html",
+      "challenge_link": null,
+      "participate_text": "<p>This is your chance to improve the future of your community for the better, and to see how your ideas come to life in Accra. Winners will get the chance to sit-down with UNDP, The Governance Lab, and the participating city councils to study how to implement their idea into a pilot that can be scaled. Besides that, they will receive recognition from New York University.</p>",
+      "city_challenge": [
+        {
+          "id": 12,
+          "cities_id": {
+            "id": 2
+          },
+          "city_challenge_id": {
+            "id": 1,
+            "status": "published",
+            "title": "Reducing waste generation and improving waste management",
+            "description": "Waste generation, both domestic and industrial, continues to increase in tandem with growth in consumption in developing countries. There is a need to develop an integrated approach where the public, private and community sectors work together to develop local solutions promoting sustainable solid waste management. The cities focusing on this topic will work together to define a shared challenge. They will solicit ideas from their own communities to improve waste management.",
+            "image": {
+              "data": {
+                "full_url": "assets/b0065f67-1b53-4a74-aea8-92e688ca91b3.png",
+                "url": "/uploads/mcc-africa/originals/b0065f67-1b53-4a74-aea8-92e688ca91b3.png",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "slug": "waste-management.html",
+            "challenge_link": "https://yp.multicitychallenge.org/group/3646",
+            "challenge_description": "<p>With waste generation expected to grow from 165 million tonnes, in 2020, to 368 million tonnes, by 2040 (UN, 2014), cities urgently need to find innovative strategies to reduce waste generation and improve its management. Increasing population, rural-urban migration, and shifting consumption patterns, are all combining to increase the amount of waste produced, in turn overwhelming the capacity of existing waste collection systems. Companies are also contributing to this issue by manufacturing single use, non-recyclable, and excessive packaging for most consumer and commercial goods. Governments lack efficient infrastructure &nbsp;to collect, sort, and manage waste in a timely manner, which is compounded by residents' low awareness about the need to reduce, separate, recycle and reuse waste. There is prevailing sentiment among populations that&nbsp; any individual effort to address this&nbsp; is futile. Governments and communities lack the legislative and policy tools to enforce good practices and implement innovative new ones. On top of this, a lack of coordination and cooperation between governments, private sector stakeholders, and city residents, exacerbates the problem and inhibits opportunities for meaningful progress. The final result of these factors is massive amounts of waste that can&rsquo;t be adequately processed, resulting in dangerous and harmful outcomes like illegal waste dumps, pollution, infectious diseases, and other public health issues.</p>\n<p>In this multi-city challenge we want the public to share innovative ideas about:</p>\n<ul>\n<li>How can local authorities encourage the community to reduce, separate, recycle, and reuse waste.</li>\n<li>How municipalities can better collaborate with waste collection operators to reduce waste generation and improve waste management.&nbsp;</li>\n<li>Incentives to engage informal waste collectors to professionalize the sector.</li>\n<li>Data sharing strategies to allow local authorities get more data about the situation on the ground to reduce current waste generation and improve waste management.</li>\n<li>Successful, innovative, and sustainable solutions from other places in the world to reduce waste generation and improve waste management in the participating cities.</li>\n</ul>",
+            "problem_brief": {
+              "id": 130
+            }
+          }
+        },
+        {
+          "id": 13,
+          "cities_id": {
+            "id": 2
+          },
+          "city_challenge_id": {
+            "id": 2,
+            "status": "published",
+            "title": "Building urban resilience in slums and informal settlements",
+            "description": "",
+            "image": {
+              "data": {
+                "full_url": "assets/ecfd1fe2-ad5d-4a9e-9b0d-2ba585bf0cdb.png",
+                "url": "/uploads/mcc-africa/originals/ecfd1fe2-ad5d-4a9e-9b0d-2ba585bf0cdb.png",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "slug": "urban-resilience.html",
+            "challenge_link": "https://yp.multicitychallenge.org/group/3647",
+            "challenge_description": "<p>In a context where across Sub-Saharan Africa 62% of families live in slums and informal settlements (World Bank and GFDRR, 2016) and natural disasters are growing due to climate change, we need to find innovative strategies to build urban resilience. Rapid urbanisation and limited investment to upgrade critical infrastructure of cities have contributed to the proliferation of slums and informal settlements. Due to the lack of infrastructure, these communities cannot absorb socio-economic and climatic shocks, further eroding existing and dilapidated infrastructure. Climate change increases the probability of a natural disaster impacting poor urban infrastructure and magnifying the damage and consequences. As cities continue to grow in size, the number of people and economic assets exposed to these hazards will continue to increase. Governments will be expected to address this need and provide resilient and smart infrastructure.</p>\n<p>In this multi-city challenge we want the public to share innovative ideas about:</p>\n<ul>\n<li>How to deal with high levels of rainfall and avoid the risk of flooding.&nbsp;&nbsp;</li>\n<li>Data sharing strategies to allow local authorities get more data about the situation on the ground to improve current urban resilience.</li>\n<li>Public-private collaboration strategies to implement effective prevention and mitigation strategies against natural disasters.&nbsp;</li>\n<li>Successful, innovative, and sustainable solutions from other places in the world to build resilience in the participating cities.&nbsp;</li>\n</ul>",
+            "problem_brief": {
+              "id": 128
+            }
+          }
+        },
+        {
+          "id": 14,
+          "cities_id": {
+            "id": 2
+          },
+          "city_challenge_id": {
+            "id": 3,
+            "status": "published",
+            "title": "Integrating the informal economy",
+            "description": "Digitalisation and the high adoption rate of mobile technology offers an unprecedented opportunity to address eligibility and affordability barriers to formal financial inclusion of people and firms. It also offers a platform to network micro-businesses owners together  with the potential to build dynamic enterprises.The cities focusing on this topic will work together to define a shared challenge. They will solicit ideas from their own communities to digitalise the informal economy.",
+            "image": {
+              "data": {
+                "full_url": "assets/24bc11b1-762e-4600-882a-8dfd8ec2ead6.jpg",
+                "url": "/uploads/mcc-africa/originals/24bc11b1-762e-4600-882a-8dfd8ec2ead6.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "slug": "informal-economy.html",
+            "challenge_link": "https://yp.multicitychallenge.org/group/3645",
+            "challenge_description": "<p>In a context where the informal economy represents 66% of total employment (International Labour Organization, 2020), cities need to find innovative strategies to support workers and businesses in the informal sector that help them escape from poverty and allow the cities to continue positive and equitable economic development. Two of the main barriers inhibiting the transformation of the informal sector are&nbsp; financial exclusion and the lack of regulated, controlled, and safe work environments and markets. Financial institutions often have internal policies that place restrictions on engaging the informal sector and&nbsp; that exclude informal sector workers and businesses from critical wealth-building financial instruments like loans and insurance. This exclusion reinforces&nbsp; cycles of poverty and hinders sustainable and equitable economic development in cities. Not being able to access financial institutions forces informal workers and businesses to rely almost exclusively on very risky informal, short-term funding at high-interest rates. Likewise, without a regulated, controlled, and safe work environment and markets to produce and sell their products, informal vendors are more vulnerable and have fewer opportunities to formalise their businesses. The main population affected by these problems are street vendors and cottage industries that&nbsp; sell goods like prepared food, household items, or clothes and providing services like childcare, elderly care, or house cleaning. Due to their need to operate close to their customers and near high foot traffic, these workers and businesses must be located within the city. &nbsp;</p>\n<p>In this multi-city challenge we want the public to share innovative ideas about:</p>\n<ul>\n<li>How local authorities can build or provide them access to legal, safe, and appropriate work environments that support their businesses.</li>\n<li>Alternative systems for informal sector workers and companies&nbsp; to access new capital and financial services.</li>\n<li>Data sharing strategies to allow local authorities get more data about the situation on the ground to better map, measure, and understand the informal sector and the problems it experiences.</li>\n<li>Successful, innovative, and sustainable solutions from other places in the world to support the&nbsp; informal economy and its workers in the participating cities.</li>\n</ul>",
+            "problem_brief": {
+              "id": 129
+            }
+          }
+        }
+      ],
+      "city_team": [
+        {
+          "people_id": {
+            "id": 31,
+            "status": "published",
+            "name": "Desmond Appiah",
+            "image": {
+              "data": {
+                "full_url": "assets/b8f2238b-da2f-4e16-a85f-f7a150258c3b.jpg",
+                "url": "/uploads/mcc-africa/originals/b8f2238b-da2f-4e16-a85f-f7a150258c3b.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/tvy05ovonhwcos8s?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/tvy05ovonhwcos8s?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/tvy05ovonhwcos8s?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/tvy05ovonhwcos8s?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/tvy05ovonhwcos8s?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/tvy05ovonhwcos8s?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/tvy05ovonhwcos8s?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/tvy05ovonhwcos8s?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/tvy05ovonhwcos8s?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/tvy05ovonhwcos8s?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/tvy05ovonhwcos8s?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/tvy05ovonhwcos8s?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/tvy05ovonhwcos8s?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/tvy05ovonhwcos8s?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Sustainability and Resilience Advisor, Accra Mayor's Office",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": true,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 32,
+            "status": "published",
+            "name": "Victor Kotey",
+            "image": {
+              "data": {
+                "full_url": "assets/0b315c39-735a-405f-a6f1-33cd148c45ad.jpg",
+                "url": "/uploads/mcc-africa/originals/0b315c39-735a-405f-a6f1-33cd148c45ad.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/gt0vqvrv4bw4o4s4?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Deputy head of department in charge of solid waste, Waste Management Department, Accra",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 33,
+            "status": "published",
+            "name": "Enoch Adu",
+            "image": {
+              "data": {
+                "full_url": "assets/7946c40a-f9d7-4494-bc95-d9de754db463.png",
+                "url": "/uploads/mcc-africa/originals/7946c40a-f9d7-4494-bc95-d9de754db463.png",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fybbw7e1i348kosk?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/fybbw7e1i348kosk?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fybbw7e1i348kosk?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/fybbw7e1i348kosk?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fybbw7e1i348kosk?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/fybbw7e1i348kosk?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fybbw7e1i348kosk?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/fybbw7e1i348kosk?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fybbw7e1i348kosk?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/fybbw7e1i348kosk?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fybbw7e1i348kosk?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/fybbw7e1i348kosk?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fybbw7e1i348kosk?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/fybbw7e1i348kosk?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Assistant programmer, Management Information System/I.C.T Unit Accra",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 34,
+            "status": "published",
+            "name": "Florence Kuukyi",
+            "image": {
+              "data": {
+                "full_url": "assets/be8e970e-61d3-4070-b460-3bb09ae9b68c.png",
+                "url": "/uploads/mcc-africa/originals/be8e970e-61d3-4070-b460-3bb09ae9b68c.png",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/pg2s3xqf5r4k00kg?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/pg2s3xqf5r4k00kg?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/pg2s3xqf5r4k00kg?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/pg2s3xqf5r4k00kg?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/pg2s3xqf5r4k00kg?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/pg2s3xqf5r4k00kg?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/pg2s3xqf5r4k00kg?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/pg2s3xqf5r4k00kg?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/pg2s3xqf5r4k00kg?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/pg2s3xqf5r4k00kg?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/pg2s3xqf5r4k00kg?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/pg2s3xqf5r4k00kg?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/pg2s3xqf5r4k00kg?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/pg2s3xqf5r4k00kg?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Director of Public Health Department",
+            "affiliation": "Public Health Department, Accra",
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 37,
+            "status": "published",
+            "name": "Engr. Solomon Noi-Adzeman",
+            "image": {
+              "data": {
+                "full_url": "assets/5acbeec4-1bfc-4bac-9fce-64f9ac7b31ed.jpg",
+                "url": "/uploads/mcc-africa/originals/5acbeec4-1bfc-4bac-9fce-64f9ac7b31ed.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/6d4rc0syey4owskc?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/6d4rc0syey4owskc?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/6d4rc0syey4owskc?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/6d4rc0syey4owskc?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/6d4rc0syey4owskc?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/6d4rc0syey4owskc?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/6d4rc0syey4owskc?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/6d4rc0syey4owskc?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/6d4rc0syey4owskc?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/6d4rc0syey4owskc?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/6d4rc0syey4owskc?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/6d4rc0syey4owskc?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/6d4rc0syey4owskc?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/6d4rc0syey4owskc?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Director of Waste Management Department of the Accra Metropolitan Assembly",
+            "affiliation": "",
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": "Engr. Solomon Noi-Adzeman is currently the director of Waste Management Department of the Accra Metropolitan Assembly with over 19 years of working experience in the public service. Solomon is a Sanitation Expert with expertise in municipal water infrastructure and solid waste management. Graduated from the UNESCO-IHE Delft, in the Netherlands and the KNUST-Ghana, with double Master’s Degree in Sanitary Engineering and Water Supply & Environmental Sanitation respectively. Solomon is an experienced Sanitary Engineer with excellent client and project management skills, action-oriented with strong ability to communicate effectively with technology, executive and business audiences. Solomon is inspired daily by his wife Doris and their two daughters. In his free time, Solomon likes to watch soccer, explore nature and driving."
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "status": "published",
+      "name": "Kampala",
+      "image": {
+        "id": 92,
+        "storage": "local",
+        "private_hash": "mrcdt5o5f0g4cgc8",
+        "filename_disk": "9d9a8d2a-5174-4448-8d57-038370ae147d.png",
+        "filename_download": "uganda.png",
+        "title": "Uganda",
+        "type": "image/png",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-08T19:38:48+00:00",
+        "charset": "binary",
+        "filesize": 402175,
+        "width": 1002,
+        "height": 666,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "91ea71c0177eda8d7ad6241ae0db74b3",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/9d9a8d2a-5174-4448-8d57-038370ae147d.png",
+          "url": "/uploads/mcc-africa/originals/9d9a8d2a-5174-4448-8d57-038370ae147d.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=directus-small-crop",
+              "relative_url": "/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=directus-small-contain",
+              "relative_url": "/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=directus-medium-crop",
+              "relative_url": "/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=directus-medium-contain",
+              "relative_url": "/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=directus-large-crop",
+              "relative_url": "/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=directus-large-contain",
+              "relative_url": "/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=thumbnail",
+              "relative_url": "/mcc-africa/assets/mrcdt5o5f0g4cgc8?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "country": "Uganda",
+      "slug": "kampala.html",
+      "challenge_link": null,
+      "participate_text": "<p>This is your chance to improve the future of your community for the better, and to see how your ideas come to life in Kampala. Winners will get the chance to sit-down with UNDP, The Governance Lab, and the participating city councils to study how to implement their idea into a pilot that can be scaled. Besides that, they will receive recognition from New York University.</p>",
+      "city_challenge": [
+        {
+          "id": 15,
+          "cities_id": {
+            "id": 3
+          },
+          "city_challenge_id": {
+            "id": 2,
+            "status": "published",
+            "title": "Building urban resilience in slums and informal settlements",
+            "description": "",
+            "image": {
+              "data": {
+                "full_url": "assets/ecfd1fe2-ad5d-4a9e-9b0d-2ba585bf0cdb.png",
+                "url": "/uploads/mcc-africa/originals/ecfd1fe2-ad5d-4a9e-9b0d-2ba585bf0cdb.png",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "slug": "urban-resilience.html",
+            "challenge_link": "https://yp.multicitychallenge.org/group/3647",
+            "challenge_description": "<p>In a context where across Sub-Saharan Africa 62% of families live in slums and informal settlements (World Bank and GFDRR, 2016) and natural disasters are growing due to climate change, we need to find innovative strategies to build urban resilience. Rapid urbanisation and limited investment to upgrade critical infrastructure of cities have contributed to the proliferation of slums and informal settlements. Due to the lack of infrastructure, these communities cannot absorb socio-economic and climatic shocks, further eroding existing and dilapidated infrastructure. Climate change increases the probability of a natural disaster impacting poor urban infrastructure and magnifying the damage and consequences. As cities continue to grow in size, the number of people and economic assets exposed to these hazards will continue to increase. Governments will be expected to address this need and provide resilient and smart infrastructure.</p>\n<p>In this multi-city challenge we want the public to share innovative ideas about:</p>\n<ul>\n<li>How to deal with high levels of rainfall and avoid the risk of flooding.&nbsp;&nbsp;</li>\n<li>Data sharing strategies to allow local authorities get more data about the situation on the ground to improve current urban resilience.</li>\n<li>Public-private collaboration strategies to implement effective prevention and mitigation strategies against natural disasters.&nbsp;</li>\n<li>Successful, innovative, and sustainable solutions from other places in the world to build resilience in the participating cities.&nbsp;</li>\n</ul>",
+            "problem_brief": {
+              "id": 128
+            }
+          }
+        },
+        {
+          "id": 16,
+          "cities_id": {
+            "id": 3
+          },
+          "city_challenge_id": {
+            "id": 3,
+            "status": "published",
+            "title": "Integrating the informal economy",
+            "description": "Digitalisation and the high adoption rate of mobile technology offers an unprecedented opportunity to address eligibility and affordability barriers to formal financial inclusion of people and firms. It also offers a platform to network micro-businesses owners together  with the potential to build dynamic enterprises.The cities focusing on this topic will work together to define a shared challenge. They will solicit ideas from their own communities to digitalise the informal economy.",
+            "image": {
+              "data": {
+                "full_url": "assets/24bc11b1-762e-4600-882a-8dfd8ec2ead6.jpg",
+                "url": "/uploads/mcc-africa/originals/24bc11b1-762e-4600-882a-8dfd8ec2ead6.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "slug": "informal-economy.html",
+            "challenge_link": "https://yp.multicitychallenge.org/group/3645",
+            "challenge_description": "<p>In a context where the informal economy represents 66% of total employment (International Labour Organization, 2020), cities need to find innovative strategies to support workers and businesses in the informal sector that help them escape from poverty and allow the cities to continue positive and equitable economic development. Two of the main barriers inhibiting the transformation of the informal sector are&nbsp; financial exclusion and the lack of regulated, controlled, and safe work environments and markets. Financial institutions often have internal policies that place restrictions on engaging the informal sector and&nbsp; that exclude informal sector workers and businesses from critical wealth-building financial instruments like loans and insurance. This exclusion reinforces&nbsp; cycles of poverty and hinders sustainable and equitable economic development in cities. Not being able to access financial institutions forces informal workers and businesses to rely almost exclusively on very risky informal, short-term funding at high-interest rates. Likewise, without a regulated, controlled, and safe work environment and markets to produce and sell their products, informal vendors are more vulnerable and have fewer opportunities to formalise their businesses. The main population affected by these problems are street vendors and cottage industries that&nbsp; sell goods like prepared food, household items, or clothes and providing services like childcare, elderly care, or house cleaning. Due to their need to operate close to their customers and near high foot traffic, these workers and businesses must be located within the city. &nbsp;</p>\n<p>In this multi-city challenge we want the public to share innovative ideas about:</p>\n<ul>\n<li>How local authorities can build or provide them access to legal, safe, and appropriate work environments that support their businesses.</li>\n<li>Alternative systems for informal sector workers and companies&nbsp; to access new capital and financial services.</li>\n<li>Data sharing strategies to allow local authorities get more data about the situation on the ground to better map, measure, and understand the informal sector and the problems it experiences.</li>\n<li>Successful, innovative, and sustainable solutions from other places in the world to support the&nbsp; informal economy and its workers in the participating cities.</li>\n</ul>",
+            "problem_brief": {
+              "id": 129
+            }
+          }
+        }
+      ],
+      "city_team": [
+        {
+          "people_id": {
+            "id": 9,
+            "status": "published",
+            "name": "Martin Ssekajja",
+            "image": {
+              "data": {
+                "full_url": "assets/f37b908c-8a4e-4129-9178-a7cb815b8210.jpg",
+                "url": "/uploads/mcc-africa/originals/f37b908c-8a4e-4129-9178-a7cb815b8210.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kvybpk440a8sg00w?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/kvybpk440a8sg00w?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kvybpk440a8sg00w?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/kvybpk440a8sg00w?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kvybpk440a8sg00w?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/kvybpk440a8sg00w?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kvybpk440a8sg00w?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/kvybpk440a8sg00w?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kvybpk440a8sg00w?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/kvybpk440a8sg00w?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kvybpk440a8sg00w?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/kvybpk440a8sg00w?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kvybpk440a8sg00w?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/kvybpk440a8sg00w?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Deputy Director, Information, Communications and Technology, Kampala City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": true,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 10,
+            "status": "published",
+            "name": "Esau Galukande",
+            "image": {
+              "data": {
+                "full_url": "assets/252dc93f-1156-4e41-82aa-766258ab5fbd.jpg",
+                "url": "/uploads/mcc-africa/originals/252dc93f-1156-4e41-82aa-766258ab5fbd.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ngw5tadhpy8gwcgg?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/ngw5tadhpy8gwcgg?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ngw5tadhpy8gwcgg?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/ngw5tadhpy8gwcgg?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ngw5tadhpy8gwcgg?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/ngw5tadhpy8gwcgg?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ngw5tadhpy8gwcgg?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/ngw5tadhpy8gwcgg?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ngw5tadhpy8gwcgg?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/ngw5tadhpy8gwcgg?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ngw5tadhpy8gwcgg?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/ngw5tadhpy8gwcgg?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ngw5tadhpy8gwcgg?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/ngw5tadhpy8gwcgg?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Deputy Director,  Gender and community services, Production and Marketing, Kampala City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 11,
+            "status": "published",
+            "name": "Patrick Musoke",
+            "image": {
+              "data": {
+                "full_url": "assets/341221af-b1df-48d8-961e-03bfd630b4fd.jpg",
+                "url": "/uploads/mcc-africa/originals/341221af-b1df-48d8-961e-03bfd630b4fd.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/1p2ba0vpip0k04ok?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/1p2ba0vpip0k04ok?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/1p2ba0vpip0k04ok?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/1p2ba0vpip0k04ok?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/1p2ba0vpip0k04ok?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/1p2ba0vpip0k04ok?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/1p2ba0vpip0k04ok?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/1p2ba0vpip0k04ok?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/1p2ba0vpip0k04ok?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/1p2ba0vpip0k04ok?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/1p2ba0vpip0k04ok?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/1p2ba0vpip0k04ok?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/1p2ba0vpip0k04ok?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/1p2ba0vpip0k04ok?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Deputy Director, Strategy Management and Business Development, Kampala City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 12,
+            "status": "published",
+            "name": "Robert Kyukyu",
+            "image": {
+              "data": {
+                "full_url": "assets/56a7584c-3f1b-4ecb-af02-a456f61af357.jpg",
+                "url": "/uploads/mcc-africa/originals/56a7584c-3f1b-4ecb-af02-a456f61af357.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/je58hbeva20o0k8c?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/je58hbeva20o0k8c?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/je58hbeva20o0k8c?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/je58hbeva20o0k8c?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/je58hbeva20o0k8c?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/je58hbeva20o0k8c?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/je58hbeva20o0k8c?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/je58hbeva20o0k8c?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/je58hbeva20o0k8c?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/je58hbeva20o0k8c?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/je58hbeva20o0k8c?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/je58hbeva20o0k8c?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/je58hbeva20o0k8c?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/je58hbeva20o0k8c?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Manager, Strategy Management and Business Development, Kampala City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 13,
+            "status": "published",
+            "name": "Ssanyu Bernadette",
+            "image": {
+              "data": {
+                "full_url": "assets/9a6c2c56-5b55-4b56-a154-85ec6dc8ec89.jpg",
+                "url": "/uploads/mcc-africa/originals/9a6c2c56-5b55-4b56-a154-85ec6dc8ec89.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/q80bqv8j4xco84ks?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/q80bqv8j4xco84ks?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/q80bqv8j4xco84ks?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/q80bqv8j4xco84ks?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/q80bqv8j4xco84ks?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/q80bqv8j4xco84ks?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/q80bqv8j4xco84ks?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/q80bqv8j4xco84ks?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/q80bqv8j4xco84ks?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/q80bqv8j4xco84ks?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/q80bqv8j4xco84ks?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/q80bqv8j4xco84ks?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/q80bqv8j4xco84ks?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/q80bqv8j4xco84ks?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Manager, Physical Planning, Kampala City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 14,
+            "status": "published",
+            "name": "Deogratiuss Kiryowa",
+            "image": {
+              "data": {
+                "full_url": "assets/e5846c77-8ca1-4844-b03a-174a56df6c9e.jpg",
+                "url": "/uploads/mcc-africa/originals/e5846c77-8ca1-4844-b03a-174a56df6c9e.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/2gpiyzrp4hwks48k?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/2gpiyzrp4hwks48k?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/2gpiyzrp4hwks48k?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/2gpiyzrp4hwks48k?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/2gpiyzrp4hwks48k?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/2gpiyzrp4hwks48k?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/2gpiyzrp4hwks48k?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/2gpiyzrp4hwks48k?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/2gpiyzrp4hwks48k?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/2gpiyzrp4hwks48k?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/2gpiyzrp4hwks48k?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/2gpiyzrp4hwks48k?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/2gpiyzrp4hwks48k?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/2gpiyzrp4hwks48k?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Program officer, Strategy Management and Business Development, Kampala City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "status": "published",
+      "name": "Kano",
+      "image": {
+        "id": 145,
+        "storage": "local",
+        "private_hash": "9ah2fktglpookwg8",
+        "filename_disk": "16ab6683-9675-4da5-bf02-4544f0868c38.jpg",
+        "filename_download": "KANO.jpg",
+        "title": "Kano",
+        "type": "image/jpeg",
+        "uploaded_by": 5,
+        "uploaded_on": "2020-11-30T15:32:20+00:00",
+        "charset": "binary",
+        "filesize": 49980,
+        "width": 665,
+        "height": 461,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "4200a4a81b2beb76896f55660f85fe12",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/16ab6683-9675-4da5-bf02-4544f0868c38.jpg",
+          "url": "/uploads/mcc-africa/originals/16ab6683-9675-4da5-bf02-4544f0868c38.jpg",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/9ah2fktglpookwg8?key=directus-small-crop",
+              "relative_url": "/mcc-africa/assets/9ah2fktglpookwg8?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/9ah2fktglpookwg8?key=directus-small-contain",
+              "relative_url": "/mcc-africa/assets/9ah2fktglpookwg8?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/9ah2fktglpookwg8?key=directus-medium-crop",
+              "relative_url": "/mcc-africa/assets/9ah2fktglpookwg8?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/9ah2fktglpookwg8?key=directus-medium-contain",
+              "relative_url": "/mcc-africa/assets/9ah2fktglpookwg8?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/9ah2fktglpookwg8?key=directus-large-crop",
+              "relative_url": "/mcc-africa/assets/9ah2fktglpookwg8?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/9ah2fktglpookwg8?key=directus-large-contain",
+              "relative_url": "/mcc-africa/assets/9ah2fktglpookwg8?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/9ah2fktglpookwg8?key=thumbnail",
+              "relative_url": "/mcc-africa/assets/9ah2fktglpookwg8?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "country": "Nigeria",
+      "slug": "kano.html",
+      "challenge_link": null,
+      "participate_text": "<p>This is your chance to improve the future of your community for the better, and to see how your ideas come to life in Kano. Winners will get the chance to sit-down with UNDP, The Governance Lab, and the participating city councils to study how to implement their idea into a pilot that can be scaled. Besides that, they will receive recognition from New York University.</p>",
+      "city_challenge": [
+        {
+          "id": 17,
+          "cities_id": {
+            "id": 4
+          },
+          "city_challenge_id": {
+            "id": 1,
+            "status": "published",
+            "title": "Reducing waste generation and improving waste management",
+            "description": "Waste generation, both domestic and industrial, continues to increase in tandem with growth in consumption in developing countries. There is a need to develop an integrated approach where the public, private and community sectors work together to develop local solutions promoting sustainable solid waste management. The cities focusing on this topic will work together to define a shared challenge. They will solicit ideas from their own communities to improve waste management.",
+            "image": {
+              "data": {
+                "full_url": "assets/b0065f67-1b53-4a74-aea8-92e688ca91b3.png",
+                "url": "/uploads/mcc-africa/originals/b0065f67-1b53-4a74-aea8-92e688ca91b3.png",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "slug": "waste-management.html",
+            "challenge_link": "https://yp.multicitychallenge.org/group/3646",
+            "challenge_description": "<p>With waste generation expected to grow from 165 million tonnes, in 2020, to 368 million tonnes, by 2040 (UN, 2014), cities urgently need to find innovative strategies to reduce waste generation and improve its management. Increasing population, rural-urban migration, and shifting consumption patterns, are all combining to increase the amount of waste produced, in turn overwhelming the capacity of existing waste collection systems. Companies are also contributing to this issue by manufacturing single use, non-recyclable, and excessive packaging for most consumer and commercial goods. Governments lack efficient infrastructure &nbsp;to collect, sort, and manage waste in a timely manner, which is compounded by residents' low awareness about the need to reduce, separate, recycle and reuse waste. There is prevailing sentiment among populations that&nbsp; any individual effort to address this&nbsp; is futile. Governments and communities lack the legislative and policy tools to enforce good practices and implement innovative new ones. On top of this, a lack of coordination and cooperation between governments, private sector stakeholders, and city residents, exacerbates the problem and inhibits opportunities for meaningful progress. The final result of these factors is massive amounts of waste that can&rsquo;t be adequately processed, resulting in dangerous and harmful outcomes like illegal waste dumps, pollution, infectious diseases, and other public health issues.</p>\n<p>In this multi-city challenge we want the public to share innovative ideas about:</p>\n<ul>\n<li>How can local authorities encourage the community to reduce, separate, recycle, and reuse waste.</li>\n<li>How municipalities can better collaborate with waste collection operators to reduce waste generation and improve waste management.&nbsp;</li>\n<li>Incentives to engage informal waste collectors to professionalize the sector.</li>\n<li>Data sharing strategies to allow local authorities get more data about the situation on the ground to reduce current waste generation and improve waste management.</li>\n<li>Successful, innovative, and sustainable solutions from other places in the world to reduce waste generation and improve waste management in the participating cities.</li>\n</ul>",
+            "problem_brief": {
+              "id": 130
+            }
+          }
+        },
+        {
+          "id": 18,
+          "cities_id": {
+            "id": 4
+          },
+          "city_challenge_id": {
+            "id": 2,
+            "status": "published",
+            "title": "Building urban resilience in slums and informal settlements",
+            "description": "",
+            "image": {
+              "data": {
+                "full_url": "assets/ecfd1fe2-ad5d-4a9e-9b0d-2ba585bf0cdb.png",
+                "url": "/uploads/mcc-africa/originals/ecfd1fe2-ad5d-4a9e-9b0d-2ba585bf0cdb.png",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "slug": "urban-resilience.html",
+            "challenge_link": "https://yp.multicitychallenge.org/group/3647",
+            "challenge_description": "<p>In a context where across Sub-Saharan Africa 62% of families live in slums and informal settlements (World Bank and GFDRR, 2016) and natural disasters are growing due to climate change, we need to find innovative strategies to build urban resilience. Rapid urbanisation and limited investment to upgrade critical infrastructure of cities have contributed to the proliferation of slums and informal settlements. Due to the lack of infrastructure, these communities cannot absorb socio-economic and climatic shocks, further eroding existing and dilapidated infrastructure. Climate change increases the probability of a natural disaster impacting poor urban infrastructure and magnifying the damage and consequences. As cities continue to grow in size, the number of people and economic assets exposed to these hazards will continue to increase. Governments will be expected to address this need and provide resilient and smart infrastructure.</p>\n<p>In this multi-city challenge we want the public to share innovative ideas about:</p>\n<ul>\n<li>How to deal with high levels of rainfall and avoid the risk of flooding.&nbsp;&nbsp;</li>\n<li>Data sharing strategies to allow local authorities get more data about the situation on the ground to improve current urban resilience.</li>\n<li>Public-private collaboration strategies to implement effective prevention and mitigation strategies against natural disasters.&nbsp;</li>\n<li>Successful, innovative, and sustainable solutions from other places in the world to build resilience in the participating cities.&nbsp;</li>\n</ul>",
+            "problem_brief": {
+              "id": 128
+            }
+          }
+        }
+      ],
+      "city_team": [
+        {
+          "people_id": {
+            "id": 15,
+            "status": "published",
+            "name": "Habib Yahaya Hotoro",
+            "image": {
+              "data": {
+                "full_url": "assets/c76de279-5d8e-46d5-b326-5f77b7da27f1.jpg",
+                "url": "/uploads/mcc-africa/originals/c76de279-5d8e-46d5-b326-5f77b7da27f1.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/89nxergzqls880s4?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/89nxergzqls880s4?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/89nxergzqls880s4?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/89nxergzqls880s4?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/89nxergzqls880s4?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/89nxergzqls880s4?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/89nxergzqls880s4?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/89nxergzqls880s4?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/89nxergzqls880s4?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/89nxergzqls880s4?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/89nxergzqls880s4?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/89nxergzqls880s4?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/89nxergzqls880s4?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/89nxergzqls880s4?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Special Adviser on SDGs, Kano City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": true,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 16,
+            "status": "published",
+            "name": "Hadiza Ahmed Tukur",
+            "image": {
+              "data": {
+                "full_url": "assets/fc862230-4139-4213-8af6-395fb203fda6.jpg",
+                "url": "/uploads/mcc-africa/originals/fc862230-4139-4213-8af6-395fb203fda6.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ntvw8otj9f4ss4ss?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/ntvw8otj9f4ss4ss?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ntvw8otj9f4ss4ss?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/ntvw8otj9f4ss4ss?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ntvw8otj9f4ss4ss?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/ntvw8otj9f4ss4ss?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ntvw8otj9f4ss4ss?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/ntvw8otj9f4ss4ss?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ntvw8otj9f4ss4ss?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/ntvw8otj9f4ss4ss?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ntvw8otj9f4ss4ss?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/ntvw8otj9f4ss4ss?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ntvw8otj9f4ss4ss?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/ntvw8otj9f4ss4ss?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Managing Director, KHEDCO, Kano City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 17,
+            "status": "published",
+            "name": "Hussam Musa Karry",
+            "image": {
+              "data": {
+                "full_url": "assets/711fbf6e-1e44-437f-9ab8-44319151416f.jpg",
+                "url": "/uploads/mcc-africa/originals/711fbf6e-1e44-437f-9ab8-44319151416f.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/eov4z9p2s14oowgg?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/eov4z9p2s14oowgg?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/eov4z9p2s14oowgg?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/eov4z9p2s14oowgg?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/eov4z9p2s14oowgg?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/eov4z9p2s14oowgg?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/eov4z9p2s14oowgg?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/eov4z9p2s14oowgg?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/eov4z9p2s14oowgg?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/eov4z9p2s14oowgg?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/eov4z9p2s14oowgg?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/eov4z9p2s14oowgg?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/eov4z9p2s14oowgg?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/eov4z9p2s14oowgg?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Environmental Engineer, Kano City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 18,
+            "status": "published",
+            "name": "Kabiru Getso",
+            "image": {
+              "data": {
+                "full_url": "assets/a72f1e57-6274-47e0-a77e-3cbdf92c2836.jpg",
+                "url": "/uploads/mcc-africa/originals/a72f1e57-6274-47e0-a77e-3cbdf92c2836.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5ahv29vz0l8goko4?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/5ahv29vz0l8goko4?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5ahv29vz0l8goko4?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/5ahv29vz0l8goko4?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5ahv29vz0l8goko4?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/5ahv29vz0l8goko4?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5ahv29vz0l8goko4?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/5ahv29vz0l8goko4?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5ahv29vz0l8goko4?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/5ahv29vz0l8goko4?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5ahv29vz0l8goko4?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/5ahv29vz0l8goko4?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5ahv29vz0l8goko4?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/5ahv29vz0l8goko4?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Commissioner for Environment, Kano State Ministry of Environment, Kano City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 19,
+            "status": "published",
+            "name": "Abdullahi Mu'azu Gwarzo",
+            "image": {
+              "data": {
+                "full_url": "assets/f7f0129e-af87-4c1d-b064-9a0abc46fca7.jpg",
+                "url": "/uploads/mcc-africa/originals/f7f0129e-af87-4c1d-b064-9a0abc46fca7.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/nnx74rl2uus8k4g8?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/nnx74rl2uus8k4g8?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/nnx74rl2uus8k4g8?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/nnx74rl2uus8k4g8?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/nnx74rl2uus8k4g8?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/nnx74rl2uus8k4g8?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/nnx74rl2uus8k4g8?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/nnx74rl2uus8k4g8?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/nnx74rl2uus8k4g8?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/nnx74rl2uus8k4g8?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/nnx74rl2uus8k4g8?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/nnx74rl2uus8k4g8?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/nnx74rl2uus8k4g8?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/nnx74rl2uus8k4g8?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Managing Director Refuse Management & Sanitation Board, Kano City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "status": "published",
+      "name": "Mutare",
+      "image": {
+        "id": 94,
+        "storage": "local",
+        "private_hash": "pj72s0a6taso84gk",
+        "filename_disk": "8f54e648-658d-42d5-8f0b-5dc7dbfb0d41.png",
+        "filename_download": "zimbabwe.png",
+        "title": "Zimbabwe",
+        "type": "image/png",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-08T19:39:08+00:00",
+        "charset": "binary",
+        "filesize": 373729,
+        "width": 999,
+        "height": 667,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "a3d32c5da185367e9e9f587c48f08582",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/8f54e648-658d-42d5-8f0b-5dc7dbfb0d41.png",
+          "url": "/uploads/mcc-africa/originals/8f54e648-658d-42d5-8f0b-5dc7dbfb0d41.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/pj72s0a6taso84gk?key=directus-small-crop",
+              "relative_url": "/mcc-africa/assets/pj72s0a6taso84gk?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/pj72s0a6taso84gk?key=directus-small-contain",
+              "relative_url": "/mcc-africa/assets/pj72s0a6taso84gk?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/pj72s0a6taso84gk?key=directus-medium-crop",
+              "relative_url": "/mcc-africa/assets/pj72s0a6taso84gk?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/pj72s0a6taso84gk?key=directus-medium-contain",
+              "relative_url": "/mcc-africa/assets/pj72s0a6taso84gk?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/pj72s0a6taso84gk?key=directus-large-crop",
+              "relative_url": "/mcc-africa/assets/pj72s0a6taso84gk?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/pj72s0a6taso84gk?key=directus-large-contain",
+              "relative_url": "/mcc-africa/assets/pj72s0a6taso84gk?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/pj72s0a6taso84gk?key=thumbnail",
+              "relative_url": "/mcc-africa/assets/pj72s0a6taso84gk?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "country": "Zimbabwe",
+      "slug": "mutare.html",
+      "challenge_link": null,
+      "participate_text": "<p>This is your chance to improve the future of your community for the better, and to see how your ideas come to life in Mutare. Winners will get the chance to sit-down with UNDP, The Governance Lab, and the participating city councils to study how to implement their idea into a pilot that can be scaled. Besides that, they will receive recognition from New York University.</p>",
+      "city_challenge": [
+        {
+          "id": 19,
+          "cities_id": {
+            "id": 5
+          },
+          "city_challenge_id": {
+            "id": 2,
+            "status": "published",
+            "title": "Building urban resilience in slums and informal settlements",
+            "description": "",
+            "image": {
+              "data": {
+                "full_url": "assets/ecfd1fe2-ad5d-4a9e-9b0d-2ba585bf0cdb.png",
+                "url": "/uploads/mcc-africa/originals/ecfd1fe2-ad5d-4a9e-9b0d-2ba585bf0cdb.png",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "slug": "urban-resilience.html",
+            "challenge_link": "https://yp.multicitychallenge.org/group/3647",
+            "challenge_description": "<p>In a context where across Sub-Saharan Africa 62% of families live in slums and informal settlements (World Bank and GFDRR, 2016) and natural disasters are growing due to climate change, we need to find innovative strategies to build urban resilience. Rapid urbanisation and limited investment to upgrade critical infrastructure of cities have contributed to the proliferation of slums and informal settlements. Due to the lack of infrastructure, these communities cannot absorb socio-economic and climatic shocks, further eroding existing and dilapidated infrastructure. Climate change increases the probability of a natural disaster impacting poor urban infrastructure and magnifying the damage and consequences. As cities continue to grow in size, the number of people and economic assets exposed to these hazards will continue to increase. Governments will be expected to address this need and provide resilient and smart infrastructure.</p>\n<p>In this multi-city challenge we want the public to share innovative ideas about:</p>\n<ul>\n<li>How to deal with high levels of rainfall and avoid the risk of flooding.&nbsp;&nbsp;</li>\n<li>Data sharing strategies to allow local authorities get more data about the situation on the ground to improve current urban resilience.</li>\n<li>Public-private collaboration strategies to implement effective prevention and mitigation strategies against natural disasters.&nbsp;</li>\n<li>Successful, innovative, and sustainable solutions from other places in the world to build resilience in the participating cities.&nbsp;</li>\n</ul>",
+            "problem_brief": {
+              "id": 128
+            }
+          }
+        },
+        {
+          "id": 20,
+          "cities_id": {
+            "id": 5
+          },
+          "city_challenge_id": {
+            "id": 3,
+            "status": "published",
+            "title": "Integrating the informal economy",
+            "description": "Digitalisation and the high adoption rate of mobile technology offers an unprecedented opportunity to address eligibility and affordability barriers to formal financial inclusion of people and firms. It also offers a platform to network micro-businesses owners together  with the potential to build dynamic enterprises.The cities focusing on this topic will work together to define a shared challenge. They will solicit ideas from their own communities to digitalise the informal economy.",
+            "image": {
+              "data": {
+                "full_url": "assets/24bc11b1-762e-4600-882a-8dfd8ec2ead6.jpg",
+                "url": "/uploads/mcc-africa/originals/24bc11b1-762e-4600-882a-8dfd8ec2ead6.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "slug": "informal-economy.html",
+            "challenge_link": "https://yp.multicitychallenge.org/group/3645",
+            "challenge_description": "<p>In a context where the informal economy represents 66% of total employment (International Labour Organization, 2020), cities need to find innovative strategies to support workers and businesses in the informal sector that help them escape from poverty and allow the cities to continue positive and equitable economic development. Two of the main barriers inhibiting the transformation of the informal sector are&nbsp; financial exclusion and the lack of regulated, controlled, and safe work environments and markets. Financial institutions often have internal policies that place restrictions on engaging the informal sector and&nbsp; that exclude informal sector workers and businesses from critical wealth-building financial instruments like loans and insurance. This exclusion reinforces&nbsp; cycles of poverty and hinders sustainable and equitable economic development in cities. Not being able to access financial institutions forces informal workers and businesses to rely almost exclusively on very risky informal, short-term funding at high-interest rates. Likewise, without a regulated, controlled, and safe work environment and markets to produce and sell their products, informal vendors are more vulnerable and have fewer opportunities to formalise their businesses. The main population affected by these problems are street vendors and cottage industries that&nbsp; sell goods like prepared food, household items, or clothes and providing services like childcare, elderly care, or house cleaning. Due to their need to operate close to their customers and near high foot traffic, these workers and businesses must be located within the city. &nbsp;</p>\n<p>In this multi-city challenge we want the public to share innovative ideas about:</p>\n<ul>\n<li>How local authorities can build or provide them access to legal, safe, and appropriate work environments that support their businesses.</li>\n<li>Alternative systems for informal sector workers and companies&nbsp; to access new capital and financial services.</li>\n<li>Data sharing strategies to allow local authorities get more data about the situation on the ground to better map, measure, and understand the informal sector and the problems it experiences.</li>\n<li>Successful, innovative, and sustainable solutions from other places in the world to support the&nbsp; informal economy and its workers in the participating cities.</li>\n</ul>",
+            "problem_brief": {
+              "id": 129
+            }
+          }
+        }
+      ],
+      "city_team": [
+        {
+          "people_id": {
+            "id": 4,
+            "status": "published",
+            "name": "Joshua Maligwa",
+            "image": {
+              "data": {
+                "full_url": "assets/85e9c947-47fc-4c5b-9706-fce3018051ab.jpg",
+                "url": "/uploads/mcc-africa/originals/85e9c947-47fc-4c5b-9706-fce3018051ab.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5g8nxqdv9s4kccoo?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/5g8nxqdv9s4kccoo?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5g8nxqdv9s4kccoo?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/5g8nxqdv9s4kccoo?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5g8nxqdv9s4kccoo?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/5g8nxqdv9s4kccoo?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5g8nxqdv9s4kccoo?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/5g8nxqdv9s4kccoo?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5g8nxqdv9s4kccoo?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/5g8nxqdv9s4kccoo?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5g8nxqdv9s4kccoo?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/5g8nxqdv9s4kccoo?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/5g8nxqdv9s4kccoo?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/5g8nxqdv9s4kccoo?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Town Clerk, Mutare City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": true,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 5,
+            "status": "published",
+            "name": "Kimberley Sithole",
+            "image": {
+              "data": {
+                "full_url": "assets/4b882d8f-e3e7-48b9-81af-3ffadc95cc2b.jpg",
+                "url": "/uploads/mcc-africa/originals/4b882d8f-e3e7-48b9-81af-3ffadc95cc2b.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kpz2nh6fyps0w8g8?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/kpz2nh6fyps0w8g8?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kpz2nh6fyps0w8g8?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/kpz2nh6fyps0w8g8?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kpz2nh6fyps0w8g8?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/kpz2nh6fyps0w8g8?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kpz2nh6fyps0w8g8?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/kpz2nh6fyps0w8g8?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kpz2nh6fyps0w8g8?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/kpz2nh6fyps0w8g8?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kpz2nh6fyps0w8g8?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/kpz2nh6fyps0w8g8?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/kpz2nh6fyps0w8g8?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/kpz2nh6fyps0w8g8?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Executive Assistant, Mutare City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 6,
+            "status": "published",
+            "name": "Lloyd Mujaho",
+            "image": {
+              "data": {
+                "full_url": "assets/4eb04aea-9463-4a13-ba4e-ff2c8806ccd5.jpg",
+                "url": "/uploads/mcc-africa/originals/4eb04aea-9463-4a13-ba4e-ff2c8806ccd5.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qho6deqjh28g0w0g?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/qho6deqjh28g0w0g?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qho6deqjh28g0w0g?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/qho6deqjh28g0w0g?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qho6deqjh28g0w0g?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/qho6deqjh28g0w0g?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qho6deqjh28g0w0g?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/qho6deqjh28g0w0g?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qho6deqjh28g0w0g?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/qho6deqjh28g0w0g?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qho6deqjh28g0w0g?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/qho6deqjh28g0w0g?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qho6deqjh28g0w0g?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/qho6deqjh28g0w0g?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Chief Fire Officer, Mutare City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 7,
+            "status": "published",
+            "name": "Needmore Kunjenjema",
+            "image": {
+              "data": {
+                "full_url": "assets/aca83062-09b6-41c9-954e-315884e5e5d9.jpg",
+                "url": "/uploads/mcc-africa/originals/aca83062-09b6-41c9-954e-315884e5e5d9.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/auvxwa0s21sgk80g?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/auvxwa0s21sgk80g?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/auvxwa0s21sgk80g?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/auvxwa0s21sgk80g?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/auvxwa0s21sgk80g?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/auvxwa0s21sgk80g?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/auvxwa0s21sgk80g?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/auvxwa0s21sgk80g?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/auvxwa0s21sgk80g?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/auvxwa0s21sgk80g?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/auvxwa0s21sgk80g?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/auvxwa0s21sgk80g?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/auvxwa0s21sgk80g?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/auvxwa0s21sgk80g?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Acting District Officer for Chikanga, Mutare City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        },
+        {
+          "people_id": {
+            "id": 8,
+            "status": "published",
+            "name": "Beauty Taringa",
+            "image": {
+              "data": {
+                "full_url": "assets/7355a0ab-d982-4aa6-bdc6-36b7a534ed64.jpg",
+                "url": "/uploads/mcc-africa/originals/7355a0ab-d982-4aa6-bdc6-36b7a534ed64.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/lnic58k575s0w84o?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/lnic58k575s0w84o?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/lnic58k575s0w84o?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/lnic58k575s0w84o?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/lnic58k575s0w84o?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/lnic58k575s0w84o?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/lnic58k575s0w84o?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/lnic58k575s0w84o?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/lnic58k575s0w84o?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/lnic58k575s0w84o?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/lnic58k575s0w84o?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/lnic58k575s0w84o?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/lnic58k575s0w84o?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/lnic58k575s0w84o?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Accountant, Mutare City Council",
+            "affiliation": null,
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "status": "published",
+      "name": "Bahir Dar",
+      "image": {
+        "id": 95,
+        "storage": "local",
+        "private_hash": "gr0ys0m3wbkkwgoc",
+        "filename_disk": "ba48eacb-d125-4f04-8acf-7f50572bde5f.png",
+        "filename_download": "ethiopia.png",
+        "title": "Ethiopia",
+        "type": "image/png",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-08T19:39:18+00:00",
+        "charset": "binary",
+        "filesize": 447072,
+        "width": 1000,
+        "height": 668,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "9cace6939b33b293f44b658bf4d0ca89",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/ba48eacb-d125-4f04-8acf-7f50572bde5f.png",
+          "url": "/uploads/mcc-africa/originals/ba48eacb-d125-4f04-8acf-7f50572bde5f.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=directus-small-crop",
+              "relative_url": "/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=directus-small-contain",
+              "relative_url": "/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=directus-medium-crop",
+              "relative_url": "/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=directus-medium-contain",
+              "relative_url": "/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=directus-large-crop",
+              "relative_url": "/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=directus-large-contain",
+              "relative_url": "/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=thumbnail",
+              "relative_url": "/mcc-africa/assets/gr0ys0m3wbkkwgoc?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "country": "Ethiopia",
+      "slug": "bahir-dar.html",
+      "challenge_link": null,
+      "participate_text": "<p>This is your chance to improve the future of your community for the better, and to see how your ideas come to life in Bahir Dar. Winners will get the chance to sit-down with UNDP, The Governance Lab, and the participating city councils to study how to implement their idea into a pilot that can be scaled. Besides that, they will receive recognition from New York University.</p>",
+      "city_challenge": [
+        {
+          "id": 21,
+          "cities_id": {
+            "id": 6
+          },
+          "city_challenge_id": {
+            "id": 1,
+            "status": "published",
+            "title": "Reducing waste generation and improving waste management",
+            "description": "Waste generation, both domestic and industrial, continues to increase in tandem with growth in consumption in developing countries. There is a need to develop an integrated approach where the public, private and community sectors work together to develop local solutions promoting sustainable solid waste management. The cities focusing on this topic will work together to define a shared challenge. They will solicit ideas from their own communities to improve waste management.",
+            "image": {
+              "data": {
+                "full_url": "assets/b0065f67-1b53-4a74-aea8-92e688ca91b3.png",
+                "url": "/uploads/mcc-africa/originals/b0065f67-1b53-4a74-aea8-92e688ca91b3.png",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "slug": "waste-management.html",
+            "challenge_link": "https://yp.multicitychallenge.org/group/3646",
+            "challenge_description": "<p>With waste generation expected to grow from 165 million tonnes, in 2020, to 368 million tonnes, by 2040 (UN, 2014), cities urgently need to find innovative strategies to reduce waste generation and improve its management. Increasing population, rural-urban migration, and shifting consumption patterns, are all combining to increase the amount of waste produced, in turn overwhelming the capacity of existing waste collection systems. Companies are also contributing to this issue by manufacturing single use, non-recyclable, and excessive packaging for most consumer and commercial goods. Governments lack efficient infrastructure &nbsp;to collect, sort, and manage waste in a timely manner, which is compounded by residents' low awareness about the need to reduce, separate, recycle and reuse waste. There is prevailing sentiment among populations that&nbsp; any individual effort to address this&nbsp; is futile. Governments and communities lack the legislative and policy tools to enforce good practices and implement innovative new ones. On top of this, a lack of coordination and cooperation between governments, private sector stakeholders, and city residents, exacerbates the problem and inhibits opportunities for meaningful progress. The final result of these factors is massive amounts of waste that can&rsquo;t be adequately processed, resulting in dangerous and harmful outcomes like illegal waste dumps, pollution, infectious diseases, and other public health issues.</p>\n<p>In this multi-city challenge we want the public to share innovative ideas about:</p>\n<ul>\n<li>How can local authorities encourage the community to reduce, separate, recycle, and reuse waste.</li>\n<li>How municipalities can better collaborate with waste collection operators to reduce waste generation and improve waste management.&nbsp;</li>\n<li>Incentives to engage informal waste collectors to professionalize the sector.</li>\n<li>Data sharing strategies to allow local authorities get more data about the situation on the ground to reduce current waste generation and improve waste management.</li>\n<li>Successful, innovative, and sustainable solutions from other places in the world to reduce waste generation and improve waste management in the participating cities.</li>\n</ul>",
+            "problem_brief": {
+              "id": 130
+            }
+          }
+        }
+      ],
+      "city_team": [
+        {
+          "people_id": {
+            "id": 29,
+            "status": "published",
+            "name": "Simegnesh Yimer",
+            "image": {
+              "data": {
+                "full_url": "assets/f907096d-b7db-4cb4-89e0-55aeafc9d634.jpg",
+                "url": "/uploads/mcc-africa/originals/f907096d-b7db-4cb4-89e0-55aeafc9d634.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ha8or8ecr7cw4o8c?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/ha8or8ecr7cw4o8c?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ha8or8ecr7cw4o8c?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/ha8or8ecr7cw4o8c?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ha8or8ecr7cw4o8c?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/ha8or8ecr7cw4o8c?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ha8or8ecr7cw4o8c?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/ha8or8ecr7cw4o8c?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ha8or8ecr7cw4o8c?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/ha8or8ecr7cw4o8c?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ha8or8ecr7cw4o8c?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/ha8or8ecr7cw4o8c?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ha8or8ecr7cw4o8c?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/ha8or8ecr7cw4o8c?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Urban Greenery Team Leader",
+            "affiliation": "",
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": "I am currently working as Team Leader for Green Infrastructure Development of Bahirdar City Administration since 2013. Prior to assuming this position, I have worked as High Expert in Trade and Industry Bureau of Bahirdar City for 13 years. I have also served as teacher for 10 years. My educational background is Masters Degree in Urban Planning and Management and Bachelor Degree in Economics."
+          }
+        },
+        {
+          "people_id": {
+            "id": 30,
+            "status": "published",
+            "name": "Zelalem Getahun",
+            "image": {
+              "data": {
+                "full_url": "assets/e30aa2d8-b7ee-4441-96ea-655926642b41.jpg",
+                "url": "/uploads/mcc-africa/originals/e30aa2d8-b7ee-4441-96ea-655926642b41.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/cyr7fh78lmo04s48?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/cyr7fh78lmo04s48?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/cyr7fh78lmo04s48?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/cyr7fh78lmo04s48?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/cyr7fh78lmo04s48?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/cyr7fh78lmo04s48?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/cyr7fh78lmo04s48?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/cyr7fh78lmo04s48?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/cyr7fh78lmo04s48?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/cyr7fh78lmo04s48?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/cyr7fh78lmo04s48?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/cyr7fh78lmo04s48?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/cyr7fh78lmo04s48?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/cyr7fh78lmo04s48?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            },
+            "title": "Head of Office, Bahirdar City Administration Urban Sanitation and Environmental Protection office",
+            "affiliation": "",
+            "bio_link": null,
+            "team_leader": false,
+            "leadership": false,
+            "bio": null
+          }
+        }
+      ]
+    }
+  ],
+  "public": true
+}

@@ -1,0 +1,356 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "status": "published",
+      "title": "Reducing waste generation and improving waste management",
+      "description": "Waste generation, both domestic and industrial, continues to increase in tandem with growth in consumption in developing countries. There is a need to develop an integrated approach where the public, private and community sectors work together to develop local solutions promoting sustainable solid waste management. The cities focusing on this topic will work together to define a shared challenge. They will solicit ideas from their own communities to improve waste management.",
+      "image": {
+        "id": 97,
+        "storage": "local",
+        "private_hash": "s9wavhoazz4gcs80",
+        "filename_disk": "b0065f67-1b53-4a74-aea8-92e688ca91b3.png",
+        "filename_download": "shutterstock_1661285119.png",
+        "title": "Shutterstock 1661285119",
+        "type": "image/png",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-09T00:44:07+00:00",
+        "charset": "binary",
+        "filesize": 424003,
+        "width": 1000,
+        "height": 668,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "081d18c35eab608d26d21805c5d9061c",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/b0065f67-1b53-4a74-aea8-92e688ca91b3.png",
+          "url": "/uploads/mcc-africa/originals/b0065f67-1b53-4a74-aea8-92e688ca91b3.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-crop",
+              "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-contain",
+              "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-crop",
+              "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-contain",
+              "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-crop",
+              "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-contain",
+              "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/s9wavhoazz4gcs80?key=thumbnail",
+              "relative_url": "/mcc-africa/assets/s9wavhoazz4gcs80?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "slug": "waste-management.html",
+      "challenge_link": "https://yp.multicitychallenge.org/group/3646",
+      "challenge_description": "<p>With waste generation expected to grow from 165 million tonnes, in 2020, to 368 million tonnes, by 2040 (UN, 2014), cities urgently need to find innovative strategies to reduce waste generation and improve its management. Increasing population, rural-urban migration, and shifting consumption patterns, are all combining to increase the amount of waste produced, in turn overwhelming the capacity of existing waste collection systems. Companies are also contributing to this issue by manufacturing single use, non-recyclable, and excessive packaging for most consumer and commercial goods. Governments lack efficient infrastructure &nbsp;to collect, sort, and manage waste in a timely manner, which is compounded by residents' low awareness about the need to reduce, separate, recycle and reuse waste. There is prevailing sentiment among populations that&nbsp; any individual effort to address this&nbsp; is futile. Governments and communities lack the legislative and policy tools to enforce good practices and implement innovative new ones. On top of this, a lack of coordination and cooperation between governments, private sector stakeholders, and city residents, exacerbates the problem and inhibits opportunities for meaningful progress. The final result of these factors is massive amounts of waste that can&rsquo;t be adequately processed, resulting in dangerous and harmful outcomes like illegal waste dumps, pollution, infectious diseases, and other public health issues.</p>\n<p>In this multi-city challenge we want the public to share innovative ideas about:</p>\n<ul>\n<li>How can local authorities encourage the community to reduce, separate, recycle, and reuse waste.</li>\n<li>How municipalities can better collaborate with waste collection operators to reduce waste generation and improve waste management.&nbsp;</li>\n<li>Incentives to engage informal waste collectors to professionalize the sector.</li>\n<li>Data sharing strategies to allow local authorities get more data about the situation on the ground to reduce current waste generation and improve waste management.</li>\n<li>Successful, innovative, and sustainable solutions from other places in the world to reduce waste generation and improve waste management in the participating cities.</li>\n</ul>",
+      "problem_brief": {
+        "id": 130,
+        "storage": "local",
+        "private_hash": "g3ikk0l9qe8gg448",
+        "filename_disk": "6da3801b-dff7-4f9e-960b-237ccebfc76e.pdf",
+        "filename_download": "waste-management.pdf",
+        "title": "Waste Management",
+        "type": "application/pdf",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-14T00:10:56+00:00",
+        "charset": "",
+        "filesize": 410796,
+        "width": null,
+        "height": null,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "02e28a7597ff9a4b61b616af7b45016e",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/6da3801b-dff7-4f9e-960b-237ccebfc76e.pdf",
+          "url": "/uploads/mcc-africa/originals/6da3801b-dff7-4f9e-960b-237ccebfc76e.pdf",
+          "thumbnails": null,
+          "embed": null
+        }
+      }
+    },
+    {
+      "id": 2,
+      "status": "published",
+      "title": "Building urban resilience in slums and informal settlements",
+      "description": "",
+      "image": {
+        "id": 96,
+        "storage": "local",
+        "private_hash": "ei24p85phcg8w8kw",
+        "filename_disk": "ecfd1fe2-ad5d-4a9e-9b0d-2ba585bf0cdb.png",
+        "filename_download": "shutterstock_1522359917.png",
+        "title": "Shutterstock 1522359917",
+        "type": "image/png",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-09T00:39:59+00:00",
+        "charset": "binary",
+        "filesize": 465780,
+        "width": 1002,
+        "height": 564,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "a03116a2b216e1b9dadc411d771cffae",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/ecfd1fe2-ad5d-4a9e-9b0d-2ba585bf0cdb.png",
+          "url": "/uploads/mcc-africa/originals/ecfd1fe2-ad5d-4a9e-9b0d-2ba585bf0cdb.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-crop",
+              "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-contain",
+              "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-crop",
+              "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-contain",
+              "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-crop",
+              "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-contain",
+              "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/ei24p85phcg8w8kw?key=thumbnail",
+              "relative_url": "/mcc-africa/assets/ei24p85phcg8w8kw?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "slug": "urban-resilience.html",
+      "challenge_link": "https://yp.multicitychallenge.org/group/3647",
+      "challenge_description": "<p>In a context where across Sub-Saharan Africa 62% of families live in slums and informal settlements (World Bank and GFDRR, 2016) and natural disasters are growing due to climate change, we need to find innovative strategies to build urban resilience. Rapid urbanisation and limited investment to upgrade critical infrastructure of cities have contributed to the proliferation of slums and informal settlements. Due to the lack of infrastructure, these communities cannot absorb socio-economic and climatic shocks, further eroding existing and dilapidated infrastructure. Climate change increases the probability of a natural disaster impacting poor urban infrastructure and magnifying the damage and consequences. As cities continue to grow in size, the number of people and economic assets exposed to these hazards will continue to increase. Governments will be expected to address this need and provide resilient and smart infrastructure.</p>\n<p>In this multi-city challenge we want the public to share innovative ideas about:</p>\n<ul>\n<li>How to deal with high levels of rainfall and avoid the risk of flooding.&nbsp;&nbsp;</li>\n<li>Data sharing strategies to allow local authorities get more data about the situation on the ground to improve current urban resilience.</li>\n<li>Public-private collaboration strategies to implement effective prevention and mitigation strategies against natural disasters.&nbsp;</li>\n<li>Successful, innovative, and sustainable solutions from other places in the world to build resilience in the participating cities.&nbsp;</li>\n</ul>",
+      "problem_brief": {
+        "id": 128,
+        "storage": "local",
+        "private_hash": "5z5554kk1s84kg00",
+        "filename_disk": "58689eec-2da1-4bdb-9ca8-f37cd94fbeb8.pdf",
+        "filename_download": "urban-resilience.pdf",
+        "title": "Urban Resilience",
+        "type": "application/pdf",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-14T00:10:34+00:00",
+        "charset": "",
+        "filesize": 423363,
+        "width": null,
+        "height": null,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "563dbe64c8ee6f1f76853f98886f3559",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/58689eec-2da1-4bdb-9ca8-f37cd94fbeb8.pdf",
+          "url": "/uploads/mcc-africa/originals/58689eec-2da1-4bdb-9ca8-f37cd94fbeb8.pdf",
+          "thumbnails": null,
+          "embed": null
+        }
+      }
+    },
+    {
+      "id": 3,
+      "status": "published",
+      "title": "Integrating the informal economy",
+      "description": "Digitalisation and the high adoption rate of mobile technology offers an unprecedented opportunity to address eligibility and affordability barriers to formal financial inclusion of people and firms. It also offers a platform to network micro-businesses owners together  with the potential to build dynamic enterprises.The cities focusing on this topic will work together to define a shared challenge. They will solicit ideas from their own communities to digitalise the informal economy.",
+      "image": {
+        "id": 16,
+        "storage": "local",
+        "private_hash": "27a6095kksu8g0kc",
+        "filename_disk": "24bc11b1-762e-4600-882a-8dfd8ec2ead6.jpg",
+        "filename_download": "louis-smit-Z2ib1-jIoGU-unsplash.jpg",
+        "title": "Louis Smit Z2ib1 Jiogu Unsplash",
+        "type": "image/jpeg",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-10-05T19:42:10+00:00",
+        "charset": "binary",
+        "filesize": 437786,
+        "width": 1440,
+        "height": 960,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "7948f25ab9a28bfd41569e3e87b5f55a",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/24bc11b1-762e-4600-882a-8dfd8ec2ead6.jpg",
+          "url": "/uploads/mcc-africa/originals/24bc11b1-762e-4600-882a-8dfd8ec2ead6.jpg",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-crop",
+              "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-contain",
+              "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-crop",
+              "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-contain",
+              "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-crop",
+              "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-contain",
+              "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/27a6095kksu8g0kc?key=thumbnail",
+              "relative_url": "/mcc-africa/assets/27a6095kksu8g0kc?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      },
+      "slug": "informal-economy.html",
+      "challenge_link": "https://yp.multicitychallenge.org/group/3645",
+      "challenge_description": "<p>In a context where the informal economy represents 66% of total employment (International Labour Organization, 2020), cities need to find innovative strategies to support workers and businesses in the informal sector that help them escape from poverty and allow the cities to continue positive and equitable economic development. Two of the main barriers inhibiting the transformation of the informal sector are&nbsp; financial exclusion and the lack of regulated, controlled, and safe work environments and markets. Financial institutions often have internal policies that place restrictions on engaging the informal sector and&nbsp; that exclude informal sector workers and businesses from critical wealth-building financial instruments like loans and insurance. This exclusion reinforces&nbsp; cycles of poverty and hinders sustainable and equitable economic development in cities. Not being able to access financial institutions forces informal workers and businesses to rely almost exclusively on very risky informal, short-term funding at high-interest rates. Likewise, without a regulated, controlled, and safe work environment and markets to produce and sell their products, informal vendors are more vulnerable and have fewer opportunities to formalise their businesses. The main population affected by these problems are street vendors and cottage industries that&nbsp; sell goods like prepared food, household items, or clothes and providing services like childcare, elderly care, or house cleaning. Due to their need to operate close to their customers and near high foot traffic, these workers and businesses must be located within the city. &nbsp;</p>\n<p>In this multi-city challenge we want the public to share innovative ideas about:</p>\n<ul>\n<li>How local authorities can build or provide them access to legal, safe, and appropriate work environments that support their businesses.</li>\n<li>Alternative systems for informal sector workers and companies&nbsp; to access new capital and financial services.</li>\n<li>Data sharing strategies to allow local authorities get more data about the situation on the ground to better map, measure, and understand the informal sector and the problems it experiences.</li>\n<li>Successful, innovative, and sustainable solutions from other places in the world to support the&nbsp; informal economy and its workers in the participating cities.</li>\n</ul>",
+      "problem_brief": {
+        "id": 129,
+        "storage": "local",
+        "private_hash": "2zqads1k7cisg4s8",
+        "filename_disk": "3580e8e4-a671-48d8-a618-83ed3c20acbb.pdf",
+        "filename_download": "informal-economy.pdf",
+        "title": "Informal Economy",
+        "type": "application/pdf",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-14T00:10:45+00:00",
+        "charset": "",
+        "filesize": 418815,
+        "width": null,
+        "height": null,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "766cfb0ffbd0cbb3b90fcf6f45c329a0",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/3580e8e4-a671-48d8-a618-83ed3c20acbb.pdf",
+          "url": "/uploads/mcc-africa/originals/3580e8e4-a671-48d8-a618-83ed3c20acbb.pdf",
+          "thumbnails": null,
+          "embed": null
+        }
+      }
+    }
+  ],
+  "public": true
+}

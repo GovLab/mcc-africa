@@ -80,7 +80,7 @@
     </div>
   </div>
   <div id="home-page">
-    <div class="row top-section topic" :style="{ backgroundImage: 'url(' + challengeData[0].image.data.full_url+ ')' }">
+    <div class="row top-section topic" :style="{ backgroundImage: 'url(' + (challengeData[0].image.data.full_url.startsWith('assets/') ? '/data/' + challengeData[0].image.data.full_url : challengeData[0].image.data.full_url) + ')' }">
 
       <h1>{{challengeData[0].title}}</h1>
 
@@ -97,7 +97,7 @@
 
       </div>
       <div v-if="challengeData[0].problem_brief" class="main-buttons comms problem-brief">
-        <a :href="challengeData[0].problem_brief.data.full_url" target="_blank" class="button">Read the detailed Problem Brief</a>
+        <a :href="(challengeData[0].problem_brief.data.full_url.startsWith('assets/') ? '/data/' + challengeData[0].problem_brief.data.full_url : challengeData[0].problem_brief.data.full_url)" target="_blank" class="button">Read the detailed Problem Brief</a>
         <a href="../contact.html" class="button home-btn" target="_blank">Got Questions? Contact Us</a>
      </div>
     </section>
@@ -110,7 +110,7 @@
         <template v-for="city in indexData">
           <div v-for="challenge in city.city_challenge"
             v-if="challenge.city_challenge_id.title == challengeData[0].title" class="topic-column"
-            :style="{ backgroundImage: 'url(' + city.image.data.thumbnails[5].url+ ')' }">
+            :style="{ backgroundImage: 'url(' + (city.image.data.thumbnails[5].url.startsWith('assets/') ? '/data/' + city.image.data.thumbnails[5].url : city.image.data.thumbnails[5].url) + ')' }">
             <div class="topic-wrap">
               <h1>{{city.name}}<span id="country">,&nbsp{{city.country}}</span></h1>
               <div class="challenge-tags">
@@ -163,7 +163,7 @@
       <div class="column">
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
           <img class="copyright_cc-badge" alt="Creative Commons License"
-            src="https://africa.multicitychallenge.org/images/cc-logo.png" /></a>
+            src="../images/cc-logo.png" /></a>
         <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
           href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
           International License.</a>.
@@ -228,6 +228,6 @@
 
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
-<script src="../js/mcc.js"></script>
+<script src="../js/mcc-offline.js"></script>
 
 </html>

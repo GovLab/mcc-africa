@@ -1,0 +1,344 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "status": "published",
+      "poster_upload": {
+        "id": 112,
+        "storage": "local",
+        "private_hash": "obftpz2diwgsooso",
+        "filename_disk": "8aad721f-0906-432d-bba0-cdb2fb46d7ce.pdf",
+        "filename_download": "flyer_mcc_africa_color_v2.pdf",
+        "title": "Flyer Mcc Africa Color V2",
+        "type": "application/pdf",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-12T00:40:47+00:00",
+        "charset": "",
+        "filesize": 1267174,
+        "width": null,
+        "height": null,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "e294a5ae637080d2c70744a765c47b00",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/8aad721f-0906-432d-bba0-cdb2fb46d7ce.pdf",
+          "url": "/uploads/mcc-africa/originals/8aad721f-0906-432d-bba0-cdb2fb46d7ce.pdf",
+          "thumbnails": null,
+          "embed": null
+        }
+      },
+      "title": "Generic poster (color)",
+      "poster_thumbnail": {
+        "id": 118,
+        "storage": "local",
+        "private_hash": "36wfvd703pa8owwg",
+        "filename_disk": "5cea6be5-7a71-40a4-aa76-661e36507f7d.png",
+        "filename_download": "poster-color.png",
+        "title": "Poster Color",
+        "type": "image/png",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-12T02:07:08+00:00",
+        "charset": "binary",
+        "filesize": 262625,
+        "width": 612,
+        "height": 792,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "101c5b4625bb63284d189e2bdc70e66e",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/5cea6be5-7a71-40a4-aa76-661e36507f7d.png",
+          "url": "/uploads/mcc-africa/originals/5cea6be5-7a71-40a4-aa76-661e36507f7d.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/36wfvd703pa8owwg?key=directus-small-crop",
+              "relative_url": "/mcc-africa/assets/36wfvd703pa8owwg?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/36wfvd703pa8owwg?key=directus-small-contain",
+              "relative_url": "/mcc-africa/assets/36wfvd703pa8owwg?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/36wfvd703pa8owwg?key=directus-medium-crop",
+              "relative_url": "/mcc-africa/assets/36wfvd703pa8owwg?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/36wfvd703pa8owwg?key=directus-medium-contain",
+              "relative_url": "/mcc-africa/assets/36wfvd703pa8owwg?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/36wfvd703pa8owwg?key=directus-large-crop",
+              "relative_url": "/mcc-africa/assets/36wfvd703pa8owwg?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/36wfvd703pa8owwg?key=directus-large-contain",
+              "relative_url": "/mcc-africa/assets/36wfvd703pa8owwg?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/36wfvd703pa8owwg?key=thumbnail",
+              "relative_url": "/mcc-africa/assets/36wfvd703pa8owwg?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      }
+    },
+    {
+      "id": 2,
+      "status": "published",
+      "poster_upload": {
+        "id": 113,
+        "storage": "local",
+        "private_hash": "ovhvyeo2jrk88oko",
+        "filename_disk": "80acfb02-6397-4d5f-aef0-f043ce4dd900.pdf",
+        "filename_download": "flyer_mcc_africa_bw.pdf",
+        "title": "Flyer Mcc Africa Bw",
+        "type": "application/pdf",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-12T00:41:05+00:00",
+        "charset": "",
+        "filesize": 773291,
+        "width": null,
+        "height": null,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "81cf85db85f5c2814bd425ab25c1807e",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/80acfb02-6397-4d5f-aef0-f043ce4dd900.pdf",
+          "url": "/uploads/mcc-africa/originals/80acfb02-6397-4d5f-aef0-f043ce4dd900.pdf",
+          "thumbnails": null,
+          "embed": null
+        }
+      },
+      "title": "Generic Poster (BW)",
+      "poster_thumbnail": {
+        "id": 119,
+        "storage": "local",
+        "private_hash": "q61smthv8mosgkgg",
+        "filename_disk": "336904b6-dbb6-40f8-96a9-1534104055dd.png",
+        "filename_download": "poster-bw.png",
+        "title": "Poster Bw",
+        "type": "image/png",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-12T02:07:18+00:00",
+        "charset": "binary",
+        "filesize": 168605,
+        "width": 610,
+        "height": 792,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "221c2706b87a6f711998678ad0409b7d",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/336904b6-dbb6-40f8-96a9-1534104055dd.png",
+          "url": "/uploads/mcc-africa/originals/336904b6-dbb6-40f8-96a9-1534104055dd.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/q61smthv8mosgkgg?key=directus-small-crop",
+              "relative_url": "/mcc-africa/assets/q61smthv8mosgkgg?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/q61smthv8mosgkgg?key=directus-small-contain",
+              "relative_url": "/mcc-africa/assets/q61smthv8mosgkgg?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/q61smthv8mosgkgg?key=directus-medium-crop",
+              "relative_url": "/mcc-africa/assets/q61smthv8mosgkgg?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/q61smthv8mosgkgg?key=directus-medium-contain",
+              "relative_url": "/mcc-africa/assets/q61smthv8mosgkgg?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/q61smthv8mosgkgg?key=directus-large-crop",
+              "relative_url": "/mcc-africa/assets/q61smthv8mosgkgg?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/q61smthv8mosgkgg?key=directus-large-contain",
+              "relative_url": "/mcc-africa/assets/q61smthv8mosgkgg?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/q61smthv8mosgkgg?key=thumbnail",
+              "relative_url": "/mcc-africa/assets/q61smthv8mosgkgg?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      }
+    },
+    {
+      "id": 3,
+      "status": "published",
+      "poster_upload": {
+        "id": 114,
+        "storage": "local",
+        "private_hash": "ntmplyh6c7kcs4ow",
+        "filename_disk": "78417e08-fbcf-409b-9ca4-44d36c488b31.pdf",
+        "filename_download": "cae290c2-a81d-4248-bd2a-800724644357.pdf",
+        "title": "Cae290c2 A81d 4248 Bd2a 800724644357",
+        "type": "application/pdf",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-12T00:45:19+00:00",
+        "charset": "",
+        "filesize": 715643,
+        "width": null,
+        "height": null,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "db580d4675b459745208c52c58959506",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/78417e08-fbcf-409b-9ca4-44d36c488b31.pdf",
+          "url": "/uploads/mcc-africa/originals/78417e08-fbcf-409b-9ca4-44d36c488b31.pdf",
+          "thumbnails": null,
+          "embed": null
+        }
+      },
+      "title": "mcc-flyer",
+      "poster_thumbnail": {
+        "id": 120,
+        "storage": "local",
+        "private_hash": "6shr5kb0k3ok8888",
+        "filename_disk": "20d75bd4-5dfc-471f-856b-53de4267f623.png",
+        "filename_download": "poster-1.png",
+        "title": "Poster 1",
+        "type": "image/png",
+        "uploaded_by": 1,
+        "uploaded_on": "2020-11-12T02:07:25+00:00",
+        "charset": "binary",
+        "filesize": 451031,
+        "width": 610,
+        "height": 950,
+        "duration": 0,
+        "embed": null,
+        "folder": null,
+        "description": "",
+        "location": "",
+        "tags": [],
+        "checksum": "75c70d104db287fc142f3f6b6bdc77bb",
+        "metadata": null,
+        "data": {
+          "full_url": "assets/20d75bd4-5dfc-471f-856b-53de4267f623.png",
+          "url": "/uploads/mcc-africa/originals/20d75bd4-5dfc-471f-856b-53de4267f623.png",
+          "thumbnails": [
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/6shr5kb0k3ok8888?key=directus-small-crop",
+              "relative_url": "/mcc-africa/assets/6shr5kb0k3ok8888?key=directus-small-crop",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/6shr5kb0k3ok8888?key=directus-small-contain",
+              "relative_url": "/mcc-africa/assets/6shr5kb0k3ok8888?key=directus-small-contain",
+              "dimension": "64x64",
+              "width": 64,
+              "height": 64
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/6shr5kb0k3ok8888?key=directus-medium-crop",
+              "relative_url": "/mcc-africa/assets/6shr5kb0k3ok8888?key=directus-medium-crop",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/6shr5kb0k3ok8888?key=directus-medium-contain",
+              "relative_url": "/mcc-africa/assets/6shr5kb0k3ok8888?key=directus-medium-contain",
+              "dimension": "300x300",
+              "width": 300,
+              "height": 300
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/6shr5kb0k3ok8888?key=directus-large-crop",
+              "relative_url": "/mcc-africa/assets/6shr5kb0k3ok8888?key=directus-large-crop",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/6shr5kb0k3ok8888?key=directus-large-contain",
+              "relative_url": "/mcc-africa/assets/6shr5kb0k3ok8888?key=directus-large-contain",
+              "dimension": "800x600",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://directus.thegovlab.com/mcc-africa/assets/6shr5kb0k3ok8888?key=thumbnail",
+              "relative_url": "/mcc-africa/assets/6shr5kb0k3ok8888?key=thumbnail",
+              "dimension": "200x200",
+              "width": 200,
+              "height": 200
+            }
+          ],
+          "embed": null
+        }
+      }
+    }
+  ],
+  "public": true
+}

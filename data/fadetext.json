@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "status": "published",
+      "fade_item": "Public institutions need to change how they work, becoming more data-driven, agile, innovative, and capable of tapping expertise from new sources."
+    },
+    {
+      "id": 2,
+      "status": "published",
+      "fade_item": "The Multi City Challenge enables committed cities to collectively tackle problems they have been unable to solve on their own."
+    },
+    {
+      "id": 3,
+      "status": "published",
+      "fade_item": "The Multi City Challenge helps solving urban problems using the collective wisdom of our communities."
+    }
+  ],
+  "public": true
+}

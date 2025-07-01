@@ -1,0 +1,101 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "status": "published",
+      "title": "Engaging citizens and driving innovation in African cities",
+      "short_description": "This World Cities Day, the United Nations Development Programme (UNDP) Global Centre for Technology, Innovation, and Sustainable Development and The Governance Lab (The GovLab) at New York University Tandon School of Engineering are proud to announce their collaboration with five African cities to launch the 2020 Multi-City Challenge Africa public engagement initiative. The initiative aims to tackle pressing urban challenges by partnering with the people most affected by these issues – city residents.",
+      "post_url": "https://www.africa.undp.org/content/rba/en/home/presscenter/pressreleases/2020/engaging-citizens-and-driving-innovation-in-african-cities--.html",
+      "post_type": true
+    },
+    {
+      "id": 2,
+      "status": "published",
+      "title": "UNDP and The GovLab partner to empower city officials to engage citizens and drive innovation in African cities",
+      "short_description": "This World Cities Day, the United Nations Development Programme (UNDP) Global Centre for Technology, Innovation, and Sustainable Development and The Governance Lab (The GovLab) at New York University Tandon School of Engineering are proud to announce their collaboration with five African cities to launch the 2020 Multi-City Challenge Africa public engagement initiative. The initiative aims to tackle pressing urban challenges by partnering with the people most affected by these issues – city residents.",
+      "post_url": "https://sgtechcentre.undp.org/content/sgtechcentre/en/home/blogs/introducing-the-multi-city-challenge-africa.html",
+      "post_type": false
+    },
+    {
+      "id": 3,
+      "status": "published",
+      "title": "How cities can benefit from the ‘Collective Intelligence’ of their residents",
+      "short_description": "One way of tackling pressing urban challenges is by leveraging our cities’ greatest asset: the collective intelligence of city residents. City dwellers possess first-hand knowledge of what works and what does not in their specific context. Collective intelligence is a crucial tool for designing and building more inclusive and liveable cities – and will be key to advancing Sustainable Development Goal 11 to create more sustainable cities and communities.",
+      "post_url": "https://sgtechcentre.undp.org/content/sgtechcentre/en/home/blogs/undp-mcc-africa-collective-intelligence.html",
+      "post_type": false
+    },
+    {
+      "id": 4,
+      "status": "published",
+      "title": "Recommendations for Spreading the Word about the Multi-City Challenge: Africa Open Call",
+      "short_description": "The Multi-City Challenge Africa is officially underway! We want to ensure that as many people as possible have the opportunity to participate before the December 13 deadline, so we have put together a list of 15 recommendations to help cities, community organisations, and motivated changemakers more effectively reach a wider audience.",
+      "post_url": "https://blog.thegovlab.org/post/recommendations-for-spreading-the-word-about-the-multi-city-challenge-africa-open-call",
+      "post_type": false
+    },
+    {
+      "id": 5,
+      "status": "published",
+      "title": "Make Kampala better! How can we build urban resilience and integrate the informal economy?",
+      "short_description": "16 November 2020, Kampala — Kampala is facing significant challenges – from building urban resilience in slums and informal settlements, to integrating the informal economy. There is a source of knowledge that can help provide ideas and answers: our residents and citizens.",
+      "post_url": "https://www.ug.undp.org/content/uganda/en/home/presscenter/pressreleases/2020/make-kampala-better--how-can-we-build-urban-resilience-and-integ.html",
+      "post_type": true
+    },
+    {
+      "id": 6,
+      "status": "published",
+      "title": "UNDP, AMA calls for ideas to build urban resilience in Ghana",
+      "short_description": "Accra (gpnews) – The United Nations Development Programme (UNDP), in collaboration with the Accra Metropolitan Assembly (UNDP) is calling on innovators to propose and submit ideas on how to build urban resilience in the city of Accra, to accelerate Ghana’s development.",
+      "post_url": "https://ghanapress.org/undp-ama-calls-for-ideas-to-build-urban-resilience-in-ghana/",
+      "post_type": true
+    },
+    {
+      "id": 7,
+      "status": "published",
+      "title": "UNDP and AMA calls for ideas to build urban resilience in Ghana",
+      "short_description": "The United Nations Development Programme (UNDP), in collaboration with the Accra Metropolitan Assembly (UNDP) is calling on innovators to propose and submit ideas on how to build urban resilience in the city of Accra, to accelerate Ghana’s development.",
+      "post_url": "https://ghananewsonline.com.gh/undp-and-ama-calls-for-ideas-to-build-urban-resilience-in-ghana/",
+      "post_type": true
+    },
+    {
+      "id": 8,
+      "status": "published",
+      "title": "UNDP and AMA calls for ideas to build urban resilience in Ghana",
+      "short_description": "The United Nations Development Programme (UNDP), in collaboration with the Accra Metropolitan Assembly (UNDP) is calling on innovators to propose and submit ideas on how to build urban resilience in the city of Accra, to accelerate Ghana’s development.",
+      "post_url": "https://www.businessghana.com/site/news/General/228097/UNDP-and-AMA-calls-for-ideas-to-build-urban-resilience-in-Ghana",
+      "post_type": true
+    },
+    {
+      "id": 9,
+      "status": "published",
+      "title": "UNDP and AMA calls for ideas to build urban resilience in Ghana",
+      "short_description": "1 December 2020, Accra —The United Nations Development Programme (UNDP), in collaboration with the Accra Metropolitan Assembly (UNDP) is calling on innovators to propose and submit ideas on how to build urban resilience in the city of Accra, to accelerate Ghana’s development.",
+      "post_url": "https://www.modernghana.com/news/1047064/undp-and-ama-calls-for-ideas-to-build-urban-resili.html",
+      "post_type": true
+    },
+    {
+      "id": 10,
+      "status": "published",
+      "title": "Global media coverage",
+      "short_description": "A list of pieces about the Multi-City Challenge from media channels around the world.",
+      "post_url": "https://docs.google.com/document/d/1GYoIAZIwdVCXMqcKrX3NDRU8yj-6V93AFOUKj9x77l8/edit?usp=sharing",
+      "post_type": false
+    },
+    {
+      "id": 11,
+      "status": "published",
+      "title": "How cities can benefit from the ‘Collective Intelligence’ of their residents",
+      "short_description": "A blog post from the UNDP Global Centre for Technology, Innovation\nand Sustainable Development and The GovLab",
+      "post_url": "https://sgtechcentre.undp.org/content/sgtechcentre/en/home/blogs/undp-mcc-africa-collective-intelligence.html",
+      "post_type": true
+    },
+    {
+      "id": 12,
+      "status": "draft",
+      "title": "Government Of, For and With the People: The Smartest Cities are Those that Listen to their Citizens",
+      "short_description": null,
+      "post_url": "https://thegovlab.medium.com/government-of-for-and-with-the-people-the-smartest-cities-are-those-that-listen-to-their-citizens-6714ad6380ec",
+      "post_type": true
+    }
+  ],
+  "public": true
+}

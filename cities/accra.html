@@ -17,7 +17,7 @@
 
   <title>Multi City Challenge | Accra</title>
 
-  <link href="/images/favicon.ico" rel="shortcut icon">
+  <link href="../images/favicon.png" rel="shortcut icon">
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -81,7 +81,7 @@
     </div>
   </div>
   <div id="home-page">
-    <div class="row top-section topic"  :style="{ backgroundImage: 'url(' + indexData[0].image.data.full_url+ ')' }">
+    <div class="row top-section topic"  :style="{ backgroundImage: 'url(' + (indexData[0].image.data.full_url.startsWith('assets/') ? '/data/' + indexData[0].image.data.full_url : indexData[0].image.data.full_url) + ')' }">
 
       <h1>{{indexData[0].name}}</h1>
       <p>{{indexData[0].country}}</p>
@@ -98,7 +98,7 @@
       </section>
       <section style="z-index:-10" id="topics">
         <div class="topic-row challenge-row">
-          <div v-for="challenge in indexData[0].city_challenge" :style="{ backgroundImage: 'url(' + challenge.city_challenge_id.image.data.full_url+ ')' }" class="challenge-column">
+          <div v-for="challenge in indexData[0].city_challenge" :style="{ backgroundImage: 'url(' + (challenge.city_challenge_id.image.data.full_url.startsWith('assets/') ? '/data/' + challenge.city_challenge_id.image.data.full_url : challenge.city_challenge_id.image.data.full_url) + ')' }" class="challenge-column">
             <div class="topic-wrap">
               <p>{{challenge.city_challenge_id.title}}</p>
               <p><a :href="'../topics/'+ challenge.city_challenge_id.slug" class="button more-info">More Information</a></p>
@@ -123,14 +123,14 @@
       <div class="topic-row team-row">
         <div v-for="people in indexData[0].city_team" class="team-column">
           <div v-if="people.people_id.team_leader=='1'" class="team-image">
-            <div class="square" :style="{ backgroundImage: 'url(' + people.people_id.image.data.full_url+ ')' }">
+            <div class="square" :style="{ backgroundImage: 'url(' + (people.people_id.image.data.full_url.startsWith('assets/') ? '/data/' + people.people_id.image.data.full_url : people.people_id.image.data.full_url) + ')' }">
             </div>
             <h4>{{people.people_id.name}}</h4>
             <h5>{{people.people_id.title}}</h5>
             <!-- <a :href="people.people_id.bio_link" target="_blank"><span id="bio">BIO</span></a> -->
           </div>
           <div v-if="people.people_id.team_leader=='0'"  class="team-image">
-            <div class="square" :style="{ backgroundImage: 'url(' + people.people_id.image.data.full_url+ ')' }">
+            <div class="square" :style="{ backgroundImage: 'url(' + (people.people_id.image.data.full_url.startsWith('assets/') ? '/data/' + people.people_id.image.data.full_url : people.people_id.image.data.full_url) + ')' }">
             </div>
             <h4>{{people.people_id.name}}</h4>
             <h5>{{people.people_id.title}}</h5>
@@ -177,7 +177,7 @@
       <div class="column">
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
           <img class="copyright_cc-badge" alt="Creative Commons License"
-            src="https://africa.multicitychallenge.org/images/cc-logo.png" /></a>
+            src="../images/cc-logo.png" /></a>
         <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
           href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
           International License.</a>.
@@ -242,6 +242,6 @@
 
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
-<script src="../js/mcc.js"></script>
+<script src="../js/mcc-offline.js"></script>
 
 </html>

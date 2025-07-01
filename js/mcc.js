@@ -16,7 +16,7 @@ function main() {
 main();
 
 ////////////////////////////////////////////////////////////
-///// TEAM  API REQUEST ` `
+///// TEAM  OFFLINE DATA LOADING
 ////////////////////////////////////////////////////////////
 
 // Vue.use(Vuetify);
@@ -42,191 +42,242 @@ new Vue({
       posterData:[],
       showDesc: false,
       index_active:0,
-      apiURL: 'https://directus.thegovlab.com/mcc-africa',
-
+      dataLoaded: false,
+      loading: true, // Add loading state
     }
   },
 
   created: function () {
-    this.fetchIndex();
-    this.fetchChallenge();
-    this.fetchTeam();
-    this.fetchWinners();
-    this.fetchAbout();
-    this.fetchTime();
-    this.fetchUpdates();
-    this.fetchComms();
-    this.fetchPoster();
-    this.fetchFadetext();
-
-
+    this.loadAllData();
   },
+  
   methods: {
 
-    fetchIndex: function() {
-      self = this;
-      // const client = new DirectusSDK({
-      //   url: "https://directus.thegovlab.com/",
-      //   project: "mcc-africa",
-      //   storage: window.localStorage
-      // });
+    // Load all data from local JSON files
+    loadAllData: async function() {
+      try {
+        this.loading = true;
+        await Promise.all([
+          this.loadIndex(),
+          this.loadChallenge(),
+          this.loadTeam(),
+          this.loadWinners(),
+          this.loadAbout(),
+          this.loadTime(),
+          this.loadUpdates(),
+          this.loadComms(),
+          this.loadPoster(),
+          this.loadFadetext()
+        ]);
+        
+        this.dataLoaded = true;
+        this.loading = false;
+        console.log('All data loaded successfully');
+      } catch (error) {
+        console.error('Error loading data:', error);
+        this.loading = false;
+      }
+    },
 
-  //     client.getItems(
-  // 'cities',
-  // {
-  //   fields: ['*.*','city_challenge.*','city_challenge.city_challenge_id.*','city_challenge.city_challenge_id.image.data.*','city_team.people_id.*','city_team.people_id.image.data.*']
-  // }
-axios.get('https://directus.thegovlab.com/mcc-africa/items/cities?fields=*.*,city_challenge.*,city_challenge.city_challenge_id.*,city_challenge.city_challenge_id.image.data.*,city_team.people_id.*,city_team.people_id.image.data.*').then( function(data) {
+    // Load cities data (indexData)
+    loadIndex: async function() {
+      try {
+        const response = await fetch('data/cities.json');
+        const data = await response.json();
+        
+        // The API returns { "data": [...] }, so we access data.data
+        this.indexData = data.data || [];
+        
+        // Sort city team by name (same as original) - but only if city_team exists
+        if (this.indexData && this.indexData[0] && this.indexData[0].city_team) {
+          this.indexData[0].city_team.sort(function(a, b) {
+            var textA = a.people_id.name.toUpperCase();
+            var textB = b.people_id.name.toUpperCase();
+            return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+          });
+        }
+        
+        console.log('Cities data loaded:', this.indexData.length, 'cities');
+      } catch (error) {
+        console.error('Error loading cities data:', error);
+        this.indexData = [];
+      }
+    },
 
-  data.data.data[0].city_team.sort(function(a, b) {
-    var textA = a.people_id.name.toUpperCase();
-    var textB = b.people_id.name.toUpperCase();
-    return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
-});
+    // Load challenge data
+    loadChallenge: async function() {
+      try {
+        const response = await fetch('data/challenge.json');
+        const data = await response.json();
+        this.challengeData = data.data || [];
+        console.log('Challenge data loaded:', this.challengeData.length, 'challenges');
+      } catch (error) {
+        console.error('Error loading challenge data:', error);
+        this.challengeData = [];
+      }
+    },
 
-  self.indexData = data.data.data;
-  console.log(self.indexData);
-})
-.catch( function(error){ console.error(error);})},
-fetchPoster: function() {
-  self = this;
-  // const client = new DirectusSDK({
-  //   url: "https://directus.thegovlab.com/",
-  //   project: "mcc-africa",
-  //   storage: window.localStorage
-  // });
+    // Load team data
+    loadTeam: async function() {
+      try {
+        const response = await fetch('data/people.json');
+        const data = await response.json();
+        
+        // Sort by name (same as original)
+        if (data.data && Array.isArray(data.data)) {
+          data.data.sort(function(a, b) {
+            var textA = a.name.toUpperCase();
+            var textB = b.name.toUpperCase();
+            return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+          });
+        }
+        
+        this.teamData = data.data || [];
+        console.log('Team data loaded:', this.teamData.length, 'people');
+      } catch (error) {
+        console.error('Error loading team data:', error);
+        this.teamData = [];
+      }
+    },
 
-//     client.getItems(
-// 'challenge',
-// {
-//   fields: ['*.*']
-// }
-axios.get('https://directus.thegovlab.com/mcc-africa/items/posters?fields=*.*').then( function(data) {
+    // Load winners data
+    loadWinners: async function() {
+      try {
+        const response = await fetch('data/winners.json');
+        const data = await response.json();
+        this.winnersData = data.data || [];
+        console.log('Winners data loaded:', this.winnersData.length, 'winners');
+      } catch (error) {
+        console.error('Error loading winners data:', error);
+        this.winnersData = [];
+      }
+    },
 
-self.posterData = data.data.data;
-})
-.catch( function(error){ console.error(error);})},
-    fetchChallenge: function() {
-      self = this;
-      // const client = new DirectusSDK({
-      //   url: "https://directus.thegovlab.com/",
-      //   project: "mcc-africa",
-      //   storage: window.localStorage
-      // });
+    // Load about data
+    loadAbout: async function() {
+      try {
+        const response = await fetch('data/about.json');
+        const data = await response.json();
+        this.aboutData = data.data || [];
+        console.log('About data loaded:', this.aboutData.length, 'items');
+      } catch (error) {
+        console.error('Error loading about data:', error);
+        this.aboutData = [];
+      }
+    },
 
-  //     client.getItems(
-  // 'challenge',
-  // {
-  //   fields: ['*.*']
-  // }
-axios.get('https://directus.thegovlab.com/mcc-africa/items/challenge?fields=*.*').then( function(data) {
+    // Load timeline data
+    loadTime: async function() {
+      try {
+        const response = await fetch('data/timeline.json');
+        const data = await response.json();
+        this.timelineData = data.data || [];
+        this.default_timeline_description();
+        console.log('Timeline data loaded:', this.timelineData.length, 'items');
+      } catch (error) {
+        console.error('Error loading timeline data:', error);
+        this.timelineData = [];
+        this.timeline_description = [];
+      }
+    },
 
-  self.challengeData = data.data.data;
-})
-.catch( function(error){ console.error(error);})},
-    fetchTeam: function() {
-      self = this;
-      // const client = new DirectusSDK({
-      //   url: "https://directus.thegovlab.com/",
-      //   project: "mcc-africa",
-      //   storage: window.localStorage
-      // });
+    // Load fade text data
+    loadFadetext: async function() {
+      try {
+        const response = await fetch('data/fadetext.json');
+        const data = await response.json();
+        this.fadeData = data.data || [];
+        console.log('Fade text data loaded:', this.fadeData.length, 'items');
+      } catch (error) {
+        console.error('Error loading fade text data:', error);
+        this.fadeData = [];
+      }
+    },
 
-  //     client.getItems(
-  // 'people',
-  // {
-  //   fields: ['*.*']
-  // }
-axios.get('https://directus.thegovlab.com/mcc-africa/items/people?fields=*.*').then( function(data) {
+    // Load updates data
+    loadUpdates: async function() {
+      try {
+        const response = await fetch('data/updates.json');
+        const data = await response.json();
+        this.updateData = data.data || [];
+        console.log('Updates data loaded:', this.updateData.length, 'items');
+      } catch (error) {
+        console.error('Error loading updates data:', error);
+        this.updateData = [];
+      }
+    },
 
-  data.data.data.sort(function(a, b) {
-    var textA = a.name.toUpperCase();
-    var textB = b.name.toUpperCase();
-    return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
-});
+    // Load communications data
+    loadComms: async function() {
+      try {
+        const response = await fetch('data/communications.json');
+        const data = await response.json();
+        this.commsData = data.data || [];
+        console.log('Communications data loaded:', this.commsData.length, 'items');
+      } catch (error) {
+        console.error('Error loading communications data:', error);
+        this.commsData = [];
+      }
+    },
 
-  self.teamData = data.data.data;
+    // Load poster data
+    loadPoster: async function() {
+      try {
+        const response = await fetch('data/posters.json');
+        const data = await response.json();
+        this.posterData = data.data || [];
+        console.log('Poster data loaded:', this.posterData.length, 'items');
+      } catch (error) {
+        console.error('Error loading poster data:', error);
+        this.posterData = [];
+      }
+    },
 
-})
-.catch( function(error){ console.error(error);})},
-    fetchAbout: function() {
-      self = this;
-axios.get('https://directus.thegovlab.com/mcc-africa/items/about?fields=*.*').then( function(data) {
-  console.log(data);
-  self.aboutData = data.data.data;
-})
-.catch( function(error){ console.error(error);})},
-    fetchTime: function(){
-      self = this;
-
-axios.get('https://directus.thegovlab.com/mcc-africa/items/timeline?fields=*.*').then( function(data) {
-  self.timelineData = data.data.data;
-  self.default_timeline_description();
-})
-.catch( function(error){ console.error(error);})},
-    fetchFadetext: function() {
-      self = this;
-
-axios.get('https://directus.thegovlab.com/mcc-africa/items/fadetext?fields=*.*').then( function(data) {
-
-  self.fadeData = data.data.data;
-})
-.catch( function(error){ console.error(error);})},
-    fetchUpdates: function() {
-      self = this;
-
-axios.get('https://directus.thegovlab.com/mcc-africa/items/updates?fields=*.*').then( function(data) {
-
-  self.updateData = data.data.data;
-})
-.catch( function(error){ console.error(error);})},
-fetchWinners: function() {
-  self = this;
-
-axios.get('https://directus.thegovlab.com/mcc-africa/items/winners?fields=*.*,winner_names.people_id.*,city.cities_id.*,challenge.challenge_id.*').then( function(data) {
-
-self.winnersData = data.data.data;
-})
-.catch( function(error){ console.error(error);})},
-    fetchComms: function() {
-      self = this;
-
-axios.get('https://directus.thegovlab.com/mcc-africa/items/communications?fields=*.*,social_media_image.banner_id.banner_upload.data.*').then( function(data) {
-  self.commsData = data.data.data;
-})
-.catch( function(error){ console.error(error);})},
+    // Timeline description methods (same as original)
     show_description: function(index){
       index=index+1;
       var id_index="timeline";
       id_index=id_index.concat(index);
 
       var element = document.getElementById(id_index);
-      element.classList.toggle("active");
-      self.timeline_description = self.timelineData.filter(function(date_item){ return date_item.order == index});
-
-    },
-    default_timeline_description: function(){
-      self.timeline_description = self.timelineData.filter(function(date_item){ return date_item.active == true});
-
-      // var id_index="timeline";
-      // var index=self.timeline_description[0].order;
-      // id_index=id_index.concat(index);
-      // console.log(id_index);
-      // var element_test = document.getElementById(id_index);
-      // console.log(element_test);
-      // element_test.classList.toggle("active");
-
-    },
-    toggleMessage (index) {
+      if (element) {
+        element.classList.toggle("active");
+      }
       
+      if (this.timelineData && Array.isArray(this.timelineData)) {
+        this.timeline_description = this.timelineData.filter(function(date_item){ 
+          return date_item && date_item.order == index;
+        });
+      }
+    },
+
+    default_timeline_description: function(){
+      if (this.timelineData && Array.isArray(this.timelineData) && this.timelineData.length > 0) {
+        this.timeline_description = this.timelineData.filter(function(date_item){ 
+          return date_item && date_item.active == true;
+        });
+      } else {
+        this.timeline_description = [];
+      }
+    },
+
+    toggleMessage (index) {
       this.index_active = index;
-  
-        this.showDesc = !this.showDesc;
-   
-  
-    console.log(this.showDesc);
+      this.showDesc = !this.showDesc;
+      console.log(this.showDesc);
     }
-}
-});
+  },
 
-
+  // Add computed properties for safe data access
+  computed: {
+    // Safe access to about data
+    aboutDataSafe() {
+      return this.aboutData && this.aboutData.length > 0 ? this.aboutData[0] : {};
+    },
+    
+    // Safe access to timeline description
+    timelineDescriptionSafe() {
+      return this.timeline_description && this.timeline_description.length > 0 ? this.timeline_description[0] : {};
+    }
+  }
+}); 

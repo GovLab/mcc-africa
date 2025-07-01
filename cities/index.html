@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Participating Cities | MCC Africa</title>
-  <link href="images/favicon.png" rel="shortcut icon">
+  <link href="../images/favicon.png" rel="shortcut icon">
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="https://use.typekit.net/kad3hcl.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -78,7 +78,7 @@
           </div>
         </div>
         <div v-for="city in indexData" class="topic-column"
-          :style="{ backgroundImage: 'url(' + city.image.data.thumbnails[5].url+ ')' }">
+          :style="{ backgroundImage: 'url(' + (city.image.data.thumbnails[5].url.startsWith('assets/') ? '/data/' + city.image.data.thumbnails[5].url : city.image.data.thumbnails[5].url) + ')' }">
           <div class="topic-wrap">
             <h1>{{city.name}}<span id="country">,&nbsp{{city.country}}</span></h1>
             <div class="challenge-tags">
@@ -130,7 +130,7 @@
       <div class="column">
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
           <img class="copyright_cc-badge" alt="Creative Commons License"
-            src="https://africa.multicitychallenge.org/images/cc-logo.png" /></a>
+            src="../images/cc-logo.png" /></a>
         <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
           href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
           International License.</a>.
@@ -195,6 +195,6 @@
 <script src="../js/fadein.js"></script>
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
-<script src="../js/mcc.js"></script>
+<script src="../js/mcc-offline.js"></script>
 
-</html>
+</html> 

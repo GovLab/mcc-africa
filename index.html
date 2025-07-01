@@ -91,11 +91,17 @@
     </div>
   </div>
   <div id="home-page" @load="default_timeline_description()">
-    <div class="row top-section home-page">
+    <div v-if="loading" class="row top-section home-page">
+      <div class="column large-12">
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div v-else class="row top-section home-page">
       <div class="column large-12 site-logo__wrapper">
 
-        <a :href="'https://youtu.be/' + aboutData[0].promo_video_id" target="_blank"><img class="site-logo"
+        <a v-if="aboutDataSafe.promo_video_id" :href="'https://youtu.be/' + aboutDataSafe.promo_video_id" target="_blank"><img class="site-logo"
             src="images/hero.jpeg" alt="Multi City Challenge Logo"></a>
+        <img v-else class="site-logo" src="images/hero.jpeg" alt="Multi City Challenge Logo">
       </div>
     </div>
     <!-- <div class="row align-center top-hero">
@@ -123,7 +129,7 @@
         <div class="column image-col-people">
 
         </div>
-        <div class="column intro-text" v-html="aboutData[0].intro_text">
+        <div class="column intro-text" v-if="aboutDataSafe.intro_text" v-html="aboutDataSafe.intro_text">
 
 
         </div>
@@ -152,7 +158,7 @@
     <section id="about" class="dark-section">
       <div class="row">
         <div class="column training">
-          <p>{{aboutData[0].home_page_mcc}}</p>
+          <p v-if="aboutDataSafe.home_page_mcc">{{aboutDataSafe.home_page_mcc}}</p>
         </div>
 
         <div class="column image-col-training">
@@ -182,11 +188,11 @@
       </a>
 
     </div>
-    <div class="timeline-desc">
+    <div class="timeline-desc" v-if="timelineDescriptionSafe.title">
       <p><span
-          class="bold">{{timeline_description[0].title}}</span><br>{{timeline_description[0].date}}<br><br>{{timeline_description[0].description}}
+          class="bold">{{timelineDescriptionSafe.title}}</span><br>{{timelineDescriptionSafe.date}}<br><br>{{timelineDescriptionSafe.description}}
       </p>
-      <p>{{aboutData[0].incentive}}</p>
+      <p v-if="aboutDataSafe.incentive">{{aboutDataSafe.incentive}}</p>
     </div>
     <div class="divider" id="topics">
       <h1>Challenge Topics</h1>
@@ -233,6 +239,7 @@
 
 
 
+    </div>
   </div>
   <footer>
     <div class="footer-row">
@@ -270,7 +277,7 @@
       <div class="column">
         <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
           <img class="copyright_cc-badge" alt="Creative Commons License"
-            src="https://africa.multicitychallenge.org/images/cc-logo.png" /></a>
+            src="images/cc-logo.png" /></a>
         <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
           href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
           International License.</a>.
@@ -344,7 +351,7 @@
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/vuetify@2.3.16/dist/vuetify.min.js"></script> -->
 
-<script src="js/mcc.js"></script>
+<script src="js/mcc-offline.js"></script>
 
 
 </html>

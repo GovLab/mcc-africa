@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCC Africa - Offline Test</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .status { padding: 10px; margin: 10px 0; border-radius: 5px; }
+    .success { background-color: #d4edda; color: #155724; }
+    .error { background-color: #f8d7da; color: #721c24; }
+    .loading { background-color: #d1ecf1; color: #0c5460; }
+    .data-item { margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h1>MCC Africa - Offline Data Test</h1>
+  
+  <div id="status" class="status loading">
+    Loading data...
+  </div>
+  
+  <div id="home-page">
+    <h2>Test Results</h2>
+    
+    <div class="data-item">
+      <h3>Cities Data</h3>
+      <p>Loaded: <span id="cities-count">0</span> cities</p>
+      <div id="cities-list"></div>
+    </div>
+    
+    <div class="data-item">
+      <h3>Challenges Data</h3>
+      <p>Loaded: <span id="challenges-count">0</span> challenges</p>
+      <div id="challenges-list"></div>
+    </div>
+    
+    <div class="data-item">
+      <h3>Team Data</h3>
+      <p>Loaded: <span id="team-count">0</span> team members</p>
+      <div id="team-list"></div>
+    </div>
+    
+    <div class="data-item">
+      <h3>About Data</h3>
+      <p>Loaded: <span id="about-count">0</span> items</p>
+      <div id="about-list"></div>
+    </div>
+  </div>
+
+  <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
+  <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
+  <script src="/js/mcc-offline.js"></script>
+  
+  <script>
+    // Monitor Vue instance for data loading
+    const checkData = setInterval(() => {
+      const app = document.querySelector('#home-page').__vue__;
+      if (app && app.dataLoaded) {
+        clearInterval(checkData);
+        
+        // Update status
+        document.getElementById('status').className = 'status success';
+        document.getElementById('status').textContent = 'All data loaded successfully!';
+        
+        // Update counts
+        document.getElementById('cities-count').textContent = app.indexData.length;
+        document.getElementById('challenges-count').textContent = app.challengeData.length;
+        document.getElementById('team-count').textContent = app.teamData.length;
+        document.getElementById('about-count').textContent = app.aboutData.length;
+        
+        // Show sample data
+        const citiesList = document.getElementById('cities-list');
+        app.indexData.forEach(city => {
+          citiesList.innerHTML += `<p>• ${city.name}, ${city.country}</p>`;
+        });
+        
+        const challengesList = document.getElementById('challenges-list');
+        app.challengeData.forEach(challenge => {
+          challengesList.innerHTML += `<p>• ${challenge.title}</p>`;
+        });
+        
+        const teamList = document.getElementById('team-list');
+        app.teamData.slice(0, 5).forEach(person => {
+          teamList.innerHTML += `<p>• ${person.name} - ${person.title}</p>`;
+        });
+        
+        const aboutList = document.getElementById('about-list');
+        if (app.aboutData[0]) {
+          aboutList.innerHTML = `<p>• ${app.aboutData[0].intro_text ? 'Intro text available' : 'No intro text'}</p>`;
+        }
+      }
+    }, 100);
+    
+    // Timeout after 10 seconds
+    setTimeout(() => {
+      clearInterval(checkData);
+      const status = document.getElementById('status');
+      if (status.className.includes('loading')) {
+        status.className = 'status error';
+        status.textContent = 'Data loading timed out. Check console for errors.';
+      }
+    }, 10000);
+  </script>
+</body>
+</html> 

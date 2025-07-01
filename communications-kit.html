@@ -109,7 +109,7 @@
     <section id="facebook" class="light-section topic_desc">
       <h3><span>SAMPLE FACEBOOK POSTS</span></h3>
       <div class="main-buttons comms">
-        <a v-if="aboutData[0].facebook_banners" :href="aboutData[0].facebook_banners.data.full_url" target="_blank" class="button">DOWNLOAD IMAGES FOR FACEBOOK</a>
+        <a v-if="aboutData[0].facebook_banners" :href="(aboutData[0].facebook_banners.data.full_url && aboutData[0].facebook_banners.data.full_url.startsWith('assets/') ? '/data/' + aboutData[0].facebook_banners.data.full_url : aboutData[0].facebook_banners.data.full_url)" target="_blank" class="button">DOWNLOAD IMAGES FOR FACEBOOK</a>
       </div>
       <div v-if="post.content_type=='facebook'" v-for="post in commsData">
 
@@ -118,9 +118,9 @@
           <div v-html="post.content">
 
           </div>
-          <img class="banners" v-for="images in post.social_media_image":src="images.banner_id.banner_upload.data.full_url">
+          <img class="banners" v-for="images in post.social_media_image" :src="(images.banner_id.banner_upload.data.full_url && images.banner_id.banner_upload.data.full_url.startsWith('assets/') ? '/data/' + images.banner_id.banner_upload.data.full_url : images.banner_id.banner_upload.data.full_url)">
           <div v-for="images in post.social_media_image" class="main-buttons comms">
-            <a :href="images.banner_id.banner_upload.data.full_url" target="_blank"
+            <a :href="(images.banner_id.banner_upload.data.full_url && images.banner_id.banner_upload.data.full_url.startsWith('assets/') ? '/data/' + images.banner_id.banner_upload.data.full_url : images.banner_id.banner_upload.data.full_url)" target="_blank"
             class="button"  download="logo">Download the Banner</a>
           </div>
         </div>
@@ -129,7 +129,7 @@
     <section id="tweets" class="light-section topic_desc">
       <h3><span>SAMPLE TWEETS</span></h3>
       <div class="main-buttons comms">
-        <a v-if="aboutData[0].twitter_banners" :href="aboutData[0].twitter_banners.data.full_url" target="_blank" class="button">DOWNLOAD IMAGES FOR TWITTER</a>
+        <a v-if="aboutData[0].twitter_banners" :href="(aboutData[0].twitter_banners.data.full_url && aboutData[0].twitter_banners.data.full_url.startsWith('assets/') ? '/data/' + aboutData[0].twitter_banners.data.full_url : aboutData[0].twitter_banners.data.full_url)" target="_blank" class="button">DOWNLOAD IMAGES FOR TWITTER</a>
       </div>
       <div v-if="post.content_type=='tweet'" v-for="post in commsData">
 
@@ -141,9 +141,9 @@
 
           </div>
 
-          <img class="banners" v-for="images in post.social_media_image":src="images.banner_id.banner_upload.data.full_url">
+          <img class="banners" v-for="images in post.social_media_image" :src="(images.banner_id.banner_upload.data.full_url && images.banner_id.banner_upload.data.full_url.startsWith('assets/') ? '/data/' + images.banner_id.banner_upload.data.full_url : images.banner_id.banner_upload.data.full_url)">
           <div v-for="images in post.social_media_image" class="main-buttons comms">
-            <a :href="images.banner_id.banner_upload.data.full_url" target="_blank"
+            <a :href="(images.banner_id.banner_upload.data.full_url && images.banner_id.banner_upload.data.full_url.startsWith('assets/') ? '/data/' + images.banner_id.banner_upload.data.full_url : images.banner_id.banner_upload.data.full_url)" target="_blank"
             class="button"  download="logo">Download the Banner</a>
           </div>
          
@@ -153,7 +153,7 @@
     <section id="messages" class="light-section topic_desc">
       <h3><span>SAMPLE WHATSAPP/TELEGRAM MESSAGES</span></h3>
       <div class="main-buttons comms">
-        <a v-if="aboutData[0].whatsapp_banners" :href="aboutData[0].whatsapp_banners.data.full_url" target="_blank" class="button">DOWNLOAD IMAGES FOR Whatsapp/Telegram</a>
+        <a v-if="aboutData[0].whatsapp_banners" :href="(aboutData[0].whatsapp_banners.data.full_url && aboutData[0].whatsapp_banners.data.full_url.startsWith('assets/') ? '/data/' + aboutData[0].whatsapp_banners.data.full_url : aboutData[0].whatsapp_banners.data.full_url)" target="_blank" class="button">DOWNLOAD IMAGES FOR Whatsapp/Telegram</a>
       </div>
       <div v-if="post.content_type=='whatsapp'" v-for="post in commsData">
 
@@ -162,9 +162,9 @@
           <div v-html="post.content">
 
           </div>
-          <img class="banners" v-for="images in post.social_media_image":src="images.banner_id.banner_upload.data.full_url">
+          <img class="banners" v-for="images in post.social_media_image" :src="(images.banner_id.banner_upload.data.full_url && images.banner_id.banner_upload.data.full_url.startsWith('assets/') ? '/data/' + images.banner_id.banner_upload.data.full_url : images.banner_id.banner_upload.data.full_url)">
           <div v-for="images in post.social_media_image" class="main-buttons comms">
-            <a :href="images.banner_id.banner_upload.data.full_url" target="_blank"
+            <a :href="(images.banner_id.banner_upload.data.full_url && images.banner_id.banner_upload.data.full_url.startsWith('assets/') ? '/data/' + images.banner_id.banner_upload.data.full_url : images.banner_id.banner_upload.data.full_url)" target="_blank"
             class="button"  download="logo">Download the Banner</a>
           </div>
         </div>
@@ -211,22 +211,22 @@
     <section id="logos" class="light-section topic_desc">
       <h3><span>brand assets</span></h3>
       <div class="main-buttons comms">
-        <a v-if="aboutData[0].govlab_assets" :href="aboutData[0].govlab_assets.data.full_url" target="_blank" class="button">The govlab</a>
-        <a v-if="aboutData[0].undp_assets" :href="aboutData[0].undp_assets.data.full_url" target="_blank"
+        <a v-if="aboutData[0].govlab_assets" :href="(aboutData[0].govlab_assets.data.full_url && aboutData[0].govlab_assets.data.full_url.startsWith('assets/') ? '/data/' + aboutData[0].govlab_assets.data.full_url : aboutData[0].govlab_assets.data.full_url)" target="_blank" class="button">The govlab</a>
+        <a v-if="aboutData[0].undp_assets" :href="(aboutData[0].undp_assets.data.full_url && aboutData[0].undp_assets.data.full_url.startsWith('assets/') ? '/data/' + aboutData[0].undp_assets.data.full_url : aboutData[0].undp_assets.data.full_url)" target="_blank"
           class="button">UNDP</a>
-        <a v-if="aboutData[0].mcc_assets" :href="aboutData[0].mcc_assets.data.full_url" target="_blank"
+        <a v-if="aboutData[0].mcc_assets" :href="(aboutData[0].mcc_assets.data.full_url && aboutData[0].mcc_assets.data.full_url.startsWith('assets/') ? '/data/' + aboutData[0].mcc_assets.data.full_url : aboutData[0].mcc_assets.data.full_url)" target="_blank"
           class="button">Multi City challenge-Africa</a>
       </div>
     </section>
     <section  id="posters" class="light-section topic_desc center">
       <h3><span>POSTERS AND BANNERS</span></h3>
       <div class="row">
-        <a v-for="poster in posterData" :href="poster.poster_upload.data.full_url" target="_blank"><img class="posters" :src="poster.poster_thumbnail.data.full_url"></a>
+        <a v-for="poster in posterData" :href="(poster.poster_upload.data.full_url && poster.poster_upload.data.full_url.startsWith('assets/') ? '/data/' + poster.poster_upload.data.full_url : poster.poster_upload.data.full_url)" target="_blank"><img class="posters" :src="(poster.poster_thumbnail.data.full_url && poster.poster_thumbnail.data.full_url.startsWith('assets/') ? '/data/' + poster.poster_thumbnail.data.full_url : poster.poster_thumbnail.data.full_url)"></a>
       </div>
       <div class="main-buttons comms">
-        <a v-if="aboutData[0].facebook_banners" :href="aboutData[0].facebook_banners.data.full_url" target="_blank" class="button">DOWNLOAD IMAGES FOR Facebook</a>
-        <a v-if="aboutData[0].twitter_banners" :href="aboutData[0].twitter_banners.data.full_url" target="_blank" class="button">DOWNLOAD IMAGES FOR TWITTER</a>
-        <a v-if="aboutData[0].whatsapp_banners" :href="aboutData[0].whatsapp_banners.data.full_url" target="_blank" class="button">DOWNLOAD IMAGES FOR Whatsapp/Telegram</a>
+        <a v-if="aboutData[0].facebook_banners" :href="(aboutData[0].facebook_banners.data.full_url && aboutData[0].facebook_banners.data.full_url.startsWith('assets/') ? '/data/' + aboutData[0].facebook_banners.data.full_url : aboutData[0].facebook_banners.data.full_url)" target="_blank" class="button">DOWNLOAD IMAGES FOR Facebook</a>
+        <a v-if="aboutData[0].twitter_banners" :href="(aboutData[0].twitter_banners.data.full_url && aboutData[0].twitter_banners.data.full_url.startsWith('assets/') ? '/data/' + aboutData[0].twitter_banners.data.full_url : aboutData[0].twitter_banners.data.full_url)" target="_blank" class="button">DOWNLOAD IMAGES FOR TWITTER</a>
+        <a v-if="aboutData[0].whatsapp_banners" :href="(aboutData[0].whatsapp_banners.data.full_url && aboutData[0].whatsapp_banners.data.full_url.startsWith('assets/') ? '/data/' + aboutData[0].whatsapp_banners.data.full_url : aboutData[0].whatsapp_banners.data.full_url)" target="_blank" class="button">DOWNLOAD IMAGES FOR Whatsapp/Telegram</a>
       </div>
       <div class="main-buttons comms">
         
@@ -273,7 +273,7 @@
       <div class="column">
         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
           <img class="copyright_cc-badge" alt="Creative Commons License"
-            src="https://africa.multicitychallenge.org/images/cc-logo.png" /></a>
+            src="images/cc-logo.png" /></a>
         <p>&nbspThis work is licensed under a</p>&nbsp<a rel="license"
           href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
           International License.</a>.
@@ -338,7 +338,7 @@
 <script src="js/fadein.js"></script>
 <script src='https://unpkg.com/vue@2.0.3/dist/vue.js'></script>
 <script src="https://unpkg.com/vue-meta/dist/vue-meta.min.js"></script>
-<script src="js/mcc.js"></script>
+<script src="js/mcc-offline.js"></script>
 
 
 </html>

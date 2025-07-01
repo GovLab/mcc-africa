@@ -1,0 +1,1529 @@
+{
+  "data": [
+    {
+      "id": 11,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p><span style=\"font-weight: 400;\">Have you heard about #MCCAfrica? @TheGovLab and @UNDP are encouraging residents of @AccraMetropolis, Bahir Dar, @KCCAUG, @KanostateNg, and @CityofMutare to submit their own ideas to solve their city&rsquo;s challenges. Check it out here: </span><a href=\"http://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">africa.multicitychallenge.org</span></a></p>",
+      "tweet_clean": "Have%20you%20heard%20about%20%23MCCAfrica%3F%20%40TheGovLab%20and%20%40UNDP%20are%20encouraging%20residents%20of%20%40AccraMetropolis%2C%20Bahir%20Dar%2C%20%40KCCAUG%2C%20%40KanostateNg%2C%20and%20%40CityofMutare%20to%20submit%20their%20own%20ideas%20to%20solve%20their%20city%E2%80%99s%20challenges.%20Check%20it%20out%20here%3A%20africa.multicitychallenge.org",
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/0a39607d-de58-4cbf-9ea2-ce91ee1c2164.jpeg",
+                "url": "/uploads/mcc-africa/originals/0a39607d-de58-4cbf-9ea2-ce91ee1c2164.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "status": "published",
+      "content_type": "press",
+      "content": "<p><span style=\"font-weight: 400;\">Calling all residents of Accra, Bahir Dar, Kampala, Kano, and Mutare: The GovLab and UNDP want you to propose ideas to make real changes in your community! If you live in one of these cities and have ideas, know someone who might, or are simply supportive of open innovation challenges, please visit </span><a href=\"https://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/</span></a><span style=\"font-weight: 400;\"> now through December 13.</span></p>",
+      "tweet_clean": null,
+      "social_media_image": []
+    },
+    {
+      "id": 15,
+      "status": "published",
+      "content_type": "press",
+      "content": "<p><span style=\"font-weight: 400;\">The GovLab is currently running the Multi City Challenge Africa (</span><a href=\"http://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">africa.multicitychallenge.org</span></a><span style=\"font-weight: 400;\">) in partnership with UNDP with residents in</span><a href=\"https://africa.multicitychallenge.org/cities/accra.html\"><span style=\"font-weight: 400;\"> Accra</span></a><span style=\"font-weight: 400;\">, </span><a href=\"https://africa.multicitychallenge.org/cities/bahir-dar.html\"><span style=\"font-weight: 400;\">Bahir Dar</span></a><span style=\"font-weight: 400;\">, </span><a href=\"https://africa.multicitychallenge.org/cities/kampala.html\"><span style=\"font-weight: 400;\">Kampala</span></a><span style=\"font-weight: 400;\">, </span><a href=\"https://africa.multicitychallenge.org/cities/kano.html\"><span style=\"font-weight: 400;\">Kano</span></a><span style=\"font-weight: 400;\">, and</span><a href=\"https://africa.multicitychallenge.org/cities/mutare.html\"><span style=\"font-weight: 400;\"> Mutare</span></a><span style=\"font-weight: 400;\"> to address: integrating the informal economy, building urban resilience in slums and informal settlements, and reducing waste generation and improving waste management. They are now seeking proposals from residents of those cities to challenges they have presented. Learn more about how you can participate here: </span><a href=\"https://africa.multicitychallenge.org/how-to-participate.html\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/how-to-participate.html</span></a></p>",
+      "tweet_clean": null,
+      "social_media_image": []
+    },
+    {
+      "id": 16,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p><span style=\"font-weight: 400;\">PSA: if you live in @AccraMetropolis, Bahir Dar, @KCCAUG, @KanostateNg, or @CityofMutare, @TheGovLab and @UNDP want YOU to propose ideas to improve your city. Learn how you can get involved now through December 13 here: </span><a href=\"https://africa.multicitychallenge.org/how-to-participate.html\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/how-to-participate.html</span></a><span style=\"font-weight: 400;\"> #MCCAfrica</span></p>",
+      "tweet_clean": "PSA%3A%20if%20you%20live%20in%20%40AccraMetropolis%2C%20Bahir%20Dar%2C%20%40KCCAUG%2C%20%40KanostateNg%2C%20or%20%40CityofMutare%2C%20%40TheGovLab%20and%20%40UNDP%20want%20YOU%20to%20propose%20ideas%20to%20improve%20your%20city.%20Learn%20how%20you%20can%20get%20involved%20now%20through%20December%2013%20here%3A%20https%3A%2F%2Fafrica.multicitychallenge.org%2Fhow-to-participate.html%20%23MCCAfrica",
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/0a39607d-de58-4cbf-9ea2-ce91ee1c2164.jpeg",
+                "url": "/uploads/mcc-africa/originals/0a39607d-de58-4cbf-9ea2-ce91ee1c2164.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "status": "published",
+      "content_type": "facebook",
+      "content": "<p><span style=\"font-weight: 400;\">Have you heard about the Multi City Challenge Africa? @TheGovLab and @UNDP are encouraging residents of Accra, Bahir Dar, @kccaug, Kano, and Mutare (@MutareCityCouncil), to submit their own ideas to solve their city&rsquo;s challenges. Check it out here: </span><a href=\"http://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">africa.multicitychallenge.org</span></a></p>",
+      "tweet_clean": null,
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/753d43dc-c1db-4eb7-aa8d-d3f6c4d4f4d4.jpeg",
+                "url": "/uploads/mcc-africa/originals/753d43dc-c1db-4eb7-aa8d-d3f6c4d4f4d4.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "status": "published",
+      "content_type": "facebook",
+      "content": "<p><span style=\"font-weight: 400;\">#PSA: if you live in Accra, Bahir Dar, @kccaug, Kano, or Mutare (@MutareCityCouncil), @TheGovLab and @UNDP want YOU to propose ideas on how your city can address: integrating the informal economy, building urban resilience in slums and informal settlements, and reducing waste generation and improving waste management. Learn how you can get involved now through December 13. Winners will get to work directly with city government to implement their solutions! </span><a href=\"https://africa.multicitychallenge.org/how-to-participate.html\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/how-to-participate.html</span></a><span style=\"font-weight: 400;\"> #MCCAfrica</span></p>",
+      "tweet_clean": null,
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/753d43dc-c1db-4eb7-aa8d-d3f6c4d4f4d4.jpeg",
+                "url": "/uploads/mcc-africa/originals/753d43dc-c1db-4eb7-aa8d-d3f6c4d4f4d4.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "status": "published",
+      "content_type": "whatsapp",
+      "content": "<p><span style=\"font-weight: 400;\">Hello all, I just wanted to share an exciting opportunity for residents of [INSERT CITY], among other African cities. The GovLab at NYU and the United Nations Development Programme are leading an initiative called the Multi City Challenge Africa, where they are looking for citizens to submit their own ideas to address local challenges. Winners will get to work directly with city government to implement their solutions! Please check it out and share </span><a href=\"http://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">africa.multicitychallenge.org</span></a></p>",
+      "tweet_clean": null,
+      "social_media_image": []
+    },
+    {
+      "id": 20,
+      "status": "published",
+      "content_type": "whatsapp",
+      "content": "<p><span style=\"font-weight: 400;\">Hey neighbors, I just submitted an idea on how our city can [INSERT APPLICABLE CHALLENGE] through an initiative led by The GovLab at NYU and the United Nations Development Programme: the Multi City Challenge. They are looking for residents of Accra, Bahir Dar, Kampala, Kano, and Mutare to work with the government to solve problems in our city. Please visit </span><a href=\"http://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">africa.multicitychallenge.org</span></a><span style=\"font-weight: 400;\"> to participate and share this great opportunity!</span></p>",
+      "tweet_clean": null,
+      "social_media_image": []
+    },
+    {
+      "id": 21,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p>Tweet 1 of 3: <span style=\"font-weight: 400;\">(THREAD) Attention problem-solvers: we need YOU to propose ideas to tackle three challenges in Accra, Bahir Dar, Kampala, Kano, and Mutare for the Multi City Challenge Africa. Visit </span><a href=\"https://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/</span></a><span style=\"font-weight: 400;\"> and read the rest of the thread to learn more @UNDP #MCCAfrica</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Tweet 2 of 3: </span><span style=\"font-weight: 400;\">#MCCAfrica is an open call for citizens of the aforementioned cities to submit their own ideas to solve the following three challenges:</span></p>\n<p><span style=\"font-weight: 400;\">1) integrating the informal economy</span></p>\n<p><span style=\"font-weight: 400;\">2) building urban resilience in slums and informal settlements</span></p>\n<p><span style=\"font-weight: 400;\">3) reducing waste generation and improving waste management</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Tweet 3 of 3: From Nov 4 - Dec 13, 2020, residents/organizations within the five cities, submit proposals online by visiting <a href=\"https://africa.multicitychallenge.org/how-to-participate.html\">https://africa.multicitychallenge.org/how-to-participate.html</a></span></p>",
+      "tweet_clean": "Attention%20problem-solvers%3A%20we%20need%20YOU%20to%20propose%20ideas%20to%20tackle%20three%20challenges%20in%20Accra%2C%20Bahir%20Dar%2C%20Kampala%2C%20Kano%2C%20and%20Mutare%20for%20the%20Multi%20City%20Challenge%20Africa.%20Visit%20https%3A%2F%2Fafrica.multicitychallenge.org%2F%20and%20read%20the%20rest%20of%20the%20thread%20to%20learn%20more%20%40UNDP%20%23MCCAfrica",
+      "social_media_image": []
+    },
+    {
+      "id": 22,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p><span style=\"font-weight: 400;\">Do you live in Accra, Bahir Dar, Kampala, Kano, or Mutare? Do you have ideas on how to solve problems in your city? Then now is your chance to work with your city government by proposing your ideas at </span><a href=\"https://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/</span></a><span style=\"font-weight: 400;\"> #MCCAfrica </span><span style=\"font-weight: 400;\">@UNDP @AccraMetropolis, @KCCAUG, @KanostateNg, @CityofMutare</span></p>",
+      "tweet_clean": "Do%20you%20live%20in%20Accra%2C%20Bahir%20Dar%2C%20Kampala%2C%20Kano%2C%20or%20Mutare%3F%20Do%20you%20have%20ideas%20on%20how%20to%20solve%20problems%20in%20your%20city%3F%20Then%20now%20is%20your%20chance%20to%20work%20with%20your%20city%20government%20by%20proposing%20your%20ideas%20at%20https%3A%2F%2Fafrica.multicitychallenge.org%2F%20%23MCCAfrica%20%40UNDP%20%40AccraMetropolis%2C%20%40KCCAUG%2C%20%40KanostateNg%2C%20%40CityofMutare",
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/0a39607d-de58-4cbf-9ea2-ce91ee1c2164.jpeg",
+                "url": "/uploads/mcc-africa/originals/0a39607d-de58-4cbf-9ea2-ce91ee1c2164.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p><span style=\"font-weight: 400;\">If you&rsquo;re a resident of Accra, Bahir Dar, Kampala, Kano, or Mutare, #MCCAfrica is your opportunity to make an impact in your city. Visit </span><a href=\"https://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/</span></a><span style=\"font-weight: 400;\"> by Dec 13 to learn how! @UNDP @AccraMetropolis, @KCCAUG, @KanostateNg, @CityofMutare</span></p>",
+      "tweet_clean": "If%20you%E2%80%99re%20a%20resident%20of%20Accra%2C%20Bahir%20Dar%2C%20Kampala%2C%20Kano%2C%20or%20Mutare%2C%20%23MCCAfrica%20is%20your%20opportunity%20to%20make%20an%20impact%20in%20your%20city.%20Visit%20https%3A%2F%2Fafrica.multicitychallenge.org%2F%20by%20Dec%2013%20to%20learn%20how%21%20%40UNDP%20%40AccraMetropolis%2C%20%40KCCAUG%2C%20%40KanostateNg%2C%20%40CityofMutare",
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/0a39607d-de58-4cbf-9ea2-ce91ee1c2164.jpeg",
+                "url": "/uploads/mcc-africa/originals/0a39607d-de58-4cbf-9ea2-ce91ee1c2164.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/p0wr7fgm71cgg040?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/p0wr7fgm71cgg040?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p><span style=\"font-weight: 400;\">Want to learn more about #MCCAfrica? Check out this promo video: </span><a href=\"https://www.youtube.com/watch?v=1JhjgZk3yTA\"><span style=\"font-weight: 400;\">https://www.youtube.com/watch?v=1JhjgZk3yTA</span></a></p>",
+      "tweet_clean": "Want%20to%20learn%20more%20about%20%23MCCAfrica%3F%20Check%20out%20this%20promo%20video%3A%20https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1JhjgZk3yTA",
+      "social_media_image": []
+    },
+    {
+      "id": 25,
+      "status": "draft",
+      "content_type": "tweet",
+      "content": "<p><span style=\"font-weight: 400;\">[INSERT CITY NAME] is proud to be a part of @TheGovLab and @UNDP&rsquo;s #MCCAfrica, where we are asking for our own residents to propose your solutions to [insert applicable challenges]. Submit your ideas through </span><a href=\"https://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/</span></a><span style=\"font-weight: 400;\"> by December 13!</span></p>",
+      "tweet_clean": "%5BINSERT%20CITY%20NAME%5D%20is%20proud%20to%20be%20a%20part%20of%20%40TheGovLab%20and%20%40UNDP%E2%80%99s%20%23MCCAfrica%2C%20where%20we%20are%20asking%20for%20our%20own%20residents%20to%20propose%20your%20solutions%20to%20%5Binsert%20applicable%20challenges%5D.%20Submit%20your%20ideas%20through%20https%3A%2F%2Fafrica.multicitychallenge.org%2F%20by%20December%2013%21",
+      "social_media_image": []
+    },
+    {
+      "id": 26,
+      "status": "published",
+      "content_type": "facebook",
+      "content": "<p><span style=\"font-weight: 400;\">Calling all problem-solvers in Accra, Bahir Dar, Kampala, Kano, and Mutare! This is your chance to participate in the Multi City Challenge Africa from now through December 13! If you have ideas about how to solve one or more of the three challenges we&rsquo;ve identified on </span><a href=\"https://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/</span></a><span style=\"font-weight: 400;\"> along with @UNDP and the governments of the above cities, we want to hear from you! Learn more about the challenges and how to participate at </span><a href=\"https://africa.multicitychallenge.org/how-to-participate.html\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/how-to-participate.html</span></a></p>",
+      "tweet_clean": null,
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/753d43dc-c1db-4eb7-aa8d-d3f6c4d4f4d4.jpeg",
+                "url": "/uploads/mcc-africa/originals/753d43dc-c1db-4eb7-aa8d-d3f6c4d4f4d4.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "status": "published",
+      "content_type": "facebook",
+      "content": "<p><span style=\"font-weight: 400;\">We are working with @UNDP and the governments of Accra, Bahir Dar, Kampala (@kccaug), Kano, and Mutare (@MutareCityCouncil), to invite residents of those cities to propose their own solutions to three major challenges on </span><a href=\"https://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/</span></a><span style=\"font-weight: 400;\">. Submit your ideas today!</span></p>",
+      "tweet_clean": null,
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/753d43dc-c1db-4eb7-aa8d-d3f6c4d4f4d4.jpeg",
+                "url": "/uploads/mcc-africa/originals/753d43dc-c1db-4eb7-aa8d-d3f6c4d4f4d4.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "status": "published",
+      "content_type": "facebook",
+      "content": "<p><span style=\"font-weight: 400;\">If you&rsquo;re a resident of Accra, Bahir Dar, Kampala, Kano, or Mutare, the Multi City Challenge Africa is your opportunity to make a real difference in your city. Visit </span><a href=\"https://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/</span></a><span style=\"font-weight: 400;\"> by December 13 to learn how!</span></p>",
+      "tweet_clean": null,
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/753d43dc-c1db-4eb7-aa8d-d3f6c4d4f4d4.jpeg",
+                "url": "/uploads/mcc-africa/originals/753d43dc-c1db-4eb7-aa8d-d3f6c4d4f4d4.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3ey9pla9ghesgcss?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/3ey9pla9ghesgcss?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "status": "published",
+      "content_type": "facebook",
+      "content": "<p><span style=\"font-weight: 400;\">Want to learn more about the Multi City Challenge Africa? Check out this promo video: </span><a href=\"https://www.youtube.com/watch?v=1JhjgZk3yTA\"><span style=\"font-weight: 400;\">https://www.youtube.com/watch?v=1JhjgZk3yTA</span></a></p>",
+      "tweet_clean": null,
+      "social_media_image": []
+    },
+    {
+      "id": 30,
+      "status": "published",
+      "content_type": "whatsapp",
+      "content": "<p><span style=\"font-weight: 400;\">Hello everyone, I wanted to share an exciting opportunity from the United Nations Development Programme and The GovLab at NYU, called the Africa Multi City Challenge, where they are asking for residents of Accra, Bahir Dar, Kampala, Kano, and Mutare to go online and propose solutions to three city challenges they&rsquo;ve identified working with those city governments. Their goal is to hear from as many people as possible so they can co-design solutions with the people who are most affected by these issues &mdash; city residents. For more info on how you can participate, please visit </span><a href=\"https://africa.multicitychallenge.org/how-to-participate.html\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/how-to-participate.html</span></a><span style=\"font-weight: 400;\">.</span></p>",
+      "tweet_clean": null,
+      "social_media_image": []
+    },
+    {
+      "id": 31,
+      "status": "published",
+      "content_type": "whatsapp",
+      "content": "<p><span style=\"font-weight: 400;\">Hello neighbors, do you have ideas on how our city can [insert applicable challenges]? We are working with the United Nations Development Programme and The GovLab at NYU to run a program that asks our citizens to propose their own solutions to these challenges, and we need your help. To learn more about the initiative and how you can participate, visit </span><a href=\"https://africa.multicitychallenge.org/how-to-participate.html\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/how-to-participate.html</span></a><span style=\"font-weight: 400;\">. Heads up: the deadline to submit your ideas is December 13!</span></p>",
+      "tweet_clean": null,
+      "social_media_image": []
+    },
+    {
+      "id": 32,
+      "status": "published",
+      "content_type": "email",
+      "content": "<p><span style=\"font-weight: 400;\">Dear XXXX,</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">We are writing to you on behalf of the United Nations Development Programme (UNDP), where we are co-leading an initiative with The GovLab at New York University called the 2020 Multi City Challenge Africa. This collaboration with five African cities aims to tackle pressing urban challenges by partnering with the people most affected by these issues &ndash; city residents (more details in this </span><a href=\"https://www.africa.undp.org/content/rba/en/home/presscenter/pressreleases/2020/engaging-citizens-and-driving-innovation-in-african-cities--.html\"><span style=\"font-weight: 400;\">press release</span></a><span style=\"font-weight: 400;\">).</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">We are currently engaged in the open innovation portion of the challenge, meaning we are inviting citizens and organisations residing in Accra, Bahir Dar, Kampala, Kano, and Mutare to submit their own proposals to solve one of the three below challenges in said cities:</span></p>\n<ol>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">integrating the informal economy</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">building urban resilience in slums and informal settlements</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">reducing waste generation and improving waste management</span></li>\n</ol>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">We want to hear solutions from as many people as possible until the deadline on December 13, and thus would greatly appreciate it if you could help spread the word about the challenge. For your convenience, we are providing a </span><span style=\"font-weight: 400;\">content kit</span><span style=\"font-weight: 400;\"> which includes sample language you can use to share on Twitter, Facebook, and WhatsApp, as well as a draft email to send to your own networks.</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">For more information about the challenge, you can visit </span><a href=\"https://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/</span></a><span style=\"font-weight: 400;\">, but of course please feel free to email us with any questions.</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Thank you very much in advance for your support.</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Best,</span></p>\n<p><span style=\"font-weight: 400;\">XXXXX</span></p>",
+      "tweet_clean": null,
+      "social_media_image": []
+    },
+    {
+      "id": 33,
+      "status": "published",
+      "content_type": "email",
+      "content": "<p><span style=\"font-weight: 400;\">Dear XXXX,</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">We are writing to you on behalf of the United Nations Development Programme (UNDP), where we are co-leading an initiative with The GovLab at New York University called the 2020 Multi City Challenge Africa. We are working with the governments of Accra, Bahir Dar, Kampala, Kano, and Mutare, and asking residents of said cities to submit their own ideas to solve one (or more) of three challenges.&nbsp;</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">The submission period is open until December 13, and this is a chance for everyday citizens to make a real difference in their cities, so we want to hear from as many people as possible. To help us reach this goal, we would greatly appreciate it if you could share this opportunity with as many people as you would like &mdash; whether you think they would be interested, or know somebody who would be interested. To make it easier, we are providing a </span><span style=\"font-weight: 400;\">content kit</span><span style=\"font-weight: 400;\"> which includes sample language you can use to share on Twitter, Facebook, and WhatsApp, as well as a draft email to send to your own networks.&nbsp;</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">For more information on the initiative, please visit </span><a href=\"https://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/</span></a><span style=\"font-weight: 400;\">. You can also please feel free to reach out to us with any questions.</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Thank you kindly in advance for your help.</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Best,</span></p>\n<p><span style=\"font-weight: 400;\">XXXX</span></p>",
+      "tweet_clean": null,
+      "social_media_image": []
+    },
+    {
+      "id": 34,
+      "status": "published",
+      "content_type": "email",
+      "content": "<p><span style=\"font-weight: 400;\">Dear XXXX,</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">We are writing to you on behalf of the United Nations Development Programme (UNDP), where we are co-leading an initiative with The GovLab at New York University called the 2020 Multi City Challenge Africa. This collaboration with five African cities aims to tackle pressing urban challenges by partnering with the people most affected by these issues &ndash; city residents (more details in this </span><a href=\"https://www.africa.undp.org/content/rba/en/home/presscenter/pressreleases/2020/engaging-citizens-and-driving-innovation-in-african-cities--.html\"><span style=\"font-weight: 400;\">press release</span></a><span style=\"font-weight: 400;\">).</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">We are currently engaged in the open innovation portion of the challenge, meaning we are inviting citizens and organisations residing in Accra, Bahir Dar, Kampala, Kano, and Mutare to submit their own proposals to solve one of the three below challenges in said cities:</span></p>\n<ol>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">integrating the informal economy</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">building urban resilience in slums and informal settlements</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">reducing waste generation and improving waste management</span></li>\n</ol>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">We are undertaking substantial efforts to share this opportunity as widely as possible, and we appreciate all the help we can get. Thus, we wanted to contact you in case you are interested in any of the following resources or actions we can offer:</span></p>\n<ol>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Interviews &mdash; our project coordinators are happy to appear on live or pre-recorded interviews to discuss the initiative, whether it be for a radio show, news article, podcast, live event, etc.&nbsp;</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Email Q&amp;A &mdash; if you are interested in learning more to publish material about the initiative, but would prefer to simply source information/quotes via email, we are happy to connect you with someone who can answer any questions.</span></li>\n<li style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Digital media assets &mdash; we would like to share a </span><span style=\"font-weight: 400;\">content kit</span><span style=\"font-weight: 400;\"> which includes sample language you can use to share on Twitter, Facebook, and WhatsApp, as well as a draft email that can be sent to your own networks. This kit also includes advertising content such as flyers that can be shared freely.</span></li>\n</ol>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">For more information about the challenge, you can also visit </span><a href=\"https://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/</span></a><span style=\"font-weight: 400;\">, but of course please feel free to email us with any questions. If you are interested in any of the aforementioned opportunities, please contact us directly.</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Thank you in advance for your support.</span></p>\n<p>&nbsp;</p>\n<p><span style=\"font-weight: 400;\">Best,</span></p>\n<p><span style=\"font-weight: 400;\">XXXXX</span></p>",
+      "tweet_clean": null,
+      "social_media_image": []
+    },
+    {
+      "id": 35,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p><span data-offset-key=\"925js-0-0\">Accra is proud to be part of </span><span data-offset-key=\"925js-1-0\">@TheGovLab</span><span data-offset-key=\"925js-2-0\"> and </span><span data-offset-key=\"925js-3-0\">@UNDP</span><span data-offset-key=\"925js-4-0\">&rsquo;s </span><span data-offset-key=\"925js-5-0\">#MCCAfrica</span><span data-offset-key=\"925js-6-0\">, we are asking residents to propose solutions to Improving Waste Management, Building Resilience in Informal Settlements and Integrating the Informal Economy. Submit your ideas: </span><span data-offset-key=\"925js-7-0\">https://africa.multicitychallenge.org/</span><span data-offset-key=\"925js-8-0\"> by December 13!</span></p>",
+      "tweet_clean": "Accra%20is%20proud%20to%20be%20part%20of%20%40TheGovLab%20and%20%40UNDP%E2%80%99s%20%23MCCAfrica%2C%20we%20are%20asking%20residents%20to%20propose%20solutions%20to%20Improving%20Waste%20Management%2C%20Building%20Resilience%20in%20Informal%20Settlements%20and%20Integrating%20the%20Informal%20Economy.%20Submit%20your%20ideas%3A%20https%3A%2F%2Fafrica.multicitychallenge.org%2F%20by%20December%2013%21",
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/8f3d4efd-ccab-4785-8709-3df788f3f191.jpeg",
+                "url": "/uploads/mcc-africa/originals/8f3d4efd-ccab-4785-8709-3df788f3f191.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/k0ocy7oq1o0sookg?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/k0ocy7oq1o0sookg?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/k0ocy7oq1o0sookg?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/k0ocy7oq1o0sookg?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/k0ocy7oq1o0sookg?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/k0ocy7oq1o0sookg?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/k0ocy7oq1o0sookg?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/k0ocy7oq1o0sookg?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/k0ocy7oq1o0sookg?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/k0ocy7oq1o0sookg?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/k0ocy7oq1o0sookg?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/k0ocy7oq1o0sookg?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/k0ocy7oq1o0sookg?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/k0ocy7oq1o0sookg?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p><span style=\"font-weight: 400;\">Bahir Dar is proud to be a part of @TheGovLab and @UNDP&rsquo;s #MCCAfrica, where we are asking for our own residents to propose your solutions to Reducing Waste Generation and Improving Waste Management. Submit your ideas through </span><a href=\"https://africa.multicitychallenge.org/\"><span style=\"font-weight: 400;\">https://africa.multicitychallenge.org/</span></a><span style=\"font-weight: 400;\"> by December 13!</span></p>",
+      "tweet_clean": "Bahir%20Dar%20is%20proud%20to%20be%20a%20part%20of%20%40TheGovLab%20and%20%40UNDP%E2%80%99s%20%23MCCAfrica%2C%20where%20we%20are%20asking%20for%20our%20own%20residents%20to%20propose%20your%20solutions%20to%20Reducing%20Waste%20Generation%20and%20Improving%20Waste%20Management.%20Submit%20your%20ideas%20through%20https%3A%2F%2Fafrica.multicitychallenge.org%2F%20by%20December%2013%21",
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/aa64ebba-3145-47b1-a0a3-727b5412ef74.jpeg",
+                "url": "/uploads/mcc-africa/originals/aa64ebba-3145-47b1-a0a3-727b5412ef74.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/24v6wl4safdwwo0o?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/24v6wl4safdwwo0o?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/24v6wl4safdwwo0o?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/24v6wl4safdwwo0o?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/24v6wl4safdwwo0o?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/24v6wl4safdwwo0o?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/24v6wl4safdwwo0o?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/24v6wl4safdwwo0o?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/24v6wl4safdwwo0o?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/24v6wl4safdwwo0o?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/24v6wl4safdwwo0o?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/24v6wl4safdwwo0o?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/24v6wl4safdwwo0o?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/24v6wl4safdwwo0o?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p><span data-offset-key=\"925js-0-0\">Kampala is proud to be part of </span><span data-offset-key=\"925js-1-0\">@TheGovLab</span><span data-offset-key=\"925js-2-0\"> and </span><span data-offset-key=\"925js-3-0\">@UNDP</span><span data-offset-key=\"925js-4-0\">&rsquo;s </span><span data-offset-key=\"925js-5-0\">#MCCAfrica</span><span data-offset-key=\"925js-6-0\">, we are asking residents to propose solutions to Building Urban Resilience in Slums and Informal Settlements and Integrating the Informal Economy. Submit your ideas throuugh </span><span data-offset-key=\"925js-7-0\">https://africa.multicitychallenge.org/</span><span data-offset-key=\"925js-8-0\"> by December 13!</span></p>",
+      "tweet_clean": "Kampala%20is%20proud%20to%20be%20part%20of%20%40TheGovLab%20and%20%40UNDP%E2%80%99s%20%23MCCAfrica%2C%20we%20are%20asking%20residents%20to%20propose%20solutions%20to%20Building%20Urban%20Resilience%20in%20Slums%20and%20Informal%20Settlements%20and%20Integrating%20the%20Informal%20Economy.%20Submit%20your%20ideas%20throuugh%20https%3A%2F%2Fafrica.multicitychallenge.org%2F%20by%20December%2013%21",
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/09fb962f-5469-4556-a276-15ecd9957c9f.jpeg",
+                "url": "/uploads/mcc-africa/originals/09fb962f-5469-4556-a276-15ecd9957c9f.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/98snih33rbk84w8c?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/98snih33rbk84w8c?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/98snih33rbk84w8c?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/98snih33rbk84w8c?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/98snih33rbk84w8c?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/98snih33rbk84w8c?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/98snih33rbk84w8c?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/98snih33rbk84w8c?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/98snih33rbk84w8c?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/98snih33rbk84w8c?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/98snih33rbk84w8c?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/98snih33rbk84w8c?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/98snih33rbk84w8c?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/98snih33rbk84w8c?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p><span data-offset-key=\"925js-0-0\">Kano is proud to be part of </span><span data-offset-key=\"925js-1-0\">@TheGovLab</span><span data-offset-key=\"925js-2-0\"> and </span><span data-offset-key=\"925js-3-0\">@UNDP</span><span data-offset-key=\"925js-4-0\">&rsquo;s </span><span data-offset-key=\"925js-5-0\">#MCCAfrica</span><span data-offset-key=\"925js-6-0\">, we are asking residents to propose solutions to Improving Waste Management and Building Urban Resilience in slums and Informal Settlements. Submit your ideas through </span><span data-offset-key=\"925js-7-0\">https://africa.multicitychallenge.org/</span><span data-offset-key=\"925js-8-0\"> by December 13!</span></p>",
+      "tweet_clean": "Kano%20is%20proud%20to%20be%20part%20of%20%40TheGovLab%20and%20%40UNDP%E2%80%99s%20%23MCCAfrica%2C%20we%20are%20asking%20residents%20to%20propose%20solutions%20to%20Improving%20Waste%20Management%20and%20Building%20Urban%20Resilience%20in%20slums%20and%20Informal%20Settlements.%20Submit%20your%20ideas%20through%20https%3A%2F%2Fafrica.multicitychallenge.org%2F%20by%20December%2013%21",
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/d6b264eb-75ce-4848-94b9-4b2c2a496c1b.jpeg",
+                "url": "/uploads/mcc-africa/originals/d6b264eb-75ce-4848-94b9-4b2c2a496c1b.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qvwvumxa0moo0s4k?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/qvwvumxa0moo0s4k?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qvwvumxa0moo0s4k?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/qvwvumxa0moo0s4k?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qvwvumxa0moo0s4k?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/qvwvumxa0moo0s4k?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qvwvumxa0moo0s4k?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/qvwvumxa0moo0s4k?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qvwvumxa0moo0s4k?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/qvwvumxa0moo0s4k?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qvwvumxa0moo0s4k?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/qvwvumxa0moo0s4k?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qvwvumxa0moo0s4k?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/qvwvumxa0moo0s4k?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p><span data-offset-key=\"925js-0-0\">Mutare is proud to be part of </span><span data-offset-key=\"925js-1-0\">@TheGovLab</span><span data-offset-key=\"925js-2-0\"> and </span><span data-offset-key=\"925js-3-0\">@UNDP</span><span data-offset-key=\"925js-4-0\">&rsquo;s </span><span data-offset-key=\"925js-5-0\">#MCCAfrica</span><span data-offset-key=\"925js-6-0\">, we are asking residents to propose solutions to Building Urban Resilience in Slums and Informal Settlements and Integrating the Informal Economy. Submit your ideas through </span><span data-offset-key=\"925js-7-0\">https://africa.multicitychallenge.org/</span><span data-offset-key=\"925js-8-0\"> by December 13!</span></p>",
+      "tweet_clean": "Mutare%20is%20proud%20to%20be%20part%20of%20%40TheGovLab%20and%20%40UNDP%E2%80%99s%20%23MCCAfrica%2C%20we%20are%20asking%20residents%20to%20propose%20solutions%20to%20Building%20Urban%20Resilience%20in%20Slums%20and%20Informal%20Settlements%20and%20Integrating%20the%20Informal%20Economy.%20Submit%20your%20ideas%20through%20https%3A%2F%2Fafrica.multicitychallenge.org%2F%20by%20December%2013%21",
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/ef165412-0a3e-43a4-8fd3-bd02d0bbe19d.jpeg",
+                "url": "/uploads/mcc-africa/originals/ef165412-0a3e-43a4-8fd3-bd02d0bbe19d.jpeg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fuvbrwjhad4wwgoc?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/fuvbrwjhad4wwgoc?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fuvbrwjhad4wwgoc?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/fuvbrwjhad4wwgoc?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fuvbrwjhad4wwgoc?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/fuvbrwjhad4wwgoc?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fuvbrwjhad4wwgoc?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/fuvbrwjhad4wwgoc?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fuvbrwjhad4wwgoc?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/fuvbrwjhad4wwgoc?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fuvbrwjhad4wwgoc?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/fuvbrwjhad4wwgoc?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/fuvbrwjhad4wwgoc?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/fuvbrwjhad4wwgoc?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "status": "published",
+      "content_type": "facebook",
+      "content": "",
+      "tweet_clean": null,
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/fb4e79b7-8063-4558-9cbd-ce99ef4058c4.jpg",
+                "url": "/uploads/mcc-africa/originals/fb4e79b7-8063-4558-9cbd-ce99ef4058c4.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3p41winieqqsogo0?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/3p41winieqqsogo0?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3p41winieqqsogo0?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/3p41winieqqsogo0?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3p41winieqqsogo0?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/3p41winieqqsogo0?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3p41winieqqsogo0?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/3p41winieqqsogo0?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3p41winieqqsogo0?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/3p41winieqqsogo0?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3p41winieqqsogo0?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/3p41winieqqsogo0?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/3p41winieqqsogo0?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/3p41winieqqsogo0?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "status": "published",
+      "content_type": "whatsapp",
+      "content": null,
+      "tweet_clean": null,
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/9ae2efac-0450-495f-a79e-824e0dc2532d.jpg",
+                "url": "/uploads/mcc-africa/originals/9ae2efac-0450-495f-a79e-824e0dc2532d.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/hxarp6h23nk00wok?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/hxarp6h23nk00wok?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/hxarp6h23nk00wok?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/hxarp6h23nk00wok?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/hxarp6h23nk00wok?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/hxarp6h23nk00wok?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/hxarp6h23nk00wok?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/hxarp6h23nk00wok?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/hxarp6h23nk00wok?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/hxarp6h23nk00wok?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/hxarp6h23nk00wok?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/hxarp6h23nk00wok?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/hxarp6h23nk00wok?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/hxarp6h23nk00wok?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "status": "published",
+      "content_type": "tweet",
+      "content": null,
+      "tweet_clean": null,
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/0a47c9cb-0378-4dea-a4bf-e3d984c76e8c.jpg",
+                "url": "/uploads/mcc-africa/originals/0a47c9cb-0378-4dea-a4bf-e3d984c76e8c.jpg",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qq8nlco1l748kwg4?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/qq8nlco1l748kwg4?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qq8nlco1l748kwg4?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/qq8nlco1l748kwg4?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qq8nlco1l748kwg4?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/qq8nlco1l748kwg4?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qq8nlco1l748kwg4?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/qq8nlco1l748kwg4?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qq8nlco1l748kwg4?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/qq8nlco1l748kwg4?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qq8nlco1l748kwg4?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/qq8nlco1l748kwg4?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/qq8nlco1l748kwg4?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/qq8nlco1l748kwg4?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p>NOW VOTING BEGINS @AccraMetropolis Bahir Dar<br />@KCCAUG @KanostateNg @CityofMutare residents have til<br />23 Dec 2vote4 #MCCAfrica submissions:<br />africa.multicitychallenge.org<br />@TheGovLab @KanostateSDGs @UNDPUganda<br />@YouthConnektZim @UNDPGhana @UNDPZimbabwe<br />@UNDPtech @UNDPNigeria @UNDPEthiopia</p>",
+      "tweet_clean": "NOW%20VOTING%20BEGINS%20%40AccraMetropolis%20Bahir%20Dar\n%40KCCAUG%20%40KanostateNg%20%40CityofMutare%20residents%20have%20til\n23%20Dec%202vote4%20%23MCCAfrica%20submissions%3A\nafrica.multicitychallenge.org\n%40TheGovLab%20%40KanostateSDGs%20%40UNDPUganda\n%40YouthConnektZim%20%40UNDPGhana%20%40UNDPZimbabwe\n%40UNDPtech%20%40UNDPNigeria%20%40UNDPEthiopia",
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/41082674-fb15-4bea-81c3-c94ba51e7bea.png",
+                "url": "/uploads/mcc-africa/originals/41082674-fb15-4bea-81c3-c94ba51e7bea.png",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/snfv90xb16o4kg4g?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/snfv90xb16o4kg4g?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/snfv90xb16o4kg4g?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/snfv90xb16o4kg4g?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/snfv90xb16o4kg4g?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/snfv90xb16o4kg4g?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/snfv90xb16o4kg4g?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/snfv90xb16o4kg4g?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/snfv90xb16o4kg4g?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/snfv90xb16o4kg4g?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/snfv90xb16o4kg4g?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/snfv90xb16o4kg4g?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/snfv90xb16o4kg4g?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/snfv90xb16o4kg4g?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p>[FOR DECEMBER 22nd]<br /><br />ONE DAY LEFT: Residents of @AccraMetropolis Bahir Dar@KCCAUG @KanostateNg @CityofMutare you have until TOMORROW 2submit ideas #MCCAfrica<br />africa.multicitychallenge.org<br />@TheGovLab @KanostateSDGs @UNDPUganda @YouthConnektZim @UNDPGhana @UNDPZimbabwe @UNDPtech @UNDPNigeria @UNDPEthiopia</p>",
+      "tweet_clean": "ONE%20DAY%20LEFT%3A%20Residents%20of%20%40AccraMetropolis%20Bahir%20Dar%40KCCAUG%20%40KanostateNg%20%40CityofMutare%20you%20have%20until%20TOMORROW%202submit%20ideas%20%23MCCAfrica\nafrica.multicitychallenge.org\n%40TheGovLab%20%40KanostateSDGs%20%40UNDPUganda%20%40YouthConnektZim%20%40UNDPGhana%20%40UNDPZimbabwe%20%40UNDPtech%20%40UNDPNigeria%20%40UNDPEthiopia",
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/8975f4c7-8be1-4776-bb6a-ca513e15823e.png",
+                "url": "/uploads/mcc-africa/originals/8975f4c7-8be1-4776-bb6a-ca513e15823e.png",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ja0ln9qvghwg0owg?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/ja0ln9qvghwg0owg?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ja0ln9qvghwg0owg?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/ja0ln9qvghwg0owg?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ja0ln9qvghwg0owg?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/ja0ln9qvghwg0owg?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ja0ln9qvghwg0owg?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/ja0ln9qvghwg0owg?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ja0ln9qvghwg0owg?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/ja0ln9qvghwg0owg?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ja0ln9qvghwg0owg?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/ja0ln9qvghwg0owg?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/ja0ln9qvghwg0owg?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/ja0ln9qvghwg0owg?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "status": "published",
+      "content_type": "tweet",
+      "content": "<p>[FOR DECEMBER 24th]<br />THAT&rsquo;S A WRAP Voting now closed! #MCCAfrica<br />africa.multicitychallenge.org<br />Thank you residents of @AccraMetropolis Bahir Dar @KCCAUG @KanostateNg @CityofMutare! @TheGovLab @KanostateSDGs @UNDPUganda @YouthConnektZim @UNDPGhana @UNDPZimbabwe @UNDPtech @UNDPNigeria @UNDPEthiopia</p>",
+      "tweet_clean": "THAT%E2%80%99S%20A%20WRAP%20Voting%20now%20closed%21%20%23MCCAfrica\nafrica.multicitychallenge.org\nThank%20you%20residents%20of%20%40AccraMetropolis%20Bahir%20Dar%20%40KCCAUG%20%40KanostateNg%20%40CityofMutare%21%20%40TheGovLab%20%40KanostateSDGs%20%40UNDPUganda%20%40YouthConnektZim%20%40UNDPGhana%20%40UNDPZimbabwe%20%40UNDPtech%20%40UNDPNigeria%20%40UNDPEthiopia",
+      "social_media_image": [
+        {
+          "banner_id": {
+            "banner_upload": {
+              "data": {
+                "full_url": "assets/340a9c6f-0695-4326-bab4-607977faa671.png",
+                "url": "/uploads/mcc-africa/originals/340a9c6f-0695-4326-bab4-607977faa671.png",
+                "thumbnails": [
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/aix85xtj53k808k0?key=directus-small-crop",
+                    "relative_url": "/mcc-africa/assets/aix85xtj53k808k0?key=directus-small-crop",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/aix85xtj53k808k0?key=directus-small-contain",
+                    "relative_url": "/mcc-africa/assets/aix85xtj53k808k0?key=directus-small-contain",
+                    "dimension": "64x64",
+                    "width": 64,
+                    "height": 64
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/aix85xtj53k808k0?key=directus-medium-crop",
+                    "relative_url": "/mcc-africa/assets/aix85xtj53k808k0?key=directus-medium-crop",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/aix85xtj53k808k0?key=directus-medium-contain",
+                    "relative_url": "/mcc-africa/assets/aix85xtj53k808k0?key=directus-medium-contain",
+                    "dimension": "300x300",
+                    "width": 300,
+                    "height": 300
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/aix85xtj53k808k0?key=directus-large-crop",
+                    "relative_url": "/mcc-africa/assets/aix85xtj53k808k0?key=directus-large-crop",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/aix85xtj53k808k0?key=directus-large-contain",
+                    "relative_url": "/mcc-africa/assets/aix85xtj53k808k0?key=directus-large-contain",
+                    "dimension": "800x600",
+                    "width": 800,
+                    "height": 600
+                  },
+                  {
+                    "url": "https://directus.thegovlab.com/mcc-africa/assets/aix85xtj53k808k0?key=thumbnail",
+                    "relative_url": "/mcc-africa/assets/aix85xtj53k808k0?key=thumbnail",
+                    "dimension": "200x200",
+                    "width": 200,
+                    "height": 200
+                  }
+                ],
+                "embed": null
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "public": true
+}
